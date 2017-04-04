@@ -67,4 +67,4 @@ Em ruby fazemos:<br>
 Em java fazemos:<br>
 <b><i> element.submit();</i></b>
 
-
+** No Java, C#, JavaScript é sempre preciso colocar o ponto e vírgula no final do comando.
