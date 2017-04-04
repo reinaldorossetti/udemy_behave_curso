@@ -26,5 +26,5 @@ Em python fazemos:
 Em ruby fazemos:
 #### driver = Selenium::WebDriver.for :firefox
 
-É bem similar nas duas linguagens, mas a sintax muita de linguagem para linguagem, em java e C# temos o uso do <b>new</b> e é preciso declarar o tipo do objeto. Exemplo: <i>WebDriver driver = new FirefoxDriver();<i>
-Pra que eu preciso instanciar a biblioteca? Sem instanciar a biblioteca/framework do selenium você não consegue ter acesso ao métodos/funções que a biblioteca disponibilizar.
+É bem similar nas duas linguagens, mas a sintax muita de linguagem para linguagem, em java e C# temos o uso do <b>new</b> e é preciso declarar o tipo do objeto. Exemplo: <i>WebDriver driver = new FirefoxDriver();<i><br>
+Pra que eu preciso instanciar a biblioteca?<br> Sem instanciar a biblioteca/framework do selenium você não consegue ter acesso ao métodos/funções que a biblioteca disponibilizar.
