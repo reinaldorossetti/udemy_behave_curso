@@ -86,3 +86,8 @@ Em ruby fazemos:<br>
 <b><i> puts driver.title</i></b><br>
 Em java fazemos:<br>
 <b><i> System.out.println(driver.getTitle());</i></b>
+
+
+Em empresa que tem fábrica de automação de testes, ou seja dão manutenção em diversos projetos com linguagens diferentes. É super importante conhecer o básico das linguagens e as diferenças do Selenium em cada linguagem.
+
+Referência: http://www.seleniumhq.org/docs/03_webdriver.jsp#introducing-webdriver
