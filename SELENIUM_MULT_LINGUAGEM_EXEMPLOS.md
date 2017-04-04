@@ -53,7 +53,7 @@ from selenium.webdriver.common.by import By
 Em python fazemos:<br>
 <b><i> element.send_keys("Hello Selenium WebDriver!")</i></b><br>
 Em ruby fazemos:<br>
-<b><i> element.send_keys "Hello Selenium WebDriver!"</i></b>
+<b><i> element.send_keys "Hello Selenium WebDriver!"</i></b><br>
 Em java fazemos:<br>
 <b><i> element.sendKeys("Hello Selenium WebDriver!");</i></b>
 
