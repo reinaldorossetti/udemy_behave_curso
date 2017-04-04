@@ -29,3 +29,10 @@ Em ruby fazemos:<br>
 É bem similar nas duas linguagens, mas a sintax muda de linguagem para linguagem, em java e C# temos o uso do <b>new</b> e é preciso declarar o tipo do objeto. Exemplo: <i>WebDriver driver = new FirefoxDriver();</i>
 <br><br>Pra que eu preciso instanciar a biblioteca?<br>
 Sem instanciar a biblioteca/framework do selenium você não consegue ter acesso ao métodos/funções que a biblioteca disponibilizar.
+
+
+#### 3. A primeira coisa que você precisa fazer no seu teste é navegar para uma página, para isso com o Selenium WebDriver é preciso chamar a função "get", em C# usa a função "Url" e em Ruby usa o "navigate.to":
+Em python fazemos:<br>
+<b><i> driver.get("http://www.google.com")</i></b><br>
+Em ruby fazemos:<br>
+<b><i> driver.navigate.to "http://www.google.com"</i></b>
