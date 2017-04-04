@@ -43,6 +43,8 @@ Em python fazemos:<br>
 <b><i> driver.get("http://www.google.com")</i></b><br>
 Em ruby fazemos:<br>
 <b><i> driver.navigate.to "http://www.google.com"</i></b>
+Em Java fazemos:<br>
+<b><i> driver.get("http://www.google.com");</i></b><br>
 
 #### 4. Após carregar a página no browser, temos que localizar o elemento no browser, isso é feito através dos metódos "Find Element" ou "Find Elements", no primeiro método ele traz somente um WebElement, no segundo método ele traz uma lista de WebElement. Vejo muitos erros de a pessoa usar o método "Find Elements" e tenta usar como se fosse o "Find Element", um elemento é diferente de uma lista.
 Em python fazemos:<br>
