@@ -42,7 +42,7 @@ Sem instanciar a biblioteca/framework do selenium você não consegue ter acesso
 Em python fazemos:<br>
 <b><i> driver.get("http://www.google.com")</i></b><br>
 Em ruby fazemos:<br>
-<b><i> driver.navigate.to "http://www.google.com"</i></b>
+<b><i> driver.navigate.to "http://www.google.com"</i></b><br>
 Em Java fazemos:<br>
 <b><i> driver.get("http://www.google.com");</i></b><br>
 
