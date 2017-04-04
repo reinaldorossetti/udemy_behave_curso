@@ -16,13 +16,13 @@ Vamos dissecar o nosso Script de Teste agora:
 
 #### 1. A primeira coisa de devemos fazer é importar a biblioteca do selenium.
 Em python fazemos:<br>
-<b><i> from selenium import webdriver</i></b>
+<b><i> from selenium import webdriver</i></b><br>
 Em ruby fazemos:<br>
 <b><i> require "selenium-webdriver"</i></b>
 
 #### 2. A segunda coisa que devemos fazer é instanciar a biblioteca do selenium, não basta importar a biblioteca, temos que instanciar a mesma.<br>
 Em python fazemos:<br>
-<b><i> driver = webdriver.Firefox()</i></b>
+<b><i> driver = webdriver.Firefox()</i></b><br>
 Em ruby fazemos:<br>
 <b><i> driver = Selenium::WebDriver.for :firefox</i></b>
 
