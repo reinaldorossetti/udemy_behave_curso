@@ -25,6 +25,8 @@ Em python fazemos:<br>
 <b><i> driver = webdriver.Firefox()</i></b><br>
 Em ruby fazemos:<br>
 <b><i> driver = Selenium::WebDriver.for :firefox</i></b>
+Em java fazemos:<br>
+<b><i> WebDriver driver = new FirefoxDriver();</i></b>
 
 É bem similar nas duas linguagens, mas a sintax muda de linguagem para linguagem, em java e C# temos o uso do <b>new</b> e é preciso declarar o tipo do objeto. Exemplo: <i>WebDriver driver = new FirefoxDriver();</i>
 <br><br>Pra que eu preciso instanciar a biblioteca?<br>
