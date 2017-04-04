@@ -59,7 +59,7 @@ Em java fazemos:<br>
 
 ** No Python 3 eu preciso usar os parênteses (), no python 2 você não precisa usar os parênteses, ficaria igual ao ruby.
 
-#### 6. Após enviar o texto para o campo, para efetuar a busca no formulário precisamos efetuar o submit, o submit faz com que o formulário processe a ação, no caso do campo busca do google a ação é "action="/search".
+#### 6. Após enviar o texto para o campo, para efetuar a busca no formulário precisamos efetuar o submit, o submit faz com que o formulário processe a ação, no caso do form do campo busca do google a ação é "action="/search".
 Em python fazemos:<br>
 <b><i> element.submit()</i></b><br>
 Em ruby fazemos:<br>
