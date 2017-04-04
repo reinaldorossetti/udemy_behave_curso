@@ -16,15 +16,15 @@ Vamos dissecar o nosso Script de Teste agora:
 
 1. A primeira coisa de devemos fazer é importar a biblioteca do selenium.
 Em python fazemos:
-### from selenium import webdriver
+#### from selenium import webdriver
 Em ruby fazemos:
-### require "selenium-webdriver"
+#### require "selenium-webdriver"
 
 2. A segunda coisa que devemos fazer é instanciar a biblioteca do selenium, não basta importar a biblioteca, temos que instanciar a mesma.
 Em python fazemos:
-### driver = webdriver.Firefox()
+#### driver = webdriver.Firefox()
 Em ruby fazemos:
-### driver = Selenium::WebDriver.for :firefox
+#### driver = Selenium::WebDriver.for :firefox
 
 É bem similar nas duas linguagens, mas a sintax muita de linguagem para linguagem, em java e C# temos o uso do <b>new</b> e é preciso declarar o tipo do objeto. Exemplo: <i>WebDriver driver = new FirefoxDriver();<i>
 Pra que eu preciso instanciar a biblioteca? Sem instanciar a biblioteca/framework do selenium você não consegue ter acesso ao métodos/funções que a biblioteca disponibilizar.
