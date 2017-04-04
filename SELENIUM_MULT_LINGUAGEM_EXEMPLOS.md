@@ -5,7 +5,7 @@ Na pasta exemplo_selenium_mult_linguagem, vamos comparar as linguagens fazendo u
 <br>C# > 387 caracteres.
 <br>JavaScript > 371 caracteres.
 <br>Ruby > 228 caracteres.
-<br>Python > 207 caracteres.
+<br>Python > 216 caracteres.
 
 Analisando os exemplos acima Java é a linguagem mais verbosa, seguindo por c#, as duas linguagens te obriga a programar orientado a objetos, as outras no entanto não, posso fazer o script sem ter a obrigação de programar orientado a objetos. 
 
@@ -48,3 +48,13 @@ Em ruby fazemos:<br>
 ** Usando a classe By temos que fazer o seguinte import:<br>
 from selenium.webdriver.common.by import By
 > Gosto de usar o find_element(By.ID, 'q'), pois ele é um método genérico, faço a função e passo o locator para dentro dele.
+
+#### 5. Após localizar o elemento que desejamos, precisamos efetuar alguma ação sobre ele, uma das ações é enviar um texto para um campo do tipo input. Para isso temos que usar o método "Send Keys".
+Em python fazemos:<br>
+<b><i> element.send_keys("Hello Selenium WebDriver!")</i></b><br>
+Em ruby fazemos:<br>
+<b><i> element.send_keys "Hello Selenium WebDriver!"</i></b>
+Em java fazemos:<br>
+<b><i> element.sendKeys("Hello Selenium WebDriver!");</i></b>
+
+** No Python 3 eu preciso usar os parênteses (), no python 2 você não precisa usar os parênteses, ficaria igual ao ruby.
