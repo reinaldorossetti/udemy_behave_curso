@@ -72,8 +72,8 @@ Em java fazemos:<br>
 
 #### 7. Por fim ele vai imprimir o título da página HTML.
 Em python fazemos:<br>
-<b><i> element.submit()</i></b><br>
-Em ruby fazemos:<br>
 <b><i> print(driver.title)</i></b><br>
+Em ruby fazemos:<br>
+<b><i> puts driver.title</i></b><br>
 Em java fazemos:<br>
 <b><i> System.out.println(driver.getTitle());</i></b>
