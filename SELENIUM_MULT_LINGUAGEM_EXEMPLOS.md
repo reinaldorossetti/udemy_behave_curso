@@ -19,6 +19,11 @@ Em python fazemos:<br>
 <b><i> from selenium import webdriver</i></b><br>
 Em ruby fazemos:<br>
 <b><i> require "selenium-webdriver"</i></b>
+Em java fazemos:<br>
+<b><i> import org.openqa.selenium.By;<br>
+import org.openqa.selenium.WebDriver;<br>
+import org.openqa.selenium.WebElement;<br>
+import org.openqa.selenium.firefox.FirefoxDriver;</i></b>
 
 #### 2. A segunda coisa que devemos fazer é instanciar a biblioteca do selenium, não basta importar a biblioteca, temos que instanciar a mesma.<br>
 Em python fazemos:<br>
