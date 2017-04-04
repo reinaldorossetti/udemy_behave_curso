@@ -92,6 +92,6 @@ Em java fazemos:<br>
 
 Em empresa que tem fábrica de automação de testes, ou seja dão manutenção em diversos projetos com linguagens diferentes. É super importante conhecer o básico das linguagens e as diferenças do Selenium em cada linguagem. 
 
-Ruby e Python tem os mesmos conceitos ágil, a sintax é muito similar em alguns pontos, o que gosto muito de python é que a linguagem segue uma filosofia bem definida, no entanto em ruby tem uma quatidade de frameworks bem mais maduros, pra quem está començando a mexer e não domina a linguagem um framework é uma mão na roda, mas pra quem domina a liguagem sabe que um framework somente abstrai os métodos para o usuário, deixando mais fácil de mexer.
+Ruby e Python tem os mesmos conceitos ágil, a sintax é muito similar em alguns pontos, o que gosto muito de python é que a linguagem segue uma filosofia bem definida, no entanto em ruby tem uma quatidade de frameworks bem mais maduros, pra quem está començando a mexer e não domina a linguagem um framework é uma mão na roda, mas pra quem domina a liguagem sabe que um framework somente abstrai os métodos para o usuário, deixando mais fácil de mexer, em alguns pontos pode ser ruim por não ser flexível, pois o mesmo segue um conjunto de regras.
 
 Referência: http://www.seleniumhq.org/docs/03_webdriver.jsp#introducing-webdriver
