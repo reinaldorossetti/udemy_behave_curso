@@ -68,3 +68,12 @@ Em java fazemos:<br>
 <b><i> element.submit();</i></b>
 
 ** No Java, C#, JavaScript é sempre preciso colocar o ponto e vírgula no final do comando.
+
+
+#### 7. Por fim ele vai imprimir o título da página HTML.
+Em python fazemos:<br>
+<b><i> element.submit()</i></b><br>
+Em ruby fazemos:<br>
+<b><i> print(driver.title)</i></b><br>
+Em java fazemos:<br>
+<b><i> System.out.println(driver.getTitle());</i></b>
