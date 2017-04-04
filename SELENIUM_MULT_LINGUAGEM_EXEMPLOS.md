@@ -24,7 +24,7 @@ Em ruby fazemos:<br>
 Em python fazemos:<br>
 <b><i> driver = webdriver.Firefox()</i></b><br>
 Em ruby fazemos:<br>
-<b><i> driver = Selenium::WebDriver.for :firefox</i></b>
+<b><i> driver = Selenium::WebDriver.for :firefox</i></b><br>
 Em java fazemos:<br>
 <b><i> WebDriver driver = new FirefoxDriver();</i></b>
 
