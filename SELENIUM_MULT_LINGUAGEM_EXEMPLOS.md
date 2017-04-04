@@ -18,7 +18,7 @@ Vamos dissecar o nosso Script de Teste agora:
 Em python fazemos:<br>
 <b><i> from selenium import webdriver</i></b><br>
 Em ruby fazemos:<br>
-<b><i> require "selenium-webdriver"</i></b>
+<b><i> require "selenium-webdriver"</i></b><br>
 Em java fazemos:<br>
 <b><i> import org.openqa.selenium.By;<br>
 import org.openqa.selenium.WebDriver;<br>
