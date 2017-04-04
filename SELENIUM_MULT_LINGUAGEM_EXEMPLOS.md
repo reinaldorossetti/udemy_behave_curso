@@ -15,15 +15,15 @@ Temos que entender que nem sempre você precisa criar classes, não faz sentido 
 Vamos dissecar o nosso Script de Teste agora:
 
 #### 1. A primeira coisa de devemos fazer é importar a biblioteca do selenium.
-Em python fazemos:
+Em python fazemos:<br>
 ####<i> from selenium import webdriver</i>
-Em ruby fazemos:
+Em ruby fazemos:<br>
 ####<i> require "selenium-webdriver"</i>
 
-#### 2. A segunda coisa que devemos fazer é instanciar a biblioteca do selenium, não basta importar a biblioteca, temos que instanciar a mesma.
-Em python fazemos:
+#### 2. A segunda coisa que devemos fazer é instanciar a biblioteca do selenium, não basta importar a biblioteca, temos que instanciar a mesma.<br>
+Em python fazemos:<br>
 ####<i> driver = webdriver.Firefox()</i>
-Em ruby fazemos:
+Em ruby fazemos:<br>
 ####<i> driver = Selenium::WebDriver.for :firefox</i>
 
 É bem similar nas duas linguagens, mas a sintax muita de linguagem para linguagem, em java e C# temos o uso do <b>new</b> e é preciso declarar o tipo do objeto. Exemplo: <i>WebDriver driver = new FirefoxDriver();</i><br>
