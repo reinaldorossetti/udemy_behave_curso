@@ -43,7 +43,9 @@ Em python fazemos:<br>
 ou usando a classe By no python:<br>
 <b><i> element = driver.find_element(By.ID, 'q')</i></b><br>
 Em ruby fazemos:<br>
-<b><i> element = driver.find_element(:name, 'q')</i></b>
+<b><i> element = driver.find_element(:name, 'q')</i></b><br>
+Em java fazemos:<br>
+<b><i> WebElement element = driver.findElement(By.name("q"));</i></b>
 
 ** Usando a classe By temos que fazer o seguinte import:<br>
 from selenium.webdriver.common.by import By
