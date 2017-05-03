@@ -1,6 +1,4 @@
 from selenium import webdriver
-from time import sleep
-from selenium.webdriver.common.alert import Alert
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.expected_conditions import alert_is_present
 
