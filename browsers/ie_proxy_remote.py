@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-PROXY = "172.17.241.67:8080"
+PROXY = "127.0.0.1:8080"
 
 # Create a copy of desired capabilities object.
 desired_capabilities = webdriver.DesiredCapabilities.INTERNETEXPLORER.copy()
