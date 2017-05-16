@@ -28,5 +28,5 @@ elem02.clear()
 # vai enviar o texto para o nosso segundo elemento.
 elem02.send_keys("teste")
 
-# traz o elemento web via css e dar o click.
+# traz o elemento web via css e dar o click, tudo junto.
 driver.find_element_by_css_selector("#loginbutton input[type='submit']").click()
