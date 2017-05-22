@@ -9,7 +9,7 @@ driver = webdriver.Firefox()
 base_url = "https://www.facebook.com/"
 
 # Carrega a url no browser.
-driver.get(self.base_url + "/")
+driver.get(base_url + "/")
 
 # Espera implicita de 60 segundos para carregar os elementos na url.
 driver.implicitly_wait(60)
