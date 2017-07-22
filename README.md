@@ -144,3 +144,20 @@ driver.find_element(css, sign_in).click()
 
 ```
 
+Nosso código está muito ruim, pensa numa página HTML os elementos estão sendo carregado, o nosso código não tem nenhuma espera dos elementos, ou seja assim que carregar a url ele vai mandar os comandos fora de hora, o que vai fazer ele quebrar. Então para que ele não quebre colocamos uma espera chamada de implicita realizada pela função implicitly_wait.
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+driver = webdriver.Firefox()
+driver.get("https://github.com/")
+driver.implicitly_wait(30) # Espera implicita para carregar os elementos na pagina HTML.
+
+# organizando no inicio o tipo de locator e o valor dele, para não poluir o código.
+css, sign_in = 'css selector', '.text-bold.text-white.no-underline'
+
+# dando um click no sign in no github.
+driver.find_element(css, sign_in).click()
+
+```
+
