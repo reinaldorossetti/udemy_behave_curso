@@ -128,4 +128,18 @@ Um truque que faço é assim de forma reduzida sem precisar da classe By.
 driver.find_element('css selector', '.octicon.octicon-mark-github').click()
 ```
 
+Agora vamos separa os valores
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+driver = webdriver.Firefox()
+driver.get("https://github.com/")
+
+# dando um click no sign in no github.
+# organizando no inicio o tipo de locator e o valor dele, para não poluir o código.
+
+css, sign_in = 'css selector', '.text-bold.text-white.no-underline'
+driver.find_element(css, sign_in).click()
+```
 
