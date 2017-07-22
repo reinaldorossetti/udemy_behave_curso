@@ -108,8 +108,7 @@ Em python:
 Equivalente em Java:
 `findElement(By.xpath("//h1"));`
 
-Em python também podemos fazer de várias formas:
-Primeiro importando a biblioteca By
+Em python também podemos fazer de várias formas, primeiro pra usar o By devemos importando a biblioteca By.
 ```python
 from selenium.webdriver.common.by import By
 find_element(by=By.XPATH, value='//h1')
