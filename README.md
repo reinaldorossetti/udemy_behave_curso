@@ -110,18 +110,22 @@ Equivalente em Java:
 
 Em python também podemos fazer de várias formas, primeiro pra usar o By devemos importando a biblioteca By.
 ```python
+from selenium import webdriver
 from selenium.webdriver.common.by import By
-find_element(by=By.XPATH, value='//h1')
+
+driver = webdriver.Firefox()
+driver.get("https://github.com/")
+# dando um click na logo do github.
+driver.find_element(by=By.CSS, value='.octicon.octicon-mark-github').click()
 ```
 Ou
 ```python
-from selenium.webdriver.common.by import By
-find_element(By.XPATH, '//h1')
+driver.find_element(By.CSS, '.octicon.octicon-mark-github').click()
 ```
 
 Um truque que faço é assim de forma reduzida sem o By.
 ```python
-find_element('xpath', '//h1')
+driver.find_element('css selector', '//h1').click()
 ```
 
 
