@@ -101,7 +101,7 @@ Mostra o Resultado:  Loads a web page in the current browser session.
 
 ### Function Names
 
-Os nomes das funções nomeiadas com termos compostos exemplo `getTitle()` usam a formatação camelCase do Java, mas no python. Por exemplo, no python elas ficam minusculas como `title` ao invés de `getTitle ()` em Java, em muitas funções a palavra fica separada por subtraço (_), traço rasteiro ou underscore:
+Os nomes das funções nomeiadas com termos compostos exemplo `getTitle()` usam a formatação camelCase do Java, mas no python elas ficam minúsculas. Por exemplo em python temos a função `title` e em Java temos a função `getTitle ()`, em muitas funções a palavra fica separada por subtraço (_), traço rasteiro ou underscore:
 
 Em python:
 `find_element_by_xpath("//h1")`
@@ -109,12 +109,14 @@ Equivalente em Java:
 `findElement(By.xpath("//h1"));`
 
 Em python também podemos fazer de várias formas:
-importando a biblioteca By
+Primeiro importando a biblioteca By
+
 `from selenium.webdriver.common.by import By`
 `find_element(by=By.XPATH, value='//h1')`
+Ou
 `find_element(By.XPATH, '//h1')`
 
-Um truque é fazendo assim de forma reduzida sem o By.
+Um truque que faço é assim de forma reduzida sem o By.
 `find_element('xpath', '//h1')`
 
 
