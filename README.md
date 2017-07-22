@@ -92,105 +92,29 @@ print(nome_da_funcao_fica_aqui.__doc__)
 ```
 ### Exemplo abaixo da função get do Firefox
 ```python
-from selenium import webdriver<br>
-print(webdriver.Firefox.get.__doc__)<br>
+from selenium import webdriver
+print(webdriver.Firefox.get.__doc__)
 ```
 Mostra o Resultado:  Loads a web page in the current browser session.
 
-## Comparison with Java Bindings
-
-Here is a summary of the major differences between the python and Java bindings.
+## Abaixo alguns comparações basicas dos comandos em python e java
 
 ### Function Names
 
-Function names separate compound terms with underscores, rather than using Java's camelCase formatting. For example, in python `title` is the equivalent of `getTitle()` in Java.
+Os nomes das funções nomeiadas com termos compostos exemplo `getTitle()` usam a formatação camelCase do Java, mas no python. Por exemplo, no python elas ficam minusculas como `title` ao invés de `getTitle ()` em Java, em muitas funções a palavra fica separada por subtraço (_), traço rasteiro ou underscore:
 
-### Flatter Structures
+Em python:
+`find_element_by_xpath("//h1")`
+Equivalente em Java:
+`findElement(By.xpath("//h1"));`
 
-To reflect pythonic behavior of flat object hierarchies the python bindings e.g. `find_element_by_xpath("//h1")` rather than `findElement(By.xpath("//h1"));` but it does give you the freedom of doing `find_element(by=By.XPATH, value='//h1')`
+Em python também podemos fazer de várias formas:
+importando a biblioteca By
+`from selenium.webdriver.common.by import By`
+`find_element(by=By.XPATH, value='//h1')`
+`find_element(By.XPATH, '//h1')`
 
-# Development
+Um truque é fazendo assim de forma reduzida sem o By.
+`find_element('xpath', '//h1')`
 
-To install the latest unreleased version, [clone](https://help.github.com/articles/cloning-a-repository/) https://github.com/SeleniumHQ/selenium and run the following commands from the repository root directory:
 
-```
-./go py_prep_for_install_release
-cd py
-python setup.py install
-```
-
-## Tests
-
-When developing Selenium, it is recommended you run the tests before and after making any changes to the code base. To perform these tests, you will first need to install [Tox](http://tox.readthedocs.io/).
-
-> Note that you will either need to change to the `py` subdirectory when running `tox`, or point to the configuration file using `tox -c py/tox.ini`.
-
-By default, running `tox` will attempt to execute all of the defined environments. This means the tests for python 2.7 and 3.6 will run for each of the supported drivers. This is most likely not what you want, as some drivers will not run on certain platforms. It is therefore recommended that you specify the environments you wish to execute. To list all environments available, run `tox -l`, and to execute a single environment, use `tox -e`.
-
-As an example, this command will run the tests for Firefox against python 2.7:
-
-```
-tox -e py27-firefox
-```
-
-The tests are executed using [pytest](http://docs.pytest.org/), and you can pass positional arguments through Tox by specifying `--` before them. In addition to other things, this allows you to filter tests. For example, to run a single test file:
-
-```
-tox -e py27-firefox -- py/test/selenium/webdriver/common/visibility_tests.py
-```
-
-To run a single test, you can use the keyword filter, such as:
-
-```
-tox -e py27-firefox -- -k testShouldShowElementNotVisibleWithHiddenAttribute
-```
-
-### Expected Failures
-
-Unfortunately, there will be some tests that are expected to fail due to known issues. You can mark these tests using the [standard pytest methods](http://docs.pytest.org/en/latest/skipping.html#mark-a-test-function-as-expected-to-fail), however if the test uses the `driver` fixture to run against multiple drivers, this will mark the tests for all of those drivers. If a test is only expected to fail in a subset of drivers, you can extend the xfail mark with the name of the driver. For example, to mark a test as expected to fail in Chrome and Firefox (but pass using any other driver):
-
-```python
-import pytest
-
-@pytest.mark.xfail_chrome
-@pytest.mark.xfail_firefox
-def test_something(driver):
-   assert something is True
-```
-
-All of the same arguments from pytest's [xfail mark](http://docs.pytest.org/en/latest/skipping.html#mark-a-test-function-as-expected-to-fail) are available to these extended marks. Wherever possible you should provide a `reason` with a reference to the raised issue/bug. If the test raises an unexpected exception you should also provide the `raises` argument, as this will still cause a failure if the test starts failing for another reason.
-
-If the expected failure is dependent on the platform, you should also include the `condition` argument so that the test will be allowed to pass on other environments. For example, to mark a test as expected to fail when run against Firefox on macOS:
-
-```python
-import sys
-import pytest
-from selenium.common.exceptions import WebDriverException
-
-@pytest.mark.xfail_firefox(
-    condition=sys.platform == 'darwin',
-    reason='https://myissuetracker.com/issue?id=1234',
-    raises=WebDriverException
-def test_something(driver):
-   assert something is True
-```
-
-You should avoid using [imperative xfail](http://docs.pytest.org/en/latest/skipping.html#imperative-xfail-from-within-a-test-or-setup-function) as these will never allow the test an opportunity to unexpectedly pass (when the issue is resolved).
-
-We also recommend against using [skip](http://docs.pytest.org/en/latest/skipping.html#marking-a-test-function-to-be-skipped) unless there is good reason. If your test failure causes a hang or some other undesirable side-effect you can pass `run=False` to the xfail mark.
-
-To run expected failures locally, pass the `--runxfail` command line option to pytest. If you want to run all expected failures for a specific driver you can do this by filtering on the xfail mark:
-
-```
-tox -e py27-firefox -- -m xfail_firefox --runxfail
-```
-
-## Releases
-
-To perform a release you will need to be a maintainer of the package on PyPI. Before pushing a new release you will need to update the version number and [change log](https://github.com/SeleniumHQ/selenium/blob/master/py/CHANGES). The version number is in the form of `X.Y.Z`, where `X.Y` is taken from the latest [GitHub release](https://github.com/SeleniumHQ/selenium/releases), and `Z` increments for each release.
-
-When you're ready, the release can be made by running the following command:
-
-```
-./go py_release
-```
