@@ -110,13 +110,19 @@ Equivalente em Java:
 
 Em python também podemos fazer de várias formas:
 Primeiro importando a biblioteca By
-
+```python
 `from selenium.webdriver.common.by import By`
 `find_element(by=By.XPATH, value='//h1')`
+```
 Ou
+```python
+`from selenium.webdriver.common.by import By`
 `find_element(By.XPATH, '//h1')`
+```
 
 Um truque que faço é assim de forma reduzida sem o By.
+```python
 `find_element('xpath', '//h1')`
+```
 
 
