@@ -128,7 +128,7 @@ Um truque que faço é assim de forma reduzida sem precisar da classe By.
 driver.find_element('css selector', '.octicon.octicon-mark-github').click()
 ```
 
-Agora vamos separa os valores o locator e o valor dele, deixando o código mais limpo
+Agora vamos separar o locator e o valor dele, deixando o código mais limpo
 ```python
 from selenium import webdriver
 from selenium.webdriver.common.by import By
