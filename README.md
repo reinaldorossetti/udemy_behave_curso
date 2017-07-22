@@ -108,7 +108,7 @@ Em python:
 Equivalente em Java:
 `findElement(By.xpath("//h1"));`
 
-Em python também podemos fazer de várias formas, primeiro pra usar o By devemos importando a biblioteca By.
+Em python também podemos fazer de várias formas, primeiro pra usar o By devemos importando a classe By.
 ```python
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -116,14 +116,14 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Firefox()
 driver.get("https://github.com/")
 # dando um click na logo do github.
-driver.find_element(by=By.CSS, value='.octicon.octicon-mark-github').click()
+driver.find_element(by=By.CSS_SELECTOR, value='.octicon.octicon-mark-github').click()
 ```
 Ou
 ```python
-driver.find_element(By.CSS, '.octicon.octicon-mark-github').click()
+driver.find_element(By.CSS_SELECTOR, '.octicon.octicon-mark-github').click()
 ```
 
-Um truque que faço é assim de forma reduzida sem o By.
+Um truque que faço é assim de forma reduzida sem precisar da classe By.
 ```python
 driver.find_element('css selector', '//h1').click()
 ```
