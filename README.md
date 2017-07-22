@@ -125,7 +125,7 @@ driver.find_element(By.CSS_SELECTOR, '.octicon.octicon-mark-github').click()
 
 Um truque que faço é assim de forma reduzida sem precisar da classe By.
 ```python
-driver.find_element('css selector', '//h1').click()
+driver.find_element('css selector', '.octicon.octicon-mark-github').click()
 ```
 
 
