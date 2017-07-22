@@ -101,7 +101,7 @@ Mostra o Resultado:  Loads a web page in the current browser session.
 
 ### Function Names
 
-Os nomes das funções nomeiadas com termos compostos exemplo `getTitle()` usam a formatação camelCase do Java, mas no python elas ficam minúsculas. Por exemplo em python temos a função `title` e em Java temos a função `getTitle ()`, em muitas funções a palavra fica separada por subtraço (_), traço rasteiro ou underscore:
+Os nomes das funções nomeadas com termos compostos exemplo `getTitle()` usam a formatação camelCase do Java, mas no python elas ficam minúsculas. Por exemplo em python temos a função `title` e em Java temos a função `getTitle ()`, em muitas funções a palavra fica separada por subtraço (_), traço rasteiro ou underscore:
 
 Em python:
 `find_element_by_xpath("//h1")`
