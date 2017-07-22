@@ -91,8 +91,8 @@ Para ver as docstrings  (texto da documentação anexado a uma função ou méto
 print(nome_da_funcao_fica_aqui.__doc__)
 ```
 ### Exemplo abaixo da função get do Firefox
-from selenium import webdriver
-print(webdriver.Firefox.get.__doc__)
+from selenium import webdriver<br>
+print(webdriver.Firefox.get.__doc__)<br>
 Resultado:  Loads a web page in the current browser session.
 
 
