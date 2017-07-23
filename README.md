@@ -165,7 +165,7 @@ driver.find_element(css, sign_in).click()
 ```
 
 Agora vamos falar de outro tipo de espera, a espera explícita, resumindo a espera explícita devemos especificar qual elemento devemos  esperar, na espera implícita ele espera todos os elementos, ele não espera um elemento específico, o que torna a espera explícita melhor por ser mais rápida. Geralmente eu coloco a espera implícita 15 segundos pra carregar a url e todos os elementos no inicio depois de dar o get pra carregar a url, mas somente uso uma vez. 
-
+<b>
 1. O primeiro passo que devemos fazer é importar as bibliotecas que vão realizar a espera explícita.
 
 ```python
@@ -173,7 +173,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 ```
 
-2. O segundo passo é aplicar as funções, criamos uma função chamada <b>find<\b> e nela fizemos a espera explícita de passando o driver, o nosso elemento web, e o delay máximo que desejamos. Na função aplicamos o tipo de espera explíta pela função visibility_of_element_located, quer dizer que esperar o elemento ser vísivel para o usuário, o retorno da nossa função vai ser o próprio elemento já mapeado, assim podemos aplicar as funções de click, send_keys entre outras.
+2. O segundo passo é aplicar as funções, criamos uma função chamada find e nela fizemos a espera explícita de passando o driver, o nosso elemento web, e o delay máximo que desejamos. Na função aplicamos o tipo de espera explíta pela função visibility_of_element_located, quer dizer que esperar o elemento ser vísivel para o usuário, o retorno da nossa função vai ser o próprio elemento já mapeado, assim podemos aplicar as funções de click, send_keys entre outras.
 
 ```python
 def find(driver, selector, delay=30):
