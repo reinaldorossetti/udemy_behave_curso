@@ -146,7 +146,7 @@ driver.find_element(css, sign_in).click()
 
 Nosso código está muito ruim, pensa numa página HTML os elementos estão sendo carregados, o nosso código não tem nenhuma espera dos elementos, ou seja assim que carregar a url ele vai mandar os comandos fora de hora, o que vai fazer ele quebrar. Então para que ele não quebre, colocamos uma espera chamada de Implícita realizada pela função implicitly_wait. 
 
-A espera Implicita de acordo com a documentação diz que vai esperar no máximo o valor que você colocou como máximo ou seja no nosso caso até 30 segundos, não que dizer que vai esperar 30 segundos, pode terminar antes isso vai depender da velocidade da sua internet. Existe outro tipo de espera que vamos falar mais à frente.
+A espera Implicita de acordo com a documentação diz que vai esperar no máximo o valor que você colocou como máximo ou seja no nosso caso até 30 segundos. Não que dizer que vai esperar 30 segundos, pode terminar antes disso, vai depender da velocidade da sua internet. Existe outro tipo de espera que vamos falar mais à frente.
 
 ```python
 from selenium import webdriver
