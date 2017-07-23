@@ -204,3 +204,4 @@ def find(driver, selector, delay=30):
 find(driver, sign_in).click()
 ```
 
+Vamos discutir tudo isso no curso e mais coisas, como a estrutura do nosso projeto, pensa que essa função find eu vou utilizar em N testes e eu não preciso repetir ela N vezes, devemos criar uma classe chamada BasePage que vai conter todas as funções genéricas do nosso projeto.
