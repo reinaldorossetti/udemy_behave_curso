@@ -176,11 +176,26 @@ driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 
 Exemplo usando o browser Edge:
 ```python
+
+from selenium import webdriver
+from webdriver_manager.driver import EdgeDriver
+
 driver = webdriver.Edge(EdgeDriverManager().install())
+
+```
 Exemplo usando o browser IE:
 
+```python
+from webdriver_manager.driver import IEDriver
+from webdriver_manager.microsoft import IEDriverManager
+
 driver = webdriver.Ie(IEDriverManager().install())
+```
+
 Exemplo usando o browser PhantomJS:
+```python
+from webdriver_manager.phantomjs import PhantomJsDriverManager
+from selenium import webdriver
 
 driver = webdriver.PhantomJS(PhantomJsDriverDriverManager().install())
 ```
