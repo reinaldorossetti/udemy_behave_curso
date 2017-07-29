@@ -205,3 +205,6 @@ find(driver, sign_in).click()
 ```
 
 Vamos discutir tudo isso no curso e mais coisas, como a estrutura do nosso projeto, pensa que essa função find eu vou utilizar em N testes e eu não preciso repetir ela N vezes, devemos criar uma classe chamada BasePage que vai conter todas as funções genéricas do nosso projeto.
+
+**Configurando o Ambiente:
+https://github.com/reinaldorossetti/udemy_my_course/blob/master/Configuracao_de_Ambiente.md
