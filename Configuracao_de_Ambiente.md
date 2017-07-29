@@ -148,30 +148,34 @@ Nem sempre o windows ou linux vai deixar executar um determinado programa com pe
 
 ** Instalando os Drivers ** - Segunda forma de instalar os drivers é usando uma API, caso não consiga importar e adicionar ao path do windows, você pode tentar assim:
 
-1. Primeiro Passo instalar o pacote abaixo no prompt/shell:
+**1. Primeiro Passo instalar o pacote abaixo no prompt/shell:
 
 pip install webdriver_manager
-2. Segundo Passo importar a biblioteca e passar ela dentro do driver (Exemplo usando o Chrome).
 
+**2. Segundo Passo importar a biblioteca e passar ela dentro do driver (Exemplo usando o Chrome).
+
+```python
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
  
 webdriver.Chrome(ChromeDriverManager().install())
 driver.get("https://www.google.com")
-
+```
 
 Exemplo usando o Firefox:
 
+```python
+from selenium import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
 
 driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-No caso do firefox se der error acima tente fazer dessa segunda forma.
 
+# No caso do firefox se der error acima tente fazer dessa segunda forma.
 driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-
+```
 
 Exemplo usando o browser Edge:
-
+```python
 driver = webdriver.Edge(EdgeDriverManager().install())
 Exemplo usando o browser IE:
 
@@ -179,6 +183,7 @@ driver = webdriver.Ie(IEDriverManager().install())
 Exemplo usando o browser PhantomJS:
 
 driver = webdriver.PhantomJS(PhantomJsDriverDriverManager().install())
+```
 Conversando com o caro colega que fez a API, ele disse que caso já esteja instalada ele vai retornar somente o caminho, então não precisa colocar no executable_path depois, pode deixar da forma que estar.
 
 Referências: https://github.com/SergeyPirogov/webdriver_manager
