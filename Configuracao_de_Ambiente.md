@@ -38,7 +38,7 @@ Solução: Abra o CMD/Prompt de comando como administrador.
 
 Como mostra a figura, os drivers devem está dentro da pasta Scripts dentro do Python, esse é o caminho padrão, podemos adicionar em qualquer pasta desde que este esteja no path global do windows. Uma vez no path do windows ou adicionada a pasta Scripts não precisa passar o path por dentro do driver, ou seja no código fonte.
 
->> Atenção dependendo do sistema operacional, você tem que baixar o driver especifico pra seu sistema e também para a plataforma x64 ou x86, alguns driver é o mesmo para os dois, mas nem todos. Um erro bem comum é quando você tem o sistema x64 e o driver do geckodriver x64 e a versão do firefox foi instalada pra x86, o que vai gerar vários problemas.
+> Atenção dependendo do sistema operacional, você tem que baixar o driver especifico pra seu sistema e também para a plataforma x64 ou x86, alguns driver é o mesmo para os dois, mas nem todos. Um erro bem comum é quando você tem o sistema x64 e o driver do geckodriver x64 e a versão do firefox foi instalada pra x86, o que vai gerar vários problemas.
 
 4. Instalar a IDE para desenvolver os testes (Escolha uma entre Atom, Pycharm, Visual Code da Microsoft);
 
@@ -147,11 +147,12 @@ Nem sempre o windows ou linux vai deixar executar um determinado programa com pe
 
 ** Instalando os Drivers ** - Segunda forma de instalar os drivers é usando uma API, caso não consiga importar e adicionar ao path do windows, você pode tentar assim:
 
-**1. Primeiro Passo instalar o pacote abaixo no prompt/shell:
+1. Primeiro Passo instalar o pacote abaixo no prompt/shell:
 ```
 pip install webdriver_manager
 ```
-**2. Segundo Passo importar a biblioteca e passar ela dentro do driver (Exemplo usando o Chrome).
+
+2. Segundo Passo importar a biblioteca e passar ela dentro do driver (Exemplo usando o Chrome).
 
 ```python
 from selenium import webdriver
