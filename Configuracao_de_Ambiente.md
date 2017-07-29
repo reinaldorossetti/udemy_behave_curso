@@ -45,7 +45,7 @@ Como mostra a figura, os drivers devem está dentro da pasta Scripts dentro do P
 
 -----------------------------------------------------------------------------------------------------------
 
-# Atenção - Você pode instalar em um ambiente controlado criando um máquina virtual, não é obrigatório, você pode começar na sua máquina mesma. Para instalar em uma VM precisamos instalar o Virtual Box ou VMware Player. Após a instalação da máquina virtual, comece a instalação seguindo os passos acima.
+### Atenção - Você pode instalar em um ambiente controlado criando um máquina virtual, não é obrigatório, você pode começar na sua máquina mesma. Para instalar em uma VM precisamos instalar o Virtual Box ou VMware Player. Após a instalação da máquina virtual, comece a instalação seguindo os passos acima.
 
 Virtual Box Windows: 
 
@@ -89,8 +89,7 @@ pip install selenium-3.3.1-py2.py3-none-any.whl
 ----------------------------------------------------------------------------------
 
 
-
-APIs que usamos no Curso:
+** APIs que usamos no Curso:
 
 pip install requests
 
@@ -102,12 +101,11 @@ pip installl selenium
 
 
 
-
 ---------------------------------------------------------------------------------
 
 
 
-Behave
+**Behave**
 
 Github: https://github.com/behave/behave
 
@@ -116,8 +114,7 @@ Site: http://pythonhosted.org/behave/
 Pacote: https://pypi.python.org/pypi/behave
 
 
-
-Requests
+**Requests**
 
 Github: https://github.com/kennethreitz/requests/
 
@@ -127,7 +124,7 @@ Pacote: https://pypi.python.org/pypi/requests/2.13.0
 
 
 
-Selenium
+**Selenium**
 
 Github: https://github.com/SeleniumHQ/selenium
 
@@ -142,9 +139,6 @@ Pacote: https://pypi.python.org/pypi/selenium
 ** Tente sempre instalar as ferramentas como administrador.
 
 Nem sempre o windows ou linux vai deixar executar um determinado programa com permissões de administrador mesmo sendo administrador da máquina, isso é uma proteção para melhorar a segurança, é algo padrão do Windows, no caso do Linux você teria que digitar a senha de sudo/administrador da maquina para instalar. No nosso caso precisamos abrir o CMD e IDEs com o modo "Executar como administrador", para evitar erros de ambiente.
-
-
-
 
 
 
