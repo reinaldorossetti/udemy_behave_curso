@@ -149,9 +149,9 @@ Nem sempre o windows ou linux vai deixar executar um determinado programa com pe
 ** Instalando os Drivers ** - Segunda forma de instalar os drivers é usando uma API, caso não consiga importar e adicionar ao path do windows, você pode tentar assim:
 
 **1. Primeiro Passo instalar o pacote abaixo no prompt/shell:
-
+```
 pip install webdriver_manager
-
+```
 **2. Segundo Passo importar a biblioteca e passar ela dentro do driver (Exemplo usando o Chrome).
 
 ```python
