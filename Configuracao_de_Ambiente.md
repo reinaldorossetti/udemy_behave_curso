@@ -89,7 +89,7 @@ pip install selenium-3.3.1-py2.py3-none-any.whl
 ----------------------------------------------------------------------------------
 
 
-** APIs que usamos no Curso:
+**APIs que usamos no Curso:**
 
 pip install requests
 
@@ -144,9 +144,9 @@ Nem sempre o windows ou linux vai deixar executar um determinado programa com pe
 
 ** Não esqueça de antes de baixar a ultima versão do selenium, verificar a ultima versão compatível com a versão do driver do browser nos sites especificados.
 
+-----------------------------------------------------------------------------------------------------------
 
-
-Instalando os Drivers - Segunda forma de instalar os drivers é usando uma API, caso não consiga importar e adicionar ao path do windows, você pode tentar assim:
+** Instalando os Drivers ** - Segunda forma de instalar os drivers é usando uma API, caso não consiga importar e adicionar ao path do windows, você pode tentar assim:
 
 1. Primeiro Passo instalar o pacote abaixo no prompt/shell:
 
