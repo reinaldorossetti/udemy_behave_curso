@@ -1,6 +1,6 @@
 O Download e a configuração das ferramentas são de suma importância para você seguir no curso, a configuração dos Drivers são necessários pra rodar os testes no browser, sem isso você não vai conseguir seguir em frente.
 
-Devemos baixar a versão do driver compatível com o selenium 2.53.6 que estamos usando no curso. No entanto você pode usar versão mais nova do driver com o selenium 3.3.0 junto com as versões mais novas de browser (muitas pessoas estão errando ao configurar as versões corretas, entenda que uma versão do driver roda em versão específica de browser,  ou seja não vai rodar em qualquer versão).
+Devemos baixar a versão do driver compatível com o selenium 2.53.6 que estamos usando no curso. No entanto você pode usar versão mais nova do driver com o selenium 3.4.x junto com as versões mais novas de browser (muitas pessoas estão errando ao configurar as versões corretas, entenda que uma versão do driver roda em versão específica de browser,  ou seja não vai rodar em qualquer versão).
 
 Drivers links:
 
