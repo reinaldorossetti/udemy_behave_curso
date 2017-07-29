@@ -44,7 +44,7 @@ Como mostra a figura, os drivers devem está dentro da pasta Scripts dentro do P
 
 -----------------------------------------------------------------------------------------------------------
 
-### Atenção - Você pode instalar em um ambiente controlado criando um máquina virtual, não é obrigatório, você pode começar na sua máquina mesma. Para instalar em uma VM precisamos instalar o Virtual Box ou VMware Player. Após a instalação da máquina virtual, comece a instalação seguindo os passos acima.
+### Atenção - Você pode instalar em um ambiente controlado criando um máquina virtual, não é obrigatório, você pode começar na sua máquina mesma. Para instalar em uma VM precisamos instalar o Virtual Box ou VMware Player. Após a instalação da máquina virtual, comece a instalação das ferramentas seguindo os passos acima.
 
 Virtual Box Windows: 
 
