@@ -26,7 +26,9 @@ Instalação Local, não usando a maquina virtual:
 
 2. Instalar o Selenium WebDriver;
 
->> pip install selenium
+```python
+pip install selenium
+```
 
 ** Se não tiver permissão de administrador (PermissionError), pode ser que der erro ou não dependendo do seu nível de permissão.
 
@@ -35,9 +37,6 @@ Solução: Abra o CMD/Prompt de comando como administrador.
 3. Instalar os drivers (chromedriver, geckodriver, iedriver), você deve adicionar no path do windows ou passar o caminho no código;
 
 Como mostra a figura, os drivers devem está dentro da pasta Scripts dentro do Python, esse é o caminho padrão, podemos adicionar em qualquer pasta desde que este esteja no path global do windows. Uma vez no path do windows ou adicionada a pasta Scripts não precisa passar o path por dentro do driver, ou seja no código fonte.
-
-
-
 
 >> Atenção dependendo do sistema operacional, você tem que baixar o driver especifico pra seu sistema e também para a plataforma x64 ou x86, alguns driver é o mesmo para os dois, mas nem todos. Um erro bem comum é quando você tem o sistema x64 e o driver do geckodriver x64 e a versão do firefox foi instalada pra x86, o que vai gerar vários problemas.
 
