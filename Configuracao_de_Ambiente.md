@@ -30,7 +30,7 @@ Instalação Local, não usando a maquina virtual:
 pip install selenium
 ```
 
-** Se não tiver permissão de administrador (PermissionError), pode ser que der erro ou não dependendo do seu nível de permissão.
+** Se não tiver permissão de administrador (PermissionError), pode ser que der erro, ou não dependendo do seu nível de permissão.
 
 Solução: Abra o CMD/Prompt de comando como administrador.
 
