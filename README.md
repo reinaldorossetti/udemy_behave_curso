@@ -69,7 +69,7 @@ driver = webdriver.Safari()
 
 
 ### Remote Driver
-Existe uma forma de instanciar o driver utilizando o selenium-server que é um arquivo.jar, nele podemos passar o nome do browser.
+Existe uma forma de instanciar o driver utilizando o selenium-server que é um arquivo.jar, nele podemos passar o nome do browser. Já tive a necessidade de utilizar o selenium-server.jar pra passar pelo proxy no IE utilizando o remote, o modo direto não conseguiu autenticar pelo proxy.
 ```python
 from selenium import webdriver
 driver = webdriver.Remote(browser_name="firefox", platform="any")
