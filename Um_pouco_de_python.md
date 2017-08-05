@@ -34,7 +34,7 @@ Não fazer:
 import sys, os
 ```
 
-Segunda foram de fazer a importação: 
+Segunda forma de fazer a importação, usando o **from**: 
 ```python:
 from subprocess import Popen, PIPE
 ```
