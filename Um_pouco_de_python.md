@@ -57,5 +57,7 @@ elif x >= 5 and x < 10:  # minha terceira condição, verifica se o valor é mai
 else: # O else é digamos a ultima condição, caso nenhuma das acima foi realizada.
     print("Nenhuma condição foi encontrada!")
 ```   
+![alt text][Condição]
+[Condição] https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjl5facyMDVAhUCj5AKHaOTCyUQjhwIBQ&url=http%3A%2F%2Fdiwo.bq.com%2Fpt-pt%2Fusar-leds-com-frases-condicionais-if-else-se-entao%2F&psig=AFQjCNGzk0WXU3vnIZP0WVqs2Kao-oBsJA&ust=1502038604719712
 
 Tome muito cuidado quando for criar condições somente use quando for preciso, o excesso de condições pode deixar o código lento.
