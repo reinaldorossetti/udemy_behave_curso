@@ -38,7 +38,7 @@ Segunda foram de fazer a importação:
 ```python:
 from subprocess import Popen, PIPE
 ```
-Não fazer:  
+Pior forma de fazer, está importando tudo pra memória, mesmo você não usando:  
 ```python
 from subprocess import *
 ```
