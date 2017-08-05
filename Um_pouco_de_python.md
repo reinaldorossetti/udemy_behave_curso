@@ -2,7 +2,7 @@
 
 Nesse tutorial vamos falar o básico de Python.
 
-Começando a falar de python o que notamos de cara ao olhar para o código fonte, é que ele não tem colchetes "{" "}" para iniciar um bloco de código, ele é orientado a indentação, ou seja atrávez dos espaçamentos ele sabe aonde inicia e fechar um bloco de código.
+Começando a falar de python o que notamos de cara ao olhar para o código fonte, é que ele não tem colchetes "{" "}" para iniciar um bloco de código, ele é orientado a indentação, ou seja através dos espaçamentos ele sabe aonde inicia e fechar um bloco de código.
 
 1. O padrão de espaçamento entre a funçao deve ser igual a 4 espaços dentro da função, função é nada menos que um bloco de código com uma funcionalidade específica, exemplo:
 ```python
