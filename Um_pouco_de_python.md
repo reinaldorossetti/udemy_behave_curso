@@ -16,3 +16,4 @@ def nome_da_funcao(string):
 # finalizou_a_funcao_e_voltei_pro_inicio
 nome_da_funcao("Valor: ") # fiz a chamada da minha função, nessa linha.
 ```
+O **print** no meu código é a função que vai imprimir o valor no console ou shell/cmd/prompt.
