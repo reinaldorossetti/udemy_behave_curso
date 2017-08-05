@@ -54,7 +54,7 @@ elif x == 4:  # minha segunda condição, verifica se o valor é igual a 1.
     print("valor incorreto!")
 elif x >= 5 and x < 10:  # minha terceira condição, verifica se o valor é maior e igual a 5 e menor que 10.
     print("O valor esperado está correto!")
-else: # O else é digamos a ultima condição, caso nenhuma das acima foi realizada.
+else: # O else é digamos se nenhuma das condições foi realizada, ele vai entrar nesse bloco de código.
     print("Nenhuma condição foi encontrada!")
 ```   
 ![alt text](http://diwo.bq.com/wp-content/uploads/2015/10/ifelse.png "Condição IF ELSE")
