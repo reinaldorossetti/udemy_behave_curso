@@ -65,7 +65,7 @@ else: # O else é digamos se nenhuma das condições foi realizada, ele vai entr
 
 Tome muito cuidado quando for criar condições somente use quando for preciso, o excesso de condições pode deixar o código lento.
 
-**Abaixo segue uma lista com os operadores aritméticos utilizados em Python:
+**Abaixo segue uma lista com os operadores aritméticos utilizados em Python:**
 
 ```python
 +   # soma
