@@ -225,8 +225,8 @@ find(driver, sign_in).click()
 Vamos discutir tudo isso no curso e mais coisas, como a estrutura do nosso projeto, pensa que essa função find eu vou utilizar em N testes e eu não preciso repetir ela N vezes, devemos criar uma classe chamada BasePage que vai conter todas as funções genéricas do nosso projeto. <br>
 Em muitos projetos que vejo por aí o pessoal utiliza mal o selenium, chamando as mesmas coisas várias vezes e torna o projeto um mostrinho e depois diz que o problema é o framework que não funciona, isso vai depender do seu domínio do framework e sobre a estrutura que vai usar no projeto.
 
-**Configurando o Ambiente:
+**Configurando o Ambiente:**
 https://github.com/reinaldorossetti/udemy_my_course/blob/master/Configuracao_de_Ambiente.md
 
-**Falando um pouco de python:
+**Falando um pouco de python:**
 https://github.com/reinaldorossetti/udemy_my_course/blob/master/Um_pouco_de_python.md
