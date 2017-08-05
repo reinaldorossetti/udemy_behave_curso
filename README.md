@@ -228,5 +228,5 @@ Em muitos projetos que vejo por aí o pessoal utiliza mal o selenium, chamando a
 **Configurando o Ambiente:**
 https://github.com/reinaldorossetti/udemy_my_course/blob/master/Configuracao_de_Ambiente.md
 
-**Falando um pouco de python:**
+**Falando um pouco de Python:**
 https://github.com/reinaldorossetti/udemy_my_course/blob/master/Um_pouco_de_python.md
