@@ -73,7 +73,7 @@ Tome muito cuidado quando for criar condições somente use quando for preciso, 
 *   # multiplicação
 /   # divisão
 //  # divisão de inteiros
-\** # potenciação, dois asteristicos sem a contra bara (\).
+** # potenciação, dois asteristicos.
 %   # módulo (resto da divisão)
 ```
 
