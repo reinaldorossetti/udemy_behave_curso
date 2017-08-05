@@ -17,3 +17,28 @@ def nome_da_funcao(string):
 nome_da_funcao("Valor: ") # fiz a chamada da minha função, nessa linha.
 ```
 O **print** no meu código é a função que vai imprimir o valor no console ou shell/cmd/prompt.
+
+
+No python como devemos importar um biblioteca, é regra básica importar as bibliotecas no inicio do seu código. A importação deve ser separada por linhas, não é aconselhado a importar tudo em uma linha só
+
+Imports should usually be on separate lines, e.g.:
+
+Fazer assim
+```python
+import os
+import sys
+```
+
+Não fazer:  
+```python
+import sys, os
+```
+
+Segunda foram de fazer a importação: 
+```python:
+from subprocess import Popen, PIPE
+```
+Não fazer:  
+```python
+from subprocess import *
+```
