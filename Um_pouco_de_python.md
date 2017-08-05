@@ -67,21 +67,24 @@ Tome muito cuidado quando for criar condições somente use quando for preciso, 
 
 **Abaixo segue uma lista com os operadores aritméticos utilizados em Python:
 
-+ → soma
-– → subtração
-* → multiplicação
-/ → divisão
-// → divisão de inteiros
-\** → potenciação, dois asteristicos sem a contra bara (\).
-% → módulo (resto da divisão)
+```python
++   # soma
+–   # subtração
+*   # multiplicação
+/   # divisão
+//  # divisão de inteiros
+\** # potenciação, dois asteristicos sem a contra bara (\).
+%   # módulo (resto da divisão)
+```
 
-**Segue também os operadores lógicos:
-
-> → maior
-= → maior ou igual
-<= → menor ou igual
-== → igual
-!= → diferente
-not → Operador lógico que representa a negação (inverso) da variável atual. Se ela for verdade, torna-se falsa, e vice-versa.
-and → Operador lógico onde a resposta da operação é verdade se ambas as variáveis de entrada forem verdade.
-or → Operador lógico onde a resposta da operação é verdade se e somente se pelo menos uma das variáveis de entrada for verdade.
+**Segue também os operadores lógicos:**
+```python
+>   # maior
+=   # maior ou igual
+<=  # menor ou igual
+==  # igual
+!=  # diferente
+not # Operador lógico que representa a negação (inverso) da variável atual. Se ela for verdade, torna-se falsa, e vice-versa.
+and # Operador lógico onde a resposta da operação é verdade se ambas as variáveis de entrada forem verdade.
+or  # Operador lógico onde a resposta da operação é verdade se e somente se pelo menos uma das variáveis de entrada for verdade.
+```
