@@ -21,6 +21,7 @@ def nome_da_funcao(string):
 nome_da_funcao("Valor: ") # fiz a chamada da minha função, nessa linha.
 ```
 O **print** no meu código é a função que vai imprimir o valor no console ou shell/cmd/prompt.
+O **def** é uma definição que aqui vai estar uma função que pode ser retornada ou passada (def vem de function definition).
 <br><br>
 
 2. No python como devemos importar um biblioteca, é regra básica importar as bibliotecas no inicio do seu código. A importação deve ser separada por linhas, não é aconselhado a importar tudo em uma linha só
