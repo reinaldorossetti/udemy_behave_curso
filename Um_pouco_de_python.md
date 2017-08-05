@@ -40,7 +40,7 @@ Pior forma de fazer, está importando tudo pra memória, mesmo você não usando
 ```python
 from subprocess import *
 ```
-
+<br><br>
 3. Como trabalhar com condições em python, ou seja if e else.
 
 ```python
@@ -57,3 +57,5 @@ elif x >= 5 and x < 10:  # minha terceira condição, verifica se o valor é mai
 else:
     print("Nenhuma condição foi encontrada!")
 ```   
+
+Tome muito cuidado quando for criar condições somente use quando for preciso, o excesso de condições pode deixar o código lento.
