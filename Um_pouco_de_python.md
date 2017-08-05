@@ -6,6 +6,11 @@ Começando a falar de python o que notamos de cara ao olhar para o código fonte
 
 1. O padrão de espaçamento entre a funçao deve ser igual a 4 espaços dentro da função, função é nada menos que um bloco de código com uma funcionalidade específica, exemplo:
 ```python
+"""
+Pra fazer um comentário grande usamos três aspas duplas pra iniciar e pra fechar três aspas duplas.
+Um comentário simples em uma linha usamos o jogo da velho/cerquilha #
+"""
+
 
 x = 0 # inicio do meu codigo, criei uma variavel que recebe o valor 0.
 def nome_da_funcao(string):
