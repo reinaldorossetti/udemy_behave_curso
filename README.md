@@ -7,22 +7,22 @@ Na pasta exemplo_selenium_mult_linguagem, vamos comparar as linguagens fazendo u
 https://github.com/reinaldorossetti/udemy_my_course/blob/master/SELENIUM_MULT_LINGUAGEM_EXEMPLOS.md
 
 
-Seção 2: HTML Básico >> Aprender a estrutura básica de uma página HTML é necessário pra qualquer pessoa que está ingressando em um curso sobre Automação Web.
-Seção 3: Configurando o Ambiente >> Aprendendo a configura e montar um ambiente de testes, como boa prática instalamos maquinas virtuais para trabalhar com automação.
-Seção 4: PIP - Instalando os Pacotes >> Precimos primeiramente entender como faz a instalação dos pacotes em python e como faz um requirements.txt em um projeto, aprender isso é a base de instalação e configuração das bibliotecas.
-Seção 5: Pycharm e Atom Dicas >> Algumas dicas sobre as IDEs.
-Seção 6: Python Básico >> O básico de python pra fazer uma automação, temos mais informação no github.
-Seção 7: Selenium WebDriver Básico I >> Agora sim vamos falar sobre o Selenium e suas classes, é somente uma introdução sobre as classes e um teste básico no Selenium WebDriver.
-Seção 8: WebDriver - Intermediário >> Agora vamos complicar um pouco falar sobre a DOM, Classe ActionChains, JavaScript.
-Seção 9: Problemas e Truques com o Selenium >> Agora sim vamos resolver e falar sobre alguns problemas.
-Seção 10: Server & TestLink - Iniciando nosso Projeto >> Precisamos instalar algumas ferramentas pra começar nosso projeto com o Behave.
-Seção 11: Behave Básico >> Vamos iniciar um projeto completo com behave, agora vamos falar da estrutura de um projeto de automação.
-Seção 12: Behave - Environment Controls >> Agora vamos aprender a parte de configuração do behave.
-Seção 13: Passando Parâmetros e Scenario Outline >> Agora vamos aprender a criar cenários mais elaborados.
-Seção 14: Avançado - Problemas e Soluções >> Resolvendo problemas do dia a dia.
-Seção 15: Considerações Finais >> Código fonte do nosso projeto.
-Seção 16: News (Novidades) >> Seção que vai falar sobre novidades no mundo de testes.
-Seção 17: Desafios de Automação >> É no final temos o nosso desafio, quem resolver, por favor me mande o github, e terá várias indicações minhas pra vagas.
+**Seção 2: HTML Básico** >> Aprender a estrutura básica de uma página HTML é necessário pra qualquer pessoa que está ingressando em um curso sobre Automação Web.<br>
+**Seção 3: Configurando o Ambiente** >> Aprendendo a configura e montar um ambiente de testes, como boa prática instalamos maquinas virtuais para trabalhar com automação.
+**Seção 4: PIP - Instalando os Pacotes** >> Precimos primeiramente entender como faz a instalação dos pacotes em python e como faz um requirements.txt em um projeto, aprender isso é a base de instalação e configuração das bibliotecas.
+**Seção 5: Pycharm e Atom Dicas** >> Algumas dicas sobre as IDEs.
+**Seção 6: Python Básico** >> O básico de python pra fazer uma automação, temos mais informação no github.
+**Seção 7: Selenium WebDriver Básico I** >> Agora sim vamos falar sobre o Selenium e suas classes, é somente uma introdução sobre as classes e um teste básico no Selenium WebDriver.
+**Seção 8: WebDriver - Intermediário** >> Agora vamos complicar um pouco falar sobre a DOM, Classe ActionChains, JavaScript.
+**Seção 9: Problemas e Truques com o Selenium** >> Agora sim vamos resolver e falar sobre alguns problemas.
+**Seção 10: Server & TestLink - Iniciando nosso Projeto** >> Precisamos instalar algumas ferramentas pra começar nosso projeto com o Behave.
+**Seção 11: Behave Básico** >> Vamos iniciar um projeto completo com behave, agora vamos falar da estrutura de um projeto de automação.
+**Seção 12: Behave - Environment Controls** >> Agora vamos aprender a parte de configuração do behave.
+**Seção 13: Passando Parâmetros e Scenario Outline** >> Agora vamos aprender a criar cenários mais elaborados.
+**Seção 14: Avançado - Problemas e Soluções** >> Resolvendo problemas do dia a dia.
+**Seção 15: Considerações Finais** >> Código fonte do nosso projeto.
+**Seção 16: News (Novidades)** >> Seção que vai falar sobre novidades no mundo de testes.
+**Seção 17: Desafios de Automação** >> É no final temos o nosso desafio, quem resolver, por favor me mande o github, e terá várias indicações minhas pra vagas.
 
 # Realizando a instalação do Selenium Webdriver
 
