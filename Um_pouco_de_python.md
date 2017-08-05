@@ -21,8 +21,6 @@ O **print** no meu código é a função que vai imprimir o valor no console ou 
 
 2. No python como devemos importar um biblioteca, é regra básica importar as bibliotecas no inicio do seu código. A importação deve ser separada por linhas, não é aconselhado a importar tudo em uma linha só
 
-Imports should usually be on separate lines, e.g.:
-
 Fazer assim
 ```python
 import os
