@@ -11,7 +11,6 @@ Pra fazer um comentário grande usamos três aspas duplas pra iniciar e pra fech
 Um comentário simples em uma linha usamos o jogo da velho/cerquilha #
 """
 
-
 x = 0 # inicio do meu codigo, criei uma variavel que recebe o valor 0.
 def nome_da_funcao(string):
     deve_ter_4_espacos_aqui += 1
