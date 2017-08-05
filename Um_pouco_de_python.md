@@ -4,7 +4,7 @@ Nesse tutorial vamos falar o básico de Python.
 
 Começando a falar de python o que notamos de cara ao olhar para o código fonte, é que ele não tem colchetes "{" "}" para iniciar um bloco de código, ele é orientado a indentação, ou seja atrávez dos espaçamentos ele sabe aonde inicia e fechar um bloco de código.
 
-O padrão de espaçamento entre a funçao deve ser igual a 4 espaços dentro da função, função é nada menos que um bloco de código com uma funcionalidade específica, exemplo:
+1. O padrão de espaçamento entre a funçao deve ser igual a 4 espaços dentro da função, função é nada menos que um bloco de código com uma funcionalidade específica, exemplo:
 ```python
 
 x = 0 # inicio do meu codigo, criei uma variavel que recebe o valor 0.
@@ -19,7 +19,7 @@ nome_da_funcao("Valor: ") # fiz a chamada da minha função, nessa linha.
 O **print** no meu código é a função que vai imprimir o valor no console ou shell/cmd/prompt.
 
 
-No python como devemos importar um biblioteca, é regra básica importar as bibliotecas no inicio do seu código. A importação deve ser separada por linhas, não é aconselhado a importar tudo em uma linha só
+2. No python como devemos importar um biblioteca, é regra básica importar as bibliotecas no inicio do seu código. A importação deve ser separada por linhas, não é aconselhado a importar tudo em uma linha só
 
 Imports should usually be on separate lines, e.g.:
 
