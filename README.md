@@ -1,11 +1,5 @@
 # udemy_my_course
-Exemplo usados no meu curso na udemy de python 3 e Selenium.
-
-Na pasta exemplo_selenium_mult_linguagem, vamos comparar as linguagens fazendo um teste simples.
-
-### Vamos primeiro analisar a quantidade de caracteres sem os espaços:
-https://github.com/reinaldorossetti/udemy_my_course/blob/master/SELENIUM_MULT_LINGUAGEM_EXEMPLOS.md
-
+Informação úteis sobre o curso, tem bastante coisa no meu github, não ficou na Udemy porque não sou egoísta e sempre procuro compartilhar as coisas, o meu curso na udemy é de python 3 e Selenium com foco em resolver problemas.
 
 **Seção 2: HTML Básico** >> Aprender a estrutura básica de uma página HTML é necessário pra qualquer pessoa que está ingressando em um curso sobre Automação Web.<br>
 **Seção 3: Configurando o Ambiente** >> Aprendendo a configura e montar um ambiente de testes, como boa prática instalamos maquinas virtuais para trabalhar com automação.<br>
@@ -23,6 +17,13 @@ https://github.com/reinaldorossetti/udemy_my_course/blob/master/SELENIUM_MULT_LI
 **Seção 15: Considerações Finais** >> Código fonte do nosso projeto.<br>
 **Seção 16: News (Novidades)** >> Seção que vai falar sobre novidades no mundo de testes.<br>
 **Seção 17: Desafios de Automação** >> É no final temos o nosso desafio, quem resolver, por favor me mande o github, e terá várias indicações minhas pra vagas.<br>
+
+
+Na pasta exemplo_selenium_mult_linguagem, vamos comparar as linguagens fazendo um teste simples em python e comparando com as outras linguagens, não vamos ficar ofendido a respeito disso por favor!
+
+### Vamos primeiro analisar a quantidade de caracteres sem os espaços:
+https://github.com/reinaldorossetti/udemy_my_course/blob/master/SELENIUM_MULT_LINGUAGEM_EXEMPLOS.md
+
 
 # Realizando a instalação do Selenium Webdriver
 
