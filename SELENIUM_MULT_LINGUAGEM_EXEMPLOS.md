@@ -102,7 +102,7 @@ Pontos pra Python:
 - Indentação de Código, não precisa colocar end e {} em java pra iniciar e terminar um bloco de código.
 - Python tudo é objeto internamente, ou seja na linguagem não precisa colocar new object/get/set do java.
 
-** Observação não estou falando mal de Java e C#, só estou mostrando as facilidades das linguagens que tem a concepção ágil, em testes isso vai facilitar a sua vida! A demanda de testes é muito grande e quanto mais facilidades melhor é pra você.
+**Observação não estou falando mal de Java e C#, só estou mostrando as facilidades das linguagens que tem a concepção ágil, em testes isso vai facilitar a sua vida! A demanda de testes é muito grande e quanto mais facilidades melhor é pra você.
 
 Segue exemplo de dois principais frameworks em Ruby:<br>
 https://github.com/reinaldorossetti/capybara_tips<br>
