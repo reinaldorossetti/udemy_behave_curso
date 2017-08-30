@@ -103,7 +103,7 @@ Pontos pra Python:
 - Python tudo é objeto internamente, ou seja na linguagem não precisa colocar new object/get/set do java.
 
 Pontos do Ruby:
-- Você consegue manda vários comandos em uma linha;
+- Você consegue mandar vários comandos em uma linha;
 - Possui frameworks maduros baseados no Selenium WebDriver;
 
 **Observação não estou falando mal de Java e C#, só estou mostrando as facilidades das linguagens que tem a concepção ágil, em testes isso vai facilitar a sua vida! A demanda de testes é muito grande e quanto mais facilidades melhor é pra você.
