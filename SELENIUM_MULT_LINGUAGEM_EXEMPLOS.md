@@ -94,7 +94,7 @@ Em empresa que tem fábrica de automação de testes, ou seja dão manutenção 
 
 Analisando Ruby e Python tem os mesmos conceitos ágil, a sintax é muito similar em alguns pontos, o que gosto muito de python é que a linguagem segue uma filosofia bem definida, no entanto em ruby tem uma quantidade de frameworks bem mais maduros como capybara e watir que não tem para python até o momento.
 
-Para quem está començando a mexer e não domina a linguagem um framework é uma mão na roda, mas pra quem domina a linguagem sabe que um framework somente abstrai os métodos para o usuário, e deixa eles de forma fácil de mexer, em alguns pontos pode ser ruim por não ser flexível, pois o mesmo segue um conjunto de regras. No entanto no dia a dia quanto você tem um quantidade de testes gigantes um framework ajuda muito.
+Para quem está començando a mexer e não domina a linguagem um framework é uma mão na roda, mas pra quem domina a linguagem sabe que um framework somente abstrai os métodos para o usuário, e deixa eles de forma fácil de mexer, em alguns pontos pode ser ruim por não ser flexível, pois o mesmo segue um conjunto de regras. No entanto no dia a dia quanto você tem um quantidade de testes gigantes um framework ajuda muito, pois ainda diminui muito a quantidade de caracteres que analisamos acima, esse é um exemplo simples em um projeto gigante é muita diferença pra linguagens que tem o conceito ágil.
 
 Segue exemplo de dois principais framework em Ruby:
 https://github.com/reinaldorossetti/capybara_tips
