@@ -104,7 +104,7 @@ Pontos pra Python:
 
 **Observação não estou falando mal de Java e C#, só estou mostrando as facilidades das linguagens que tem a concepção ágil, em testes isso vai facilitar a sua vida! A demanda de testes é muito grande e quanto mais facilidades melhor é pra você.
 
-Segue exemplo de dois principais frameworks em Ruby:<br>
+Segue abaixo os dois principais frameworks em Ruby:<br>
 https://github.com/reinaldorossetti/capybara_tips<br>
 https://github.com/reinaldorossetti/watir_tips<br>
 
