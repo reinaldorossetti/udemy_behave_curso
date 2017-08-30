@@ -98,11 +98,11 @@ Para quem está començando a mexer e não domina a linguagem um framework é um
 
 Pontos pra Python:
 - Possui Herança Multipla por padrão;
-- Possui List Comprehensions, o seja em uma lista você consegue fazer muita coisa;
+- Possui List Comprehensions, o seja em uma linha você consegue fazer muita coisa;
 - Indentação de Código, não precisa colocar end e {} em java pra iniciar e terminar um bloco de código.
 - Python tudo é objeto internamente, ou seja na linguagem não precisa colocar new object/get/set do java.
 
-** Observação não estou falando mal de Java e C#, só estou mostrando as facilidades das linguagens que tem a concepção ágil, em testes isso vai facilitar a sua vida! A demanda de testes é muito grande e quando mais facilidades melhor é pra você.
+** Observação não estou falando mal de Java e C#, só estou mostrando as facilidades das linguagens que tem a concepção ágil, em testes isso vai facilitar a sua vida! A demanda de testes é muito grande e quanto mais facilidades melhor é pra você.
 
 Segue exemplo de dois principais frameworks em Ruby:
 https://github.com/reinaldorossetti/capybara_tips
