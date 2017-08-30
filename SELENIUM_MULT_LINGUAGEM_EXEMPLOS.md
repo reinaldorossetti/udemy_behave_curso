@@ -141,7 +141,7 @@ System.out.println(options);
   
   puts select_list_text(ELEM_SELECT)
 ```
-**Sem dúvida em ruby com Watir é muito mais simples fazer, sem contar que a função está esperando o combobox ter valores, ou seja espera espera o options.length > 0 ser igual a true por 30 segundos.
+**Sem dúvida em ruby com Watir é muito mais simples fazer, sem contar que a função está esperando o combobox ter valores, ou seja espera espera o options.length > 0 ser igual a true, por 30 segundos.
 
 Segue abaixo os dois principais frameworks em Ruby:<br>
 https://github.com/reinaldorossetti/capybara_tips<br>
