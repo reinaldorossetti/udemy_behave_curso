@@ -109,7 +109,7 @@ Pontos do Ruby:
 **Observação não estou falando mal de Java e C#, só estou mostrando as facilidades das linguagens que tem a concepção ágil, em testes isso vai facilitar a sua vida! A demanda de testes é muito grande e quanto mais facilidades melhor é pra você.
 
 
-**Vamos comparar com o selenium em java:
+**Vamos comparar com o selenium em java:**
 
 ``` Java
  @FindBy(id = "id_time_zone")
@@ -130,7 +130,7 @@ System.out.println(options);
 
 ```
 
-**Em Watir a mesma coisa:
+**Em Watir a mesma coisa:**
 ``` Ruby
   ELEM_SELECT = {id: "id_time_zone"}
   
