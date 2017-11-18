@@ -236,7 +236,9 @@ from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Chrome()
 driver.get("https://github.com/")
-driver.implicitly_wait(15)  # nesse caso nao eh mais necessario, somente temos um elemento e a explicita vai esperar.
+
+# Nesse caso nao eh mais necessario a espera Implicita, somente temos um elemento e a explicita vai esperar.
+# driver.implicitly_wait(15)
 
 # dando um click no sign in no github.
 sign_in = (By.CSS_SELECTOR, '.text-bold.text-white.no-underline')
@@ -255,6 +257,7 @@ find(driver, password).send_keys("1234")
 find(driver, password).send_keys(Keys.ENTER) # simulando um enter via keyboard.
 ```
 
+** O uso da espera implicita junto com a Explícita, geralmente você usa uma ou outra, se usar as duas, vai gerar um delay a mais desnecessário, a não ser no caso de uma espera alta esperada de determinado elemento.
 
 Vamos discutir tudo isso no curso e mais coisas, como a estrutura do nosso projeto, pensa que essa função find eu vou utilizar em N testes e eu não preciso repetir ela N vezes, devemos criar uma classe chamada BasePage que vai conter todas as funções genéricas do nosso projeto. <br>
 Em muitos projetos que vejo por aí o pessoal utiliza mal o selenium, chamando as mesmas coisas várias vezes e torna o projeto um mostrinho e depois diz que o problema é o framework que não funciona, isso vai depender do seu domínio do framework e sobre a estrutura que vai usar no projeto.
