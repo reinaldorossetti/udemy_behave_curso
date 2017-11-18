@@ -182,6 +182,9 @@ driver.find_element(css, sign_in).click()
 
 ```
 
+** A espera implicita só precisa ser aplicado uma vez, ela cria um delay no poll do driver internamente, uma vez aplicando ela agi sobre todos os find_element, não precisando fazer uma espera explicita depois, somente aplicando ela já funcionaria.
+
+
 Agora vamos falar de outro tipo de espera, a espera explícita, resumindo a espera explícita devemos especificar qual elemento devemos  esperar, na espera implícita ele espera todos os elementos, ele não espera um elemento específico, o que torna a espera explícita melhor por ser mais rápida. Geralmente eu coloco a espera implícita 15 segundos pra carregar a url e todos os elementos no inicio depois de dar o get pra carregar a url, mas somente uso uma vez. 
 <b>
 1. O primeiro passo que devemos fazer é importar as bibliotecas que vão realizar a espera explícita.
@@ -221,6 +224,37 @@ def find(driver, selector, delay=30):
 
 find(driver, sign_in).click()
 ```
+
+Na procura do elemento podemos trabalhar com a classe By, dessa forma o tipo do elemento "css selector" que passamos na função find, ficaria mais simples e genérica, como no exemplo abaixo:
+
+```python
+from selenium import webdriver
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Chrome()
+driver.get("https://github.com/")
+driver.implicitly_wait(15)  # nesse caso nao eh mais necessario, somente temos um elemento e a explicita vai esperar.
+
+# dando um click no sign in no github.
+sign_in = (By.CSS_SELECTOR, '.text-bold.text-white.no-underline')
+user = (By.ID, 'login_field')
+password = (By.ID, 'password')
+submit = (By.NAME, 'commit')
+
+
+def find(driver, *selector, delay=30):
+    return WebDriverWait(driver, delay).until(expected_conditions.visibility_of_element_located(*selector))
+
+
+find(driver, sign_in).click()
+find(driver, user).send_keys("rei@gmail.com")
+find(driver, password).send_keys("1234")
+find(driver, password).send_keys(Keys.ENTER) # simulando um enter via keyboard.
+```
+
 
 Vamos discutir tudo isso no curso e mais coisas, como a estrutura do nosso projeto, pensa que essa função find eu vou utilizar em N testes e eu não preciso repetir ela N vezes, devemos criar uma classe chamada BasePage que vai conter todas as funções genéricas do nosso projeto. <br>
 Em muitos projetos que vejo por aí o pessoal utiliza mal o selenium, chamando as mesmas coisas várias vezes e torna o projeto um mostrinho e depois diz que o problema é o framework que não funciona, isso vai depender do seu domínio do framework e sobre a estrutura que vai usar no projeto.
