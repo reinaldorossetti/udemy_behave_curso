@@ -26,3 +26,10 @@ for index, cor in enumerate(cores):
 dicionario = {1:"amarelo",2:"azul", 3:"preto", 4:"vermelho"}
 for key, valor in enumerate(cores):
     print("chave:{} valor:{}".format(key, valor))
+
+# podemos usar para listar um lista de lista em python.
+list_of_lists = [ [1, 2, 3], [4, 5, 6], [7, 8, 9]]
+for list in list_of_lists: # lista o primeiro nivel, ou seja uma lista inteira.
+    print(list)
+    for x in list: # lista os itens dentro da lista.
+        print(x)
