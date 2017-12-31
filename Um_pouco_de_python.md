@@ -117,5 +117,28 @@ for numero in numeros:
 cores = ["amarelo", "azul", "preto", "vermelho"]
 for index, cor in enumerate(cores):
     print("index:{} cor:{}".format(index,cor))
+
+# podemos usar para listar um dicionario em python.
+dicionario = {1:"amarelo",2:"azul", 3:"preto", 4:"vermelho"}
+for key, valor in enumerate(cores):
+    print("chave:{} valor:{}".format(key, valor))
+
+# podemos usar para listar um lista de lista em python.
+list_of_lists = [ [1, 2, 3], [4, 5, 6], [7, 8, 9]]
+for list in list_of_lists: # lista o primeiro nivel, ou seja uma lista inteira.
+    print(list)
+    for x in list: # lista os itens dentro da lista.
+        print(x)
+
+# função que tem uma estrutura de repetição com while
+# while vai iterar até a condição escrita(start <= end) ser positivo.
+def my_range(start, end, step):
+    while start <= end: # faz o loop ateh o valor ser positivo, ou se seja "start <= end" condição encontrada.
+        yield start # yield é um gerador, vai sempre armazenar o ultimo valor e envia para o for.
+        start += step # += inclementa o valor, ou seja vai somar o valor de step, igual a "start=start+step".
+
+# podemos usar com uma função.
+for x in my_range(1, 5, 0.5):
+    print(x)
  ```
 

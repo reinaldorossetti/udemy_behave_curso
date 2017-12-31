@@ -33,3 +33,14 @@ for list in list_of_lists: # lista o primeiro nivel, ou seja uma lista inteira.
     print(list)
     for x in list: # lista os itens dentro da lista.
         print(x)
+
+# função que tem uma estrutura de repetição com while
+# while vai iterar até a condição escrita(start <= end) ser positivo.
+def my_range(start, end, step):
+    while start <= end: # faz o loop ateh o valor ser positivo, ou se seja "start <= end" condição encontrada.
+        yield start # yield é um gerador, vai sempre armazenar o ultimo valor e envia para o for.
+        start += step # += inclementa o valor, ou seja vai somar o valor de step, igual a "start=start+step".
+
+# podemos usar com uma função.
+for x in my_range(1, 5, 0.5):
+    print(x)
