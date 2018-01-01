@@ -137,7 +137,7 @@ def my_range(start, end, step):
         yield start # yield é um gerador, vai sempre armazenar o ultimo valor e envia para o for.
         start += step # += inclementa o valor, ou seja vai somar o valor de step, igual a "start=start+step".
 
-# podemos usar com uma função.
+# podemos usar o 'for' com uma função, que contém uma outra estrutura de repetição.
 for x in my_range(1, 5, 0.5):
     print(x)
  ```
