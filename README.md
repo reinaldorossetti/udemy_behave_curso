@@ -238,7 +238,7 @@ driver = webdriver.Chrome()
 driver.get("https://github.com/")
 
 # Nesse caso nao eh mais necessario a espera Implicita, somente temos um elemento e a explicita vai esperar.
-# driver.implicitly_wait(15)
+# driver.implicitly_wait(3)
 
 # dando um click no sign in no github.
 sign_in = (By.CSS_SELECTOR, '.text-bold.text-white.no-underline')
