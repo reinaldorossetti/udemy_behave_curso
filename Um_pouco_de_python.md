@@ -89,3 +89,11 @@ not # Operador lógico que representa a negação (inverso) da variável atual. 
 and # Operador lógico onde a resposta da operação é verdade se ambas as variáveis de entrada forem verdade.
 or  # Operador lógico onde a resposta da operação é verdade se e somente se pelo menos uma das variáveis de entrada for verdade.
 ```
+
+## Loops em Pyhton
+Para Repetições/Loops, são usados tradicionalmente quando você tem um bloco de código que você deseja repetir, ou seja você repeti um número fixo de vezes. O Python para declaração "for" itera sobre os membros de uma seqüência em ordem, executando o bloco a cada vez. 
+```python
+for x in range(0, 3): # Inicia em zero e para em 3.
+    print("Quantidade de Loops:{}".format(x)) # vai imprimir o a mensagem três vezes.
+ ```
+
