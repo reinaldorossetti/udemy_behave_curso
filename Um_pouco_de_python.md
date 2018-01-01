@@ -103,7 +103,7 @@ palavra = "curso de selenium"
 for x in palavra:
     print(x) # vai imprimir letra por letra da nossa palavra.
 
-# podemos usar um matriz/array para iterar um lista de numero ou palavras.
+# podemos usar um matriz/array para iterar em uma lista de numeros ou palavras.
 cores = ["amarelo", "azul", "preto", "vermelho"]
 for cor in cores:
     print(cor)
