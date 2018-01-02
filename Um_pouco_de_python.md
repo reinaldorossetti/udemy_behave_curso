@@ -141,4 +141,7 @@ def my_range(start, end, step):
 for x in my_range(1, 5, 0.5):
     print(x)
  ```
+ 
+ Código fonte dos exemplos acima:<br>
+ https://github.com/reinaldorossetti/udemy_my_course/blob/master/python_basico/loops_em_python.py
 
