@@ -19,11 +19,14 @@ element = driver.find_element_by_id("lst-ib")
 
 # somente pra saber se enviou.
 print(element.get_attribute('value'))
-print(element.text)
 
 # dar o clique via teclado no mesmo elemento, no google fazendo isso jah faz a pesquisa.
 element.send_keys(Keys.ENTER)
 driver.save_screenshot("teste_com_sucesso_imagem.png")
+
+# validar se realizou o teste com sucesso.
+html = driver.page_source
+assert "reinaldorossetti.blogspot.com" in html
 
 # pedir pro browser sair.
 driver.quit()
