@@ -27,6 +27,7 @@ print(element.get_attribute('value'))
 element02 = driver.find_element_by_name("btnK")
 element02.click()
 
+# realiza o print da tela como evidencia.
 driver.save_screenshot("teste_com_sucesso_imagem.png")
 
 # verifica se realizou o teste com sucesso.
