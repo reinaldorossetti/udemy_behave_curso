@@ -7,7 +7,7 @@ referencia: http://localhost:8083/html/login.htm
 """
 
 driver = webdriver.Chrome()
-# em caso de falha por não localizar o elemente, descomente a linha abaixo.
+# em caso de falha por não localizar o elemento, descomente a linha abaixo.
 # driver.implicitly_wait(30)
 
 NOME = (By.ID, "name123")
