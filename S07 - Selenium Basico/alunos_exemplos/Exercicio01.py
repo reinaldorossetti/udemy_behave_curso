@@ -20,13 +20,14 @@ element = driver.find_element_by_id("lst-ib")
 # somente pra saber se enviou.
 print(element.get_attribute('value'))
 
-# dar o clique via teclado no mesmo elemento, no google fazendo isso jah faz a pesquisa.
+# Exemplo dando o clique via teclado no mesmo elemento, no google fazendo isso jah faz a pesquisa.
 # element.send_keys(Keys.ENTER)
 
-# dessa forma voce faz direto via o nome do elemento.
+# dessa forma voce faz direto via o nome do elemento, sem precisar colocar o input[name=btnK].
 element02 = driver.find_element_by_name("btnK")
 element02.click()
 
+# realiza o print da tela como evidencia.
 driver.save_screenshot("teste_com_sucesso_imagem.png")
 
 # verifica se realizou o teste com sucesso.
