@@ -9,7 +9,7 @@ referencia: http://localhost:8083/html/login.htm
 driver = webdriver.Chrome()
 
 driver.get("http://localhost:8083/html/login.html")
-# em caso de falha por não localizar o elemente, descomente a linha abaixo.
+# em caso de falha por não localizar o elemento, descomente a linha abaixo.
 # driver.implicitly_wait(30)
 
 elem = driver.find_element_by_id("name123")
