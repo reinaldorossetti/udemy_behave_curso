@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>CPF página de testes</title>
+    <script type="text/javascript" src="jquery-1.2.6.pack.js"></script>
+    <script type="text/javascript" src="jquery.maskedinput-1.1.4.pack.js"/></script>
+    <script type="text/javascript">
+    $(document).ready(function(){$("#cpf").mask("999.999.999-99");});
+    </script>
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<form name="form" method="post" action=""><br>
+    <div class="style">
+        Name: <input type="text" id="full_name" value="" ><br>
+        CPF: <input type="text" name="cpf" id="cpf" value="" ><br>
+    </div><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

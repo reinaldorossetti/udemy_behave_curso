@@ -208,3 +208,457 @@ Full stack:
 1503277047077	Marionette	INFO	Listening on port 4398
 1503277047355	Marionette	WARN	TLS certificate errors will be ignored for this session
 1503277050692	Marionette	INFO	New connections will no longer be accepted
+1517015430692	geckodriver	INFO	geckodriver 0.19.1
+1517015430755	geckodriver	INFO	Listening on 127.0.0.1:64957
+1517015432968	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\reiload\\AppData\\Local\\Temp\\rust_mozprofile.wglSQgxE0z67"
+1517015434184	Marionette	INFO	Enabled via --marionette
+1517015436306	Marionette	INFO	Listening on port 64969
+1517015436445	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://www.delboniauriemo.com.br/js/vendor/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517046932231	geckodriver	INFO	geckodriver 0.18.0
+1517046932289	geckodriver	INFO	Listening on 127.0.0.1:3027
+1517046935518	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1517046937470	Marionette	INFO	Enabled via --marionette
+1517046940877	Marionette	INFO	Listening on port 3068
+1517046941544	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://www.delboniauriemo.com.br/js/vendor/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.delboniauriemo.com.br/js/vendor/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9292, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9292, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517048797435	geckodriver	INFO	geckodriver 0.18.0
+1517048797497	geckodriver	INFO	Listening on 127.0.0.1:15408
+1517048800622	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1517048802137	Marionette	INFO	Enabled via --marionette
+1517048803835	Marionette	INFO	Listening on port 15451
+1517048804236	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://www.delboniauriemo.com.br/js/vendor/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/widgets/tooltip/HTMLTooltip.js, line 528: TypeError: node.ownerDocument is null
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html?code=428100048169&password=, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/16.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/mediaelement-yt.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/track-ui.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica_arquivos/jquery-1.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html, line 2514: SyntaxError: unterminated string literal
+JavaScript error: file:///D:/Documents/Delboni%20Auriemo%20Medicina%20Diagn%C3%B3stica.html, line 2573: SyntaxError: unterminated regular expression literal
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 32: Error: 2147500034
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+[Child 12436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517057814391	geckodriver	INFO	geckodriver 0.18.0
+1517057814454	geckodriver	INFO	Listening on 127.0.0.1:12253
+1517057817589	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1517057818737	Marionette	INFO	Enabled via --marionette
+1517057820476	Marionette	INFO	Listening on port 12283
+1517057821028	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://www.delboniauriemo.com.br/js/vendor/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 10320, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 13996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+PC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 326: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+[Parent 7868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/Unable to read VR Path Registry from C:\Users\reiload\App
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517058204747	geckodriver	INFO	geckodriver 0.18.0
+1517058204809	geckodriver	INFO	Listening on 127.0.0.1:14739
+1517058207953	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1517058209043	Marionette	INFO	Enabled via --marionette
+1517058210631	Marionette	INFO	Listening on port 14760
+1517058211374	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://www.delboniauriemo.com.br/js/vendor/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1517058314247	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6268, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 15848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Child 5716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11532, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+[Parent 4712, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 14608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+1517058615340	geckodriver	INFO	geckodriver 0.18.0
+1517058615403	geckodriver	INFO	Listening on 127.0.0.1:17972
+1517058618538	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1517058619878	Marionette	INFO	Enabled via --marionette
+1517058621705	Marionette	INFO	Listening on port 18008
+1517058622139	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://www.delboniauriemo.com.br/js/vendor/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 17048, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 17048, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517058682922	geckodriver	INFO	geckodriver 0.18.0
+1517058682968	geckodriver	INFO	Listening on 127.0.0.1:18565
+1517058686109	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1517058687509	Marionette	INFO	Enabled via --marionette
+1517058689350	Marionette	INFO	Listening on port 18591
+1517058689754	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://www.delboniauriemo.com.br/js/vendor/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1517058812074	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 16224, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16224, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 11416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+arent 10860, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
