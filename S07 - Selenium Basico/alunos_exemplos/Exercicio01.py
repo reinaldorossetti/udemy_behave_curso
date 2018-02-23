@@ -4,11 +4,12 @@ from selenium.webdriver.common.keys import Keys
 Vamos levantar um http server com o comando abaixo:
 python -m http.server --bind 127.0.0.1 8083
 referencia: http://localhost:8083/html/login.htm
+# selenium usado: 3.9.0
 """
 
 driver = webdriver.Chrome()
 
-driver.get("http://www.google.com.br")
+driver.get("https://www.google.com.br")
 # como vc tem id no elemento, sempre dar prioridade por id que eh mais rápido e seguro.
 element = driver.find_element_by_id("lst-ib")
 # faz a ação
