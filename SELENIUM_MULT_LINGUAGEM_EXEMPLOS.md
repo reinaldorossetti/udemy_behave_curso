@@ -1,5 +1,7 @@
 Na pasta exemplo_selenium_mult_linguagem, vamos comparar as linguagens fazendo um teste simples.
 
+https://github.com/reinaldorossetti/udemy_my_course/tree/master/exemplo_selenium_mult_linguagem
+
 ### Vamos primeiro analisar a quantidade de caracteres sem os espaços:
 <br>Java > 467 caracteres.
 <br>C# > 387 caracteres.
