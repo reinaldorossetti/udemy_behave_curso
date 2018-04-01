@@ -18,6 +18,7 @@ Agora somente dar o clique em "Install" e depois que instalar é sempre bom rein
 
 > Para saber que estar instalado abra o prompt do windows ou shell e digite o comando python.
 
+[Instalado](https://udemy-images.s3.amazonaws.com/redactor/raw/2017-09-09_17-34-27-8956c704d79af560e9cc531553780796.PNG)
 
 
 ### Passo 02:
