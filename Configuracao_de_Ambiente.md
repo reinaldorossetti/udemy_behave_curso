@@ -63,19 +63,6 @@ Download das maquinas virtuais:
 https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
 
 
-
-Python Links:
-
-Windows: https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe
-
-Mac: https://www.python.org/ftp/python/3.5.2/python-3.5.2-macosx10.5.pkg
-
-Linux Shell:
-
-sudo apt-get update
-sudo apt-get install python3=3.5.2*
-
-
 Na dificuldade de instalar o Selenium,  podemos baixar direto do site:
 
 https://pypi.python.org/packages/c9/7f/5741fd1360176c12732e501d697c093d5d2702f3e35b6c3e23ff9c530a57/selenium-3.3.1-py2.py3-none-any.whl#md5=ee834757b54e4cc73fd885d6248dea6e
