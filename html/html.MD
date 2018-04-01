@@ -58,7 +58,7 @@ O Body contém todo conteúdo texto e multimidia da página, também o javascrip
 <br/>
 Nesse exemplo fizemos uma requisição local, via o nosso http server local, para isso enviamos o comando abaixo, devemos fazer primeiro a instalação do python para reproduzir o exemplo, não se incomode que iremos fazer isso nas próximas aulas.<br/>
 
-1. python -m http.server --bind 127.0.0.1 8083  
+1. Criar o servidor local: python -m http.server --bind 127.0.0.1 8083  
 2. Copiar o código acima para dentro de um arquivo texto e salvar como .html, dentro da pasta do nosso servidor local.  
 3. No código fonte acima fizemos um alert ou seja popup que vai disparar o nosso clique no elemento, tudo isso via javascript.  
 4. Após dispara o elemento ele vai realizar um GET no servidor, ou seja envia os dados para o Servidor.  
