@@ -29,7 +29,7 @@ Instalar o Selenium WebDriver, basta abrir o Prompt ou Shell do linux e enviar o
 > pip install selenium  
 
 Devemos também instalar a Biblioteca do Behave(BDD pra Python):  
-[CMD 02](https://udemy-images.s3.amazonaws.com/redactor/raw/2017-09-09_17-34-27-8956c704d79af560e9cc531553780796.PNG)
+![CMD 02](https://udemy-images.s3.amazonaws.com/redactor/raw/2017-09-09_17-34-27-8956c704d79af560e9cc531553780796.PNG)
 
 
 ** Se não tiver permissão de administrador (PermissionError), pode ser que der erro ou não dependendo do seu nível de permissão, pra instalar as ferramentas tem que ter permissão de admin.  
