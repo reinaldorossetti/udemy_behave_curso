@@ -43,9 +43,9 @@ https://github.com/reinaldorossetti/udemy_my_course/blob/master/html/html-estrut
 
 3. O conteúdo da página HTML é dividido entre o head e o body, O Head geralmente falamos que o cabeçalho da página contém o título da página, folhas de estilos (formatação via css), entre outras informações sobre a página.
 O Body contém todo conteúdo texto e multimidia da página, também o javascript ou jquery que são adicionados ao conteúdo.
+<br/>
 
-
-**Elementos Web Usados nesse exemplo:**
+### **Elementos Web Usados nesse exemplo:**
 
 **title** - Define um título para o documento.  
 **style** - Define informações de estilo para um documento.  
