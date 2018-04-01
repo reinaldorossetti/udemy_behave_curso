@@ -63,5 +63,14 @@ Nesse exemplo fizemos uma requisição local, via o nosso http server local, par
 3. No código fonte acima fizemos um alert ou seja popup que vai disparar o nosso clique no elemento, tudo isso via javascript.  
 4. Após dispara o elemento ele vai realizar um GET no servidor, ou seja envia os dados para o Servidor.  
 
-<br/>
-https://github.com/reinaldorossetti/udemy_my_course/blob/master/Configuracao_de_Ambiente.md
+
+Python Links:
+
+Windows: https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe
+
+Mac: https://www.python.org/ftp/python/3.5.2/python-3.5.2-macosx10.5.pkg
+
+Linux Shell:
+```shell
+sudo apt-get update sudo apt-get install python3=3.5.2*
+```
