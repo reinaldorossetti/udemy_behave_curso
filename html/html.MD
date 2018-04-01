@@ -63,7 +63,7 @@ Nesse exemplo fizemos uma requisição local, via o nosso http server local, par
 3. No código fonte acima fizemos um alert ou seja popup que vai disparar o nosso clique no elemento, tudo isso via javascript.  
 4. Após dispara o elemento ele vai realizar um GET no servidor, ou seja envia os dados para o Servidor.  
 
-
+<br/><br/>
 Python Links:
 
 Windows: https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe
