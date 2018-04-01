@@ -47,7 +47,7 @@ O Body contém todo conteúdo texto e multimidia da página, também o javascrip
 
 **Elementos Web Usados nesse exemplo:**
 
-**title** - Define um título para o documento.
+**title** - Define um título para o documento.<Enter>
 **style** - Define informações de estilo para um documento.
 **div** - Define uma seção no documento, podemos dizer que define um bloco de elementos html. Geralmente muito usados para separar os componentes HTML que vemos na Página. 
 **p** - Define um parágrafo, ou seja um bloco de texto.
