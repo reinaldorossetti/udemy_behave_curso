@@ -3,8 +3,8 @@ Instalação Local, não usando a maquina virtual:
 ### Passo 01:
 Instalar o Python e deve adicionar o mesmo no path do windows/linux, deve baixar e instalar o Python, no final desse link tem o caminho do python para baixar;
 
-Link: https://www.python.org/downloads/release/python-354/
-Windows: https://www.python.org/ftp/python/3.5.4/python-3.5.4.exe
+Link: https://www.python.org/downloads/release/python-354/  
+Windows: https://www.python.org/ftp/python/3.5.4/python-3.5.4.exe  
 
 Primeiro Selecione Instalação Customizada:
 ![Passo 01](https://udemy-images.s3.amazonaws.com/redactor/raw/2017-09-09_17-22-33-8c9f2cea6c073fc7ddab859c6727d76f.PNG)
