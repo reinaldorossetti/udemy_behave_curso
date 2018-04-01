@@ -12,7 +12,6 @@ https://github.com/reinaldorossetti/udemy_my_course/blob/master/html/html-estrut
 <html>
     <head>
         <title></title>
-
         <style>
             body {background-color: powderblue;}
             h1   {color: blue;}
@@ -37,5 +36,13 @@ https://github.com/reinaldorossetti/udemy_my_course/blob/master/html/html-estrut
     </body>
 </html>
 ```
+
+1. A declaração <! DOCTYPE html> não é uma tag HTML. É uma instrução para o navegador web sobre a versão do HTML em que a página está escrita.
+
+2. Inicia com a tag <html> e fecha nosso código da página com a tag </html>, o Barra (caractere)  dentro de uma tag significa que você está fechando ela.
+
+3. O conteúdo da página HTML é dividido entre o head e o body, O Head geralmente falamos que o cabeçalho da página contém o titulo da página, folhas de estilos (formatação via css), entre outras informações sobre a página.
+O Body contém todo conteúdo texto e multimidia da página, também o javascript ou jquery que são adicionados ao conteúdo.
+
 
 Depois vou detalhar mais coisas...
