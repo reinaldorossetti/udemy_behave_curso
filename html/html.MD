@@ -56,7 +56,7 @@ O Body contém todo conteúdo texto e multimidia da página, também o javascrip
 **script** - Define um script do lado do cliente.  
 
 <br/>
-Nesse exemplo fizemos uma requisição local, via o nosso http server local, para isso enviamos o comando abaixo, devemos fazer primeiro a instalação do python para reproduzir o exemplo, não se incomode que iremos fazer isso nas próximas aulas.  
+Nesse exemplo fizemos uma requisição local, via o nosso http server local, para isso enviamos o comando abaixo, devemos fazer primeiro a instalação do python para reproduzir o exemplo, não se incomode que iremos fazer isso nas próximas aulas.<br/>
 
 1. python -m http.server --bind 127.0.0.1 8083  
 2. Copiar o código acima para dentro de um arquivo texto e salvar como .html, dentro da pasta do nosso servidor local.  
