@@ -41,8 +41,16 @@ https://github.com/reinaldorossetti/udemy_my_course/blob/master/html/html-estrut
 
 2. Inicia com a tag <html> e fecha nosso código da página com a tag </html>, o Barra (caractere)  dentro de uma tag significa que você está fechando ela.
 
-3. O conteúdo da página HTML é dividido entre o head e o body, O Head geralmente falamos que o cabeçalho da página contém o titulo da página, folhas de estilos (formatação via css), entre outras informações sobre a página.
+3. O conteúdo da página HTML é dividido entre o head e o body, O Head geralmente falamos que o cabeçalho da página contém o título da página, folhas de estilos (formatação via css), entre outras informações sobre a página.
 O Body contém todo conteúdo texto e multimidia da página, também o javascript ou jquery que são adicionados ao conteúdo.
 
 
-Depois vou detalhar mais coisas...
+**Elementos Web Usados nesse exemplo:**
+
+**title** - Define um título para o documento.
+**style** - Define informações de estilo para um documento.
+**div** - Define uma seção no documento, podemos dizer que define um bloco de elementos html. Geralmente muito usados para separar os componentes HTML que vemos na Página. 
+**p** - Define um parágrafo, ou seja um bloco de texto.
+**form** - Define um formulário HTML para entrada de dados para o usuário. Nele podemos fazer via método GET ou POST.
+**input** - Define um controle de entrada.
+**script** - Define um script do lado do cliente.
