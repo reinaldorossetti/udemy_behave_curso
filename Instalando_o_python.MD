@@ -36,3 +36,13 @@ Devemos também instalar a Biblioteca do Behave(BDD pra Python):
 ** Se não tiver permissão de administrador (PermissionError), pode ser que der erro ou não dependendo do seu nível de permissão, pra instalar as ferramentas tem que ter permissão de admin.  
 
 Solução: Abra o CMD/Prompt de comando como administrador. 
+
+<br/>
+Link do Python para Mac:
+
+https://www.python.org/ftp/python/3.5.2/python-3.5.2-macosx10.5.pkg
+
+No Linux podemos enviar o comando abaixo para o Shell, que vai realizar a instalação:
+```shell
+sudo apt-get update sudo apt-get install python3=3.5.2*
+```
