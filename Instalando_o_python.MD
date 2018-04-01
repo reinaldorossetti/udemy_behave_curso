@@ -8,9 +8,9 @@ Primeiro Selecione Instalação Customizada:
 ![Passo 01](https://udemy-images.s3.amazonaws.com/redactor/raw/2017-09-09_17-22-33-8c9f2cea6c073fc7ddab859c6727d76f.PNG)
 
 Após selecionar as opções, clique em Next.
-[https://udemy-images.s3.amazonaws.com/redactor/raw/2017-09-09_17-22-33-9d6071fbf363b287d9a6d97c40da364a.PNG]
+![Passo 02](https://udemy-images.s3.amazonaws.com/redactor/raw/2017-09-09_17-22-33-9d6071fbf363b287d9a6d97c40da364a.PNG)
 
-** Não esqueça de Selecionar a opção "Add Python to environment variables"
+**Não esqueça de Selecionar a opção "Add Python to environment variables"**
 
 Agora somente dar o clique em "Install" e depois que instalar é sempre bom reiniciar o windows.
 
