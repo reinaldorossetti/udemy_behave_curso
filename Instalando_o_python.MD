@@ -16,9 +16,11 @@ Após selecionar as opções, clique em Next.
 
 Agora somente dar o clique em "Install" e depois que instalar é sempre bom reiniciar o windows.
 
+> Para saber que estar instalado abra o prompt do windows ou shell e digite o comando python.
 
 
-### Passo2:
+
+### Passo 02:
 
 Instalar o Selenium WebDriver, basta abrir o Prompt ou Shell do linux e enviar o comando abaixo:  
   
