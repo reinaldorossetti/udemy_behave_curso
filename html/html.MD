@@ -60,11 +60,13 @@ Nesse exemplo fizemos uma requisição local, via o nosso http server local, par
 
 1. Criar o servidor local: <br/>
 ![http server](https://github.com/reinaldorossetti/udemy_my_course/blob/master/imagens/serverPython.png)
-> Criamos um folder via mkdir e depois entramos nele via cd udemy_curso. 
+> Criamos um folder via mkdir udemy_curso e depois entramos nele via cd udemy_curso. 
 > Depois digitamos o comando: ***python -m http.server --bind 127.0.0.1 8083***
 
 2. Copiar o código acima para dentro de um arquivo texto e salvar como .html, dentro da pasta do nosso servidor local.  
-3. No código fonte acima fizemos um alert ou seja popup que vai disparar o nosso clique no elemento, tudo isso via javascript.  
+3. No código fonte acima fizemos um alert ou seja popup que vai disparar o nosso clique no elemento, tudo isso via javascript. 
+> somente devemos entrar na pagina, somente copiar a url no browser: **http://localhost:8083/
+
 4. Após dispara o elemento ele vai realizar um GET no servidor, ou seja envia os dados para o Servidor.  
 
 Instalando o Python, siga o exemplo abaixo:
