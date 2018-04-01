@@ -11,7 +11,7 @@ https://github.com/reinaldorossetti/udemy_my_course/blob/master/html/html-estrut
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Primeiro Exemplo.</title>
         <style>
             body {background-color: powderblue;}
             h1   {color: blue;}
