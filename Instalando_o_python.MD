@@ -20,7 +20,10 @@ Agora somente dar o clique em "Install" e depois que instalar é sempre bom rein
 
 ![Instalado](https://udemy-images.s3.amazonaws.com/redactor/raw/2018-04-01_18-42-16-bd05ac9e066c128e45f8b7d3abd89854.png)
 
-
+Para sair do cosole digite o comando abaixo e der enter em seguida.
+```
+exit() 
+```
 ### Passo 02:
 
 Instalar o Selenium WebDriver, basta abrir o Prompt ou Shell do linux e enviar o comando abaixo:  
