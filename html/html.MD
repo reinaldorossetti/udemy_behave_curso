@@ -64,12 +64,10 @@ Nesse exemplo fizemos uma requisição local, via o nosso http server local, par
 > Depois digitamos o comando: ***python -m http.server --bind 127.0.0.1 8083***
 
 2. Copiar o código acima para dentro de um arquivo texto e salvar como .html, dentro da pasta do nosso servidor local.  
-3. No código fonte acima fizemos um alert ou seja popup que vai disparar o nosso clique no elemento, tudo isso via javascript. 
 > somente devemos entrar no browser, e copiar a url no browser: http://localhost:8083/
-<br/>
->> Para localizar o elemento usamos a DOM, o comando document.querySelector("CSS Selector do Elemento") em seguida o comando .click()
-https://www.w3schools.com/jsref/dom_obj_document.asp
-<br/>
+3. No código fonte acima fizemos um alert ou seja popup que vai disparar o nosso clique no elemento, tudo isso via javascript. 
+> Para localizar o elemento usamos a DOM, o comando document.querySelector("CSS Selector do Elemento") em seguida o comando .click()
+<br/>https://www.w3schools.com/jsref/dom_obj_document.asp
 4. Após dispara o elemento ele vai realizar um GET no servidor, ou seja envia os dados para o Servidor.  
 
 Instalando o Python, siga o exemplo abaixo:
