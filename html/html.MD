@@ -66,6 +66,7 @@ Nesse exemplo fizemos uma requisição local, via o nosso http server local, par
 2. Copiar o código acima para dentro de um arquivo texto e salvar como .html, dentro da pasta do nosso servidor local.  
 3. No código fonte acima fizemos um alert ou seja popup que vai disparar o nosso clique no elemento, tudo isso via javascript. 
 > somente devemos entrar no browser, e copiar a url no browser: http://localhost:8083/
+<br/>
 > Para localizar o elemento usamos a DOM, o comando document.querySelector("CSS Selector do Elemento") em seguida o comando .click()
 https://www.w3schools.com/jsref/dom_obj_document.asp
 
