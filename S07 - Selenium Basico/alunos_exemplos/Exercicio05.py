@@ -1,5 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Chrome()
 
@@ -19,9 +18,6 @@ element = driver.find_element_by_id("lst-ib")
 # somente pra saber se enviou.
 print(element.get_attribute('value'))
 
-# Exemplo dando o clique via teclado no mesmo elemento, no google fazendo isso jah faz a pesquisa.
-# element.send_keys(Keys.ENTER)
-
 # dessa forma voce faz direto via o nome do elemento, sem precisar colocar o input[name=btnK].
 element02 = driver.find_element_by_name("btnK")
 
@@ -34,4 +30,3 @@ assert "rgba(117, 117, 117, 1)" in color
 
 # pedir pro browser sair.
 driver.quit()
-
