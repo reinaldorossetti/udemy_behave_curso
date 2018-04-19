@@ -21,9 +21,10 @@ print(element.get_attribute('value'))
 # dessa forma voce faz direto via o nome do elemento, sem precisar colocar o input[name=btnK].
 element02 = driver.find_element_by_name("btnK")
 
+# pega a cor do elemento button.
 color = element02.value_of_css_property("color")
 
-print(color)
+print(color) # imprime somente pra ver.
 
 # verifica se realizou o teste com sucesso.
 assert "rgba(117, 117, 117, 1)" in color
