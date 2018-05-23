@@ -1,4 +1,4 @@
-** Instalando os Drivers via API ** - Segunda forma de instalar os drivers é usando uma API, ao invés de copiar os mesmos. Vamos lá então!
+**Instalando os Drivers via API** - Segunda forma de instalar os drivers é usando uma API, ao invés de copiar os mesmos. Vamos lá então!
 
 1. Primeiro Passo instalar o pacote abaixo no prompt/shell:
 ```
