@@ -15,19 +15,19 @@ class CadastrarConta(global_page.Global_Page,
 
     def test_cadastrar_user_facebook(self, dados_user):
         self.preencher_dados(dados_user['nome'], dados_user['sobrenome'], dados_user['email'],
-                                                                                     dados_user['novasenha'])
+                                                                                     dados_user['senha'])
         self.label_click(dados_user['sexo'])
         self.data_de_nascimento(dados_user['data_nascimento'])
-        self.find(self.SUBMIT).click()
         sleep(5) # somente para mostra os dados cadastrados.
+        self.find(self.SUBMIT).click()
         self.tearDown()
 
-    def preencher_dados(self, nome, sobrenome, email, novasenha):
+    def preencher_dados(self, nome, sobrenome, email, senha):
 
         self.find(self.NOME).send_keys(nome)
         self.find(self.LASTNAME).send_keys(sobrenome)
         self.find(self.EMAIL).send_keys(email)
-        self.find(self.PASS).send_keys(novasenha)
+        self.find(self.PASS).send_keys(senha)
         self.find(self.EMAIL_CONFIRM).send_keys(email)
 
     def label_click(self, sexo):
@@ -52,7 +52,7 @@ dados_user = {
     'sobrenome': "Mateus",
     'email': "reiload@gmail.com",
     'senha':"Rei12345",
-    'nascimento': "3/10/1980",
+    'data_nascimento': "3/10/1980",
     'sexo': "Masculino"
 }
 test.test_cadastrar_user_facebook(dados_user)
