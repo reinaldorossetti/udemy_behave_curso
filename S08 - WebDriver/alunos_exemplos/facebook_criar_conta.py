@@ -40,7 +40,6 @@ class CadastrarConta(global_page.Global_Page,
 
 # faz a chamada de uma classe principal ou do step definition do behave.
 driver = webdriver.Firefox()
-driver.implicitly_wait(2)
 driver.get("https://www.facebook.com/")
 test = CadastrarConta(driver)
 dados_user = {
