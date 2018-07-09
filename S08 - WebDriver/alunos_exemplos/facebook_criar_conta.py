@@ -5,8 +5,7 @@ from time import sleep
 import elements.elements_page_cadastro_de_conta
 import global_page
 
-# Pagina de Cadastro de Conta.
-
+# Pagina de Cadastro de novo usuario no facebbok.
 class CadastrarConta(global_page.Global_Page,
                      elements.elements_page_cadastro_de_conta.CadastrarContaElements):
 
@@ -39,9 +38,7 @@ class CadastrarConta(global_page.Global_Page,
         Select(self.find(self.MES)).select_by_value(str(mes))
         Select(self.find(self.ANO)).select_by_value(str(ano))
 
-
 # faz a chamada de uma classe principal ou do step definition do behave.
-
 driver = webdriver.Firefox()
 driver.implicitly_wait(30)
 driver.get("https://www.facebook.com/")
@@ -55,5 +52,3 @@ dados_user = {
     'sexo': "Masculino"
 }
 test.test_cadastrar_user_facebook(dados_user)
-
-
