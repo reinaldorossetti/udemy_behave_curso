@@ -23,7 +23,6 @@ class CadastrarConta(global_page.Global_Page,
         self.tearDown()
 
     def preencher_dados(self, nome, sobrenome, email, senha):
-
         self.find(self.NOME).send_keys(nome)
         self.find(self.LASTNAME).send_keys(sobrenome)
         self.find(self.EMAIL).send_keys(email)
