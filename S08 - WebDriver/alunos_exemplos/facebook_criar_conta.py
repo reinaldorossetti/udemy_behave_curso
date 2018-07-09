@@ -2,13 +2,11 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from time import sleep
-import elements.elements_page_cadastro_de_conta # importando os elementos usados.
-import global_page
+from elements.elements_page_cadastro_de_conta import CadastrarContaElements
+from global_page import Global_Page
 
 # Pagina de Cadastro de novo usuario no facebbok.
-# Para herdar outra classe basta passar a mesma no cabeçalho da class.
-class CadastrarConta(global_page.Global_Page,
-                     elements.elements_page_cadastro_de_conta.CadastrarContaElements):
+class CadastrarConta(Global_Page, CadastrarContaElements):
 
     def __init__(self, driver):
         self.driver = driver
