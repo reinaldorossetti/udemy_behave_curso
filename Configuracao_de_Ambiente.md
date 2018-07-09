@@ -1,23 +1,5 @@
 O Download e a configuração das ferramentas são de suma importância para você seguir no curso, a configuração dos Drivers são necessários pra rodar os testes no browser, sem isso você não vai conseguir seguir em frente.
 
-Devemos baixar a versão do driver compatível com o selenium 2.53.6 que estamos usando no curso. No entanto você pode usar versão mais nova do driver com o selenium 3.4.x junto com as versões mais novas de browser (muitas pessoas estão errando ao configurar as versões corretas, entenda que uma versão do driver roda em versão específica de browser,  ou seja não vai rodar em qualquer versão).
-
-Drivers links:
-
-Geckodriver Releases: 
-
-https://github.com/mozilla/geckodriver/releases
-
-IE Driver: 
-
-https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
-
-Chrome Driver: 
-
-https://sites.google.com/a/chromium.org/chromedriver/downloads
-
------------------------------------------------------------------------------------------------------------
-
 Ordem de Instalação:
 
 Instalação Local, não usando a maquina virtual:
@@ -35,6 +17,21 @@ pip install selenium
 Solução: Abra o CMD/Prompt de comando como administrador.
 
 3. Instalar os drivers (chromedriver, geckodriver, iedriver), você deve adicionar no path do windows ou passar o caminho no código;
+Drivers links:
+
+Geckodriver Releases: 
+
+https://github.com/mozilla/geckodriver/releases
+
+IE Driver: 
+
+https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+
+Chrome Driver: 
+
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+-----------------------------------------------------------------------------------------------------------
 
 Como mostra a figura, os drivers devem está dentro da pasta Scripts dentro do Python, esse é o caminho padrão, podemos adicionar em qualquer pasta desde que este esteja no path global do windows. Uma vez no path do windows ou adicionada a pasta Scripts não precisa passar o path por dentro do driver, ou seja no código fonte.
 
@@ -61,19 +58,6 @@ http://download.virtualbox.org/virtualbox/5.1.16/VirtualBox-5.1.16-113841-OSX.dm
 Download das maquinas virtuais:
 
 https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
-
-
-
-Python Links:
-
-Windows: https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe
-
-Mac: https://www.python.org/ftp/python/3.5.2/python-3.5.2-macosx10.5.pkg
-
-Linux Shell:
-
-sudo apt-get update
-sudo apt-get install python3=3.5.2*
 
 
 Na dificuldade de instalar o Selenium,  podemos baixar direto do site:
@@ -145,61 +129,7 @@ Nem sempre o windows ou linux vai deixar executar um determinado programa com pe
 
 -----------------------------------------------------------------------------------------------------------
 
-** Instalando os Drivers ** - Segunda forma de instalar os drivers é usando uma API, caso não consiga importar e adicionar ao path do windows, você pode tentar assim:
+** Instalando os Drivers ** - Caso tenha dificuldade em Instalar os Drivers temos uma segunda alternativa no link abaixo:
 
-1. Primeiro Passo instalar o pacote abaixo no prompt/shell:
-```
-pip install webdriver_manager
-```
-
-2. Segundo Passo importar a biblioteca e passar ela dentro do driver (Exemplo usando o Chrome).
-
-```python
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
- 
-webdriver.Chrome(ChromeDriverManager().install())
-driver.get("https://www.google.com")
-```
-
-Exemplo usando o Firefox:
-
-```python
-from selenium import webdriver
-from webdriver_manager.firefox import GeckoDriverManager
-
-driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-
-# No caso do firefox se der error acima tente fazer dessa segunda forma.
-driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-```
-
-Exemplo usando o browser Edge:
-```python
-
-from selenium import webdriver
-from webdriver_manager.driver import EdgeDriver
-
-driver = webdriver.Edge(EdgeDriverManager().install())
-
-```
-Exemplo usando o browser IE:
-
-```python
-from webdriver_manager.driver import IEDriver
-from webdriver_manager.microsoft import IEDriverManager
-
-driver = webdriver.Ie(IEDriverManager().install())
-```
-
-Exemplo usando o browser PhantomJS:
-```python
-from webdriver_manager.phantomjs import PhantomJsDriverManager
-from selenium import webdriver
-
-driver = webdriver.PhantomJS(PhantomJsDriverDriverManager().install())
-```
-Conversando com o caro colega que fez a API, ele disse que caso já esteja instalada ele vai retornar somente o caminho, então não precisa colocar no executable_path depois, pode deixar da forma que estar.
-
-Referências: https://github.com/SergeyPirogov/webdriver_manager
+https://github.com/reinaldorossetti/udemy_my_course/blob/master/ambiente/instalando_driver_via_api.MD
 

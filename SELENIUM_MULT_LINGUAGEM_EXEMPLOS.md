@@ -1,5 +1,7 @@
 Na pasta exemplo_selenium_mult_linguagem, vamos comparar as linguagens fazendo um teste simples.
 
+https://github.com/reinaldorossetti/udemy_my_course/tree/master/exemplo_selenium_mult_linguagem
+
 ### Vamos primeiro analisar a quantidade de caracteres sem os espaços:
 <br>Java > 467 caracteres.
 <br>C# > 387 caracteres.
@@ -7,7 +9,7 @@ Na pasta exemplo_selenium_mult_linguagem, vamos comparar as linguagens fazendo u
 <br>Ruby > 228 caracteres.
 <br>Python > 216 caracteres.
 
-Analisando os exemplos acima Java é a linguagem mais verbosa, seguindo por c#, as duas linguagens te obriga a programar orientado a objetos, as outras no entanto não, posso fazer o script sem ter a obrigação de programar orientado a objetos. 
+Analisando os exemplos acima Java é a linguagem mais verbosa, seguindo por c#, as duas linguagens te obriga a programar orientado a objetos, as outras no entanto não, posso fazer o script sem ter a obrigação de programar orientado a objetos. Resumindo temos mais de 50% menos caracteres em Ruby e Python comparado a Java.
 
 Temos que entender que nem sempre você precisa criar classes, não faz sentido criar classes sem ter objetos que sejam compartilhados entre os métodos, como nesse caso de um simples teste.
 
@@ -105,6 +107,7 @@ Pontos pra Python:
 Pontos do Ruby:
 - Você consegue mandar vários comandos em uma linha;
 - Possui frameworks maduros baseados no Selenium WebDriver;
+- Trabalha com Modulos com Orientação a Objetos, como uma Classe.
 
 **Observação não estou falando mal de Java e C#, só estou mostrando as facilidades das linguagens que tem a concepção ágil, em testes isso vai facilitar a sua vida! A demanda de testes é muito grande e quanto mais facilidades melhor é pra você.
 
