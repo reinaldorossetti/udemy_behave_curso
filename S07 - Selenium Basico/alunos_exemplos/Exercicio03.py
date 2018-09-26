@@ -8,8 +8,8 @@ referencia: http://localhost:8083/html/login.htm
 """
 
 driver = webdriver.Chrome()
-
-driver.implicitly_wait(5) # espera implicita de 5 segundos.
+driver.set_page_load_timeout(10) # espera de leitura do browser de 10 segundos
+driver.implicitly_wait(10) # espera implicita de 5 segundos.
 
 driver.get("https://www.google.com.br")
 # como vc tem id no elemento, sempre dar prioridade por id que eh mais rápido e seguro.
