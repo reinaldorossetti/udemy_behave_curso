@@ -54,7 +54,7 @@ class CadastrarConta(Global_Page):
 chrome_options = Options()
 chrome_options.add_argument("start-maximized")
 #chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("--no-sandbox") # linux admin permisao.
+chrome_options.add_argument("--no-sandbox") # linux admin permissao.
 chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(executable_path="./drivers/chromedriver77.exe", options=chrome_options)
 
