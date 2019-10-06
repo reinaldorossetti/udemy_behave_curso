@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 from global_page import Global_Page
 from os import path
 
-# Ao usar o modo headless tem que prestar atencao na versao do browser, cada driver suporta a versao especificada no site abaixo.
+# Ao usar o modo headless tem que prestar atencao na versao do browser, cada driver suporta a versao especificada determinada por eles.
 # exemplo driver 77 suporta no maximo a versao 77 do browser do chrome, ou seja superior a isso vai dar erro.
 # https://chromedriver.chromium.org/downloads
 
