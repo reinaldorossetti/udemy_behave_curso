@@ -9,9 +9,9 @@ O Selenium Python fornecem uma API simples para escrever testes funcionais e de 
 A biblioteca Cliente do Selenium fornece uma API conveniente para acessar o Selenium WebDrivers como Firefox, Ie, Chrome, Remote etc. As versões atuais suportadas do Python são 2.7, 3.5 e superior. Todos os comandos no final das contas vai para o Driver do Browser, o mesmo que executa os comandos no browser, cada browser fornece seu driver.
 
 
-1.2 Instalação do Python
+### 1.2 Instalação do Python
 
-Nosso primeiro passo é instalar o Python de acordo com o seu Sistema Operacional, seja ele Windows, Linux e MacOS.
+Nosso primeiro passo é instalar o Python de acordo com o seu Sistema Operacional, seja ele Windows, Linux e MacOS. No curso temos os vídeos de instalação, menos no caso do MacOS, mas temos os comando via Terminal ou o executável do mesmo.
 
 
 #### Passo a Passo para Instalação do Python no Windows, no link abaixo:
@@ -29,7 +29,7 @@ Instalação no MacOS via Terminal:
 brew install python
 ```
 
-Link do Python para Mac instalação via executável, os passos é semelhando ao windows:
+Link do Python para Mac instalação via executável, os passos é semelhante ao windows:
 https://www.python.org/ftp/python/3.5.4/python-3.5.4-macosx10.6.pkg
 
 
