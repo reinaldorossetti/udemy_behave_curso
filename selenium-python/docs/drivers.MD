@@ -13,32 +13,32 @@ Outros navegadores suportados terão seus próprios drivers disponíveis. Links 
 
 **Temos que baixar o driver nos sites abaixo e copiar para dentro da pasta do python em scripts.**
 
-+--------------+-----------------------------------------------------------------------+
-| **Chrome**:  | https://sites.google.com/a/chromium.org/chromedriver/downloads        |
-+--------------+-----------------------------------------------------------------------+
-| **Edge**:    | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ |
-+--------------+-----------------------------------------------------------------------+
-| **Firefox**: | https://github.com/mozilla/geckodriver/releases                       |
-+--------------+-----------------------------------------------------------------------+
-| **Safari**:  | https://webkit.org/blog/6900/webdriver-support-in-safari-10/          |
-+--------------+-----------------------------------------------------------------------+
-| **IE**:      | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ |
-+--------------+-----------------------------------------------------------------------+
++--------------+-----------------------------------------------------------------------+  
+| **Chrome**:  | https://sites.google.com/a/chromium.org/chromedriver/downloads        |  
++--------------+-----------------------------------------------------------------------+  
+| **Edge**:    | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ |  
++--------------+-----------------------------------------------------------------------+  
+| **Firefox**: | https://github.com/mozilla/geckodriver/releases                       |  
++--------------+-----------------------------------------------------------------------+  
+| **Safari**:  | https://webkit.org/blog/6900/webdriver-support-in-safari-10/          |  
++--------------+-----------------------------------------------------------------------+  
+| **IE**:      | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ |  
++--------------+-----------------------------------------------------------------------+  
 
-** Instalando os Drivers ** - Caso tenha dificuldade em Instalar os Drivers temos uma segunda alternativa no link abaixo:
+** Instalando os Drivers ** - Caso tenha dificuldade em Instalar os Drivers temos uma segunda alternativa no link abaixo:  
 
-https://github.com/reinaldorossetti/udemy_my_course/blob/master/ambiente/instalando_driver_via_api.MD
+https://github.com/reinaldorossetti/udemy_my_course/blob/master/ambiente/instalando_driver_via_api.MD  
 
 ** Se não tiver permissão de administrador (PermissionError), pode ser que der erro, ou não dependendo do seu nível de permissão.
--> Solução: Abra o CMD/Prompt de comando como administrador.
+-> Solução: Abra o CMD/Prompt de comando como administrador.  
 
-https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/
+https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/  
 
-No linux precisamos dar permisão no driver:
+No linux precisamos dar permisão no driver:  
 ```
-chmod -R 777 geckodriver
+chmod -R 777 geckodriver  
 ```
 
-Siga as instruções abaixo em caso de problema:
+Siga as instruções abaixo em caso de problema:  
 
-https://selenium.dev/documentation/en/webdriver/driver_requirements/
+https://selenium.dev/documentation/en/webdriver/driver_requirements/  
