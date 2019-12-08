@@ -148,30 +148,16 @@ Use isso quando desejar localizar um elemento usando a sintaxe do seletor CSS. C
 
 
 ### 5. Localizando elemento por by XPath
+
+XPath é a linguagem usada para localizar nós em um documento XML. Como o HTML pode ser uma implementação de XML (XHTML), os usuários do Selenium podem aproveitar essa linguagem poderosa para direcionar elementos em seus aplicativos da web. O XPath suporta os métodos simples de localização por atributos de identificação ou nome e os estende, abrindo todos os tipos de novas possibilidades, como localizar a terceira caixa de seleção na página.
+
+Um dos principais motivos para usar o XPath é quando você não possui um atributo de id ou nome adequado para o elemento que deseja localizar. Você pode usar o XPath para localizar o elemento em termos absolutos (não recomendado) ou em relação a um elemento que possui um atributo de identificação ou nome. Os localizadores via XPath, também podem ser usados para especificar elementos por meio de atributos diferentes de id e nome.
+
+XPaths absolutos contêm a localização de todos os elementos da raiz (html) e, como resultado, provavelmente falharão com apenas o menor ajuste no aplicativo. Ao localizar um elemento próximo com um atributo de ID ou nome (idealmente, um elemento pai), você pode localizar seu elemento de destino com base no relacionamento. É muito menos provável que isso mude e pode tornar seus testes mais robustos.
+
 ~~~~~~~~~~~~~~~~~
 
-XPath is the language used for locating nodes in an XML document.  As
-HTML can be an implementation of XML (XHTML), Selenium users can
-leverage this powerful language to target elements in their web
-applications.  XPath supports the simple methods of locating by 
-id or name attributes and extends them by opening up all sorts
-of new possibilities such as locating the third checkbox on the page.
-
-One of the main reasons for using XPath is when you don't have a
-suitable id or name attribute for the element you wish to locate.  You
-can use XPath to either locate the element in absolute terms (not
-advised), or relative to an element that does have an id or name
-attribute.  XPath locators can also be used to specify elements via
-attributes other than id and name.
-
-Absolute XPaths contain the location of all elements from the root
-(html) and as a result are likely to fail with only the slightest
-adjustment to the application.  By finding a nearby element with an id
-or name attribute (ideally a parent element) you can locate your
-target element based on the relationship.  This is much less likely to
-change and can make your tests more robust.
-
-For instance, consider this page source::
+#For instance, consider this page source::
 
    <html>
     <body>
@@ -184,44 +170,42 @@ For instance, consider this page source::
    </body>
    <html>
 
-The form elements can be located like this::
+# The form elements can be located like this::
 
-  login_form = driver.find_element_by_xpath("/html/body/form[1]")
-  login_form = driver.find_element_by_xpath("//form[1]")
-  login_form = driver.find_element_by_xpath("//form[@id='loginForm']")
+  login_form = driver.find_element_by_xpath("/html/body/form[1]")          # 1  
+  login_form = driver.find_element_by_xpath("//form[1]")                   # 2  
+  login_form = driver.find_element_by_xpath("//form[@id='loginForm']")     # 3  
 
 
-1. Absolute path (would break if the HTML was changed only slightly)
+1. Caminho absoluto (seria interrompido se o HTML fosse alterado apenas um pouco)
 
-2. First form element in the HTML
+2. Primeiro elemento do formulário no HTML
 
-3. The form element with attribute `id` set to `loginForm`
+3. O elemento do formulário com o atributo `id` definido como` loginForm`
 
-The username element can be located like this::
+O elemento de nome de usuário pode estar localizado assim:
 
   username = driver.find_element_by_xpath("//form[input/@name='username']")
   username = driver.find_element_by_xpath("//form[@id='loginForm']/input[1]")
   username = driver.find_element_by_xpath("//input[@name='username']")
 
-1. First form element with an input child element with `name` set to `username`
+1. Primeiro elemento do formulário com um elemento filho de entrada com `name` definido como` username`
 
-2. First input child element of the form element with attribute `id` set to `loginForm`
+2. Primeiro elemento filho de entrada do elemento de formulário com o atributo `id` definido como` loginForm`
 
-3. First input element with attribute `name` set to `username`
+3. Primeiro elemento de entrada com o atributo `name` definido como` username`
 
-The "Clear" button element can be located like this::
+O elemento do botão "Limpar" pode ser localizado assim:
 
   clear_button = driver.find_element_by_xpath("//input[@name='continue'][@type='button']")
   clear_button = driver.find_element_by_xpath("//form[@id='loginForm']/input[4]")
 
 
-1. Input with attribute `name` set to `continue` and
-   attribute `type` set to `button`
+1. Insira com o atributo `name` definido como` continue` e o atributo `type` definido como` button`
 
-2. Fourth input child element of the form element with attribute `id` set to `loginForm`
+2. Quarto elemento filho de entrada do elemento do formulário com o atributo `id` definido como `loginForm`
 
-These examples cover some basics, but in order to learn more, the
-following references are recommended:
+Esses exemplos abrangem alguns princípios básicos, mas para saber mais, as seguintes referências são recomendadas:
 
 * `W3Schools XPath Tutorial <https://www.w3schools.com/xml/xpath_intro.asp>`_
 * `W3C XPath Recommendation <http://www.w3.org/TR/xpath>`_
