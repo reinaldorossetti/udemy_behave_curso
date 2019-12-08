@@ -10,10 +10,10 @@ Fazendo Download do Selenium:
 
 É possível fazer o download da Biblioteca do Selenium na página `PyPI para pacote selenium <https://pypi.python.org/pypi/selenium> `_. Contudo, uma abordagem melhor seria usar `pip <https://pip.pypa.io/en/latest/installing/>` _ para instale o pacote selenium. O Python 3.6 possui pip disponível na `biblioteca padrão <https://docs.python.org/3.6/installing/index.html>` _.
 
-Usando o `pip`, você pode instalar o selenium no console/terminal (CMD) assim::
-
+Usando o **pip**, você pode instalar o selenium no console/terminal (CMD) assim::
+```
   pip install selenium
-
+```
 Você pode considerar o uso de `virtualenv <http://www.virtualenv.org>` _
 para criar ambientes Python isolados. Python 3.6 tem `pyvenv
 <https://docs.python.org/3.6/using/scripts.html#scripts-pyvenv> `_
