@@ -1,3 +1,12 @@
+### Bem-Vindo ao meu curso na udemy, espero que goste, criei um projeto no github para ajudar com demais informações extra.
+
+### Básico sobre utilizado:
+
+**API:** interface de programação de aplicativos. Este é o conjunto de "comandos" que você usa para manipular o WebDriver.
+**Biblioteca:** um módulo de código que contém as APIs e o código necessário para implementá-las. As bibliotecas são específicas para cada ligação de idioma, por exemplo, arquivos .jar para Java, arquivos .py para Python, etc.
+**Driver:** Responsável por controlar o navegador real. A maioria dos drivers é criada pelos próprios fornecedores do navegador. Drivers geralmente são módulos executáveis ​​executados no sistema com o próprio navegador, e não no sistema executando o conjunto de testes. (Embora esses possam ser o mesmo sistema.) NOTA: Algumas pessoas se referem aos drivers como proxies.
+**Estrutura:** uma biblioteca adicional usada como suporte para os conjuntos WebDriver. Essas estruturas podem ser estruturas de teste como JUnit ou BDD/Behave.
+ 
 # udemy_my_course
 Informação úteis sobre o curso, tem bastante coisa no meu github, não ficou na Udemy porque não sou egoísta e sempre procuro compartilhar as coisas, o meu curso na udemy é de python 3 e Selenium com foco em resolver problemas.
 
