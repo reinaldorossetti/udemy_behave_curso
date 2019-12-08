@@ -20,7 +20,7 @@ Outros navegadores suportados terão seus próprios drivers disponíveis. Links 
 +--------------+----------------------------------------------------------------------+  
 | **Firefox**: | https://github.com/mozilla/geckodriver/releases                      |  
 +--------------+----------------------------------------------------------------------+  
-| **Safari**:  | https://webkit.org/blog/6900/webdriver-support-in-safari-10/         |
+| **Safari**:  | https://webkit.org/blog/6900/webdriver-support-in-safari-10/         |  
 +--------------+----------------------------------------------------------------------+  
 | **IE**:      | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/| 
 +--------------+----------------------------------------------------------------------+  
