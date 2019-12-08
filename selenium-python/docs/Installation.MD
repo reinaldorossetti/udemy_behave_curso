@@ -41,8 +41,8 @@ Usando o **pip** , você pode instalar o selenium no console/terminal (CMD) assi
 ```
   pip install selenium
 ```
-** Em alguns casos em que tem o selenium 2 e 3 instalado vai usar o pip3 install selenium.
-** Se não tiver permissão de administrador (PermissionError), pode ser que der erro, depende do seu nível de permissão.
+** Em alguns casos em que temos selenium 2 e 3 instalado vai usar o "pip3 install selenium" sem aspas duplas pra executar o comando.  
+** Se não tiver permissão de administrador (PermissionError), pode ser que der erro, depende do seu nível de permissão.  
 
 Você pode considerar o uso de [virtualenv](http://www.virtualenv.org>), para criar ambientes Python isolados. Python 3.6 tem [pyvenv](https://docs.python.org/3.6/using/scripts.html#scripts-pyvenv), que é quase o mesmo que virtualenv.
 
