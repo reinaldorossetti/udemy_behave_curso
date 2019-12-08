@@ -34,7 +34,7 @@ https://github.com/reinaldorossetti/udemy_my_course/blob/master/ambiente/instala
 
 https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/  
 
-No linux precisamos dar permisão no driver:  
+No linux precisamos dar permissão no driver:  
 ```
 chmod -R 777 geckodriver  
 ```
