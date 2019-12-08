@@ -72,14 +72,14 @@ driver.find_elements_by_css_selector('input[value="Pesquisa Google"]')
 ```
 
 ### 2. Localizando elementos por Id (é sempre a melhor opção de localização)
+
+Use isso quando tiver o atributo `id` em um elemento. Com isso
+estratégia, o primeiro elemento com o atributo `id` correspondente
+é retornado. Se nenhum dos elementos da pagina não tiver nenhum atributo `id` correspondente,
+vai retornar um erro `` NoSuchElementException`` o erro será gerado.
+
 ~~~~~~~~~~~~~~
-
-Use this when you know the `id` attribute of an element. With this
-strategy, the first element with a matching `id` attribute will 
-be returned.  If no element has a matching `id` attribute, 
-a ``NoSuchElementException`` will be raised.
-
-For instance, consider this page source::
+# For instance, consider this page source::
 
   <html>
    <body>
@@ -91,7 +91,7 @@ For instance, consider this page source::
    </body>
   <html>
 
-The form element can be located like this::
+# The form element can be located like this::
 
   login_form = driver.find_element_by_id('loginForm')
 
