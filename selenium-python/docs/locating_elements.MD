@@ -99,7 +99,7 @@ vai retornar um erro `` NoSuchElementException`` o erro será gerado.
 
 ### 3. Localizando elemento por Name
 
-Use quando tiver o atributo name de um elemento. Com essa estratégia, o primeiro elemento com um atributo de nome correspondente será retornado. Se nenhum elemento tiver um atributo de nome correspondente, será gerado um NoSuchElementException.
+Use quando tiver o atributo name de um elemento. Com essa estratégia, o primeiro elemento com um atributo **name** correspondente será retornado. Se nenhum elemento tiver um atributo de nome correspondente, será gerado um NoSuchElementException. Segue o exemplo abaixo:
 
 ~~~~~~~~~~~~~~~~
 # For instance, consider this page source::
@@ -129,12 +129,9 @@ Use quando tiver o atributo name de um elemento. Com essa estratégia, o primeir
 
 ### 4. Localizando elemento por CSS Selectors
 
-Use this when you want to locate an element using CSS selector syntax.
-With this strategy, the first element matching the given CSS selector
-will be returned.  If no element matches the provided CSS selector,
-a ``NoSuchElementException`` will be raised.
-
-For instance, consider this page source::
+Use isso quando desejar localizar um elemento usando a sintaxe do seletor CSS. Com essa estratégia, o primeiro elemento correspondente ao seletor CSS especificado será retornado. Se nenhum elemento corresponder ao seletor CSS fornecido, um `` NoSuchElementException`` será gerado.
+~~~~~~~~~~~~~~~~
+# For instance, consider this page source::
 
   <html>
    <body>
@@ -142,12 +139,12 @@ For instance, consider this page source::
   </body>
   <html>
 
-The "p" element can be located like this::
+# The "p" element can be located like this::
 
   content = driver.find_element_by_css_selector('p.content')
+~~~~~~~~~~~~~~~~
 
-`Sauce Labs has good documentation <https://saucelabs.com/resources/articles/selenium-tips-css-selectors>`_
-on CSS selectors.
+[Sauce Labs tem uma boa documentação do mesmo:](https://saucelabs.com/resources/articles/selenium-tips-css-selectors)
 
 
 ### 5. Localizando elemento por by XPath
