@@ -99,12 +99,10 @@ vai retornar um erro `` NoSuchElementException`` o erro será gerado.
 
 ### 3. Localizando elemento por Name
 
-Use this when you know the `name` attribute of an element.  With this
-strategy, the first element with a matching `name` attribute will 
-be returned.  If no element has a matching `name` attribute, 
-a ``NoSuchElementException`` will be raised.
+Use quando tiver o atributo name de um elemento. Com essa estratégia, o primeiro elemento com um atributo de nome correspondente será retornado. Se nenhum elemento tiver um atributo de nome correspondente, será gerado um NoSuchElementException.
 
-For instance, consider this page source::
+~~~~~~~~~~~~~~~~
+# For instance, consider this page source::
 
    <html>
     <body>
@@ -117,16 +115,15 @@ For instance, consider this page source::
    </body>
    <html>
 
-The username & password elements can be located like this::
+# The username & password elements can be located like this::
 
   username = driver.find_element_by_name('username')
   password = driver.find_element_by_name('password')
 
-This will give the "Login" button as it occurs before the "Clear"
-button::
+# This will give the "Login" button as it occurs before the "Clear"
+# button::
 
   continue = driver.find_element_by_name('continue')
-
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
