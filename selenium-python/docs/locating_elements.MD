@@ -1,3 +1,5 @@
+### Métodos para localizar elementos:
+
 Existem várias estratégias para localizar elementos em uma página. Você pode usar o mais apropriado para o seu caso. 
 O Selenium fornece os seguintes métodos para localizar elementos em uma página, listamos todos abaixo:  
 
@@ -69,7 +71,7 @@ driver.find_element_by_css_selector('input[value="Pesquisa Google"]')
 driver.find_elements_by_css_selector('input[value="Pesquisa Google"]')
 ```
 
-Locating by Id
+### 2. Localizando elementos por Id (é sempre a melhor opção de localização)
 ~~~~~~~~~~~~~~
 
 Use this when you know the `id` attribute of an element. With this
@@ -93,9 +95,9 @@ The form element can be located like this::
 
   login_form = driver.find_element_by_id('loginForm')
 
-
-Locating by Name
 ~~~~~~~~~~~~~~~~
+
+### 3. Localizando elemento por Name
 
 Use this when you know the `name` attribute of an element.  With this
 strategy, the first element with a matching `name` attribute will 
@@ -126,7 +128,32 @@ button::
   continue = driver.find_element_by_name('continue')
 
 
-Locating by XPath
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+### 4. Localizando elemento por CSS Selectors
+
+Use this when you want to locate an element using CSS selector syntax.
+With this strategy, the first element matching the given CSS selector
+will be returned.  If no element matches the provided CSS selector,
+a ``NoSuchElementException`` will be raised.
+
+For instance, consider this page source::
+
+  <html>
+   <body>
+    <p class="content">Site content goes here.</p>
+  </body>
+  <html>
+
+The "p" element can be located like this::
+
+  content = driver.find_element_by_css_selector('p.content')
+
+`Sauce Labs has good documentation <https://saucelabs.com/resources/articles/selenium-tips-css-selectors>`_
+on CSS selectors.
+
+
+### 5. Localizando elemento por by XPath
 ~~~~~~~~~~~~~~~~~
 
 XPath is the language used for locating nodes in an XML document.  As
@@ -288,25 +315,3 @@ The "p" element can be located like this::
 
   content = driver.find_element_by_class_name('content')
 
-Locating Elements by CSS Selectors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Use this when you want to locate an element using CSS selector syntax.
-With this strategy, the first element matching the given CSS selector
-will be returned.  If no element matches the provided CSS selector,
-a ``NoSuchElementException`` will be raised.
-
-For instance, consider this page source::
-
-  <html>
-   <body>
-    <p class="content">Site content goes here.</p>
-  </body>
-  <html>
-
-The "p" element can be located like this::
-
-  content = driver.find_element_by_css_selector('p.content')
-
-`Sauce Labs has good documentation <https://saucelabs.com/resources/articles/selenium-tips-css-selectors>`_
-on CSS selectors.
