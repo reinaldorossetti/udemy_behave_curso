@@ -1,13 +1,13 @@
 ## 1.1. Introdução
 
+O Selenium é um projeto abrangente que engloba uma variedade de ferramentas e bibliotecas, permitindo a automação do navegador da web. O Selenium fornece especificamente infraestrutura para a especificação W3C WebDriver - uma plataforma e uma interface de codificação de idioma neutro compatível com todos os principais navegadores da web.
+
+[W3C WebDriver](https://www.w3.org/TR/webdriver1/)
+
 O Selenium Python fornecem uma API simples para escrever testes funcionais e de aceitação usando o Selenium WebDriver. Através da Biblioteca Selenium Python, você pode acessar todas as funcionalidades do Selenium WebDriver de maneira intuitiva.
 
 A biblioteca Cliente do Selenium fornece uma API conveniente para acessar o Selenium WebDrivers como Firefox, Ie, Chrome, Remote etc. As versões atuais suportadas do Python são 2.7, 3.5 e superior. Todos os comandos no final das contas vai para o Driver do Browser, o mesmo que executa os comandos no browser, cada browser fornece seu driver.
 
-
-O primeiro Passo, é sem dúvida instalar e configurar o python na sua maquina, segue o link abaixo para o mesmo:
-
-https://github.com/reinaldorossetti/udemy_my_course/blob/master/Instalando_o_python.MD
 
 ### Fazendo Download do Selenium:
 
@@ -17,7 +17,16 @@ Usando o **pip** , você pode instalar o selenium no console/terminal (CMD) assi
 ```
   pip install selenium
 ```
-**Em alguns casos em que tem o selenium 2 e 3 instalado vai usar o pip3 install selenium.
+** Em alguns casos em que tem o selenium 2 e 3 instalado vai usar o pip3 install selenium.
+** Se não tiver permissão de administrador (PermissionError), pode ser que der erro, depende do seu nível de permissão.
 
 Você pode considerar o uso de [virtualenv](http://www.virtualenv.org>), para criar ambientes Python isolados. Python 3.6 tem [pyvenv](https://docs.python.org/3.6/using/scripts.html#scripts-pyvenv), que é quase o mesmo que virtualenv.
+
+
+#### Passo a Passo no link abaixo para o mesmo:
+
+https://github.com/reinaldorossetti/udemy_my_course/blob/master/Instalando_o_python.MD
+
+
+
 
