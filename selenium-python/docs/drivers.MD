@@ -1,6 +1,6 @@
 O Selenium requer um driver para interagir com o navegador escolhido. O Firefox, por exemplo, requer o geckodriver, 
 que precisa ser instalado antes de executar os scripts de automação.
-Cada driver tem sua prória configuração que chamamos de capabilities.
+Cada driver tem sua prória configuração que chamamos de capabilities, os capabilities vai determinar as configurações que vão rodar no meu navegador, se eu não setar um profile ele vai usar as configurações padrão, por padrão ele roda limpo de qualquer configuração local.
 
 [capabilities](https://selenium.dev/documentation/en/driver_idiosyncrasies/driver_specific_capabilities/)
 
