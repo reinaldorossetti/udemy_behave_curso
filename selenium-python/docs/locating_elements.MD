@@ -1,6 +1,7 @@
 Existem várias estratégias para localizar elementos em uma página. Você pode usar o mais apropriado para o seu caso. 
-O Selenium fornece os seguintes métodos para localizar elementos em uma página:  
-**
+O Selenium fornece os seguintes métodos para localizar elementos em uma página, listamos todos abaixo:  
+
+**  
 find_element_by_id  
 find_element_by_name  
 find_element_by_xpath  
@@ -67,6 +68,7 @@ driver.find_elements_by_xpath('//input') # somente acrescenta o s em element.
 driver.find_element_by_css_selector('input[value="Pesquisa Google"]')
 driver.find_elements_by_css_selector('input[value="Pesquisa Google"]')
 ```
+
 Locating by Id
 ~~~~~~~~~~~~~~
 
