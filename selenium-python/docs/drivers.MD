@@ -39,7 +39,7 @@ No linux precisamos dar permissão no driver:
 chmod -R 777 geckodriver  
 ```
 
-> Atenção dependendo do sistema operacional, você tem que baixar o driver especifico pra seu sistema e também para a plataforma x64 ou x86, alguns driver é o mesmo para os dois como o chromedriver_win32.zip.
+> Atenção dependendo do sistema operacional, você tem que baixar o driver especifico pra seu sistema e também para a plataforma x64 ou x86, alguns driver é o mesmo para os dois como o chromedriver_win32 que serve para os dois, devido ao chromedriver não ter uma versão pra x64 no windows.
 
 Siga as instruções abaixo em caso de problema:  
 
