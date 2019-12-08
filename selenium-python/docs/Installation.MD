@@ -8,9 +8,9 @@ A biblioteca do Selenium fornece uma API conveniente para acessar o Selenium Web
 Fazendo Download do Selenium:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-É possível fazer o download da Biblioteca do Selenium na página `PyPI para pacote selenium <https://pypi.python.org/pypi/selenium> `_. Contudo, uma abordagem melhor seria usar `pip <https://pip.pypa.io/en/latest/installing/>` _ para instale o pacote selenium. O Python 3.6 possui pip disponível na `biblioteca padrão <https://docs.python.org/3.6/installing/index.html>` _.
+É possível fazer o download da Biblioteca do Selenium na página PyPI para pacote selenium https://pypi.python.org/pypi/selenium. Contudo, uma abordagem melhor seria usar pip https://pip.pypa.io/en/latest/installing para instale o pacote selenium. O Python 3.6 possui pip disponível na biblioteca padrão https://docs.python.org/3.6/installing/index.html.
 
-Usando o **pip**, você pode instalar o selenium no console/terminal (CMD) assim::
+Usando o **pip** , você pode instalar o selenium no console/terminal (CMD) assim:
 ```
   pip install selenium
 ```
