@@ -1,6 +1,6 @@
 ## 1.1. Introdução
 
-O Selenium é um projeto abrangente que engloba uma variedade de ferramentas e bibliotecas, permitindo a automação do navegador da web. O Selenium fornece especificamente infraestrutura para a especificação W3C WebDriver - uma plataforma e uma interface de codificação de idioma neutro compatível com todos os principais navegadores da web.
+O Selenium é um projeto abrangente que engloba uma variedade de ferramentas e bibliotecas, permitindo a automação do navegador pra web. O Selenium fornece especificamente infraestrutura para a especificação W3C WebDriver - uma plataforma e uma interface de codificação de idioma neutro compatível com todos os principais navegadores da web.
 
 [W3C WebDriver](https://www.w3.org/TR/webdriver1/)
 
