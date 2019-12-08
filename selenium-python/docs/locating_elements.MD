@@ -213,22 +213,10 @@ Esses exemplos abrangem alguns princípios básicos, mas para saber mais, as seg
   <http://www.zvon.org/comp/r/tut-XPath_1.html>`_
   - with interactive examples.
 
-There are also a couple of very useful Add-ons that can assist in
-discovering the XPath of an element:
-
-* `XPath Checker
-  <https://addons.mozilla.org/en-US/firefox/addon/xpath-checker/>`_ -
-  suggests XPath and can be used to test XPath results.
-* `Firebug <https://addons.mozilla.org/en-US/firefox/addon/firebug/>`_ -
-  XPath suggestions are just one of the many powerful features of this
-  very useful add-on.
-* `XPath Helper
-  <https://chrome.google.com/webstore/detail/hgimnogjllphhhkhlmebbmlgjoejdpjl>`_ -
-  for Google Chrome
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Locating Hyperlinks by Link Text
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
 
 Use this when you know the link text used within an anchor tag. With this
 strategy, the first element with the link text matching the provided value 
