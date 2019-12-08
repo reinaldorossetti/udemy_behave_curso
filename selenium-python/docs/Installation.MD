@@ -23,8 +23,16 @@ Instalação no Linux via Terminal
 ```
 sudo apt-get update sudo apt-get install python3=3.5.4*
 ```
+O Homebrew é um gerenciador de pacotes para o macOS, através dele instalamos com um simples comando, como descrito abaixo:
 
-Instalação no MacOS via Terminal:
+https://brew.sh/index_pt-br
+
+Instalação do Homebrew no MacOS via Terminal:
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Instalação do Python no MacOS via Terminal com Homebrew:
 ```
 brew install python
 ```
