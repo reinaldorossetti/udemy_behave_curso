@@ -39,6 +39,8 @@ No linux precisamos dar permissão no driver:
 chmod -R 777 geckodriver  
 ```
 
+> Atenção dependendo do sistema operacional, você tem que baixar o driver especifico pra seu sistema e também para a plataforma x64 ou x86, alguns driver é o mesmo para os dois como o chromedriver_win32.zip.
+
 Siga as instruções abaixo em caso de problema:  
 
 https://selenium.dev/documentation/en/webdriver/driver_requirements/  
