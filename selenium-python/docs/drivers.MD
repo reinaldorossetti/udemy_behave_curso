@@ -14,15 +14,15 @@ Outros navegadores suportados terão seus próprios drivers disponíveis. Links 
 **Temos que baixar o driver nos sites abaixo e copiar para dentro da pasta do python em scripts.**
 
 +--------------+-----------------------------------------------------------------------+  
-| **Chrome**:  | https://sites.google.com/a/chromium.org/chromedriver/downloads        |  
+| **Chrome**:  | https://sites.google.com/a/chromium.org/chromedriver/downloads       .|  
 +--------------+-----------------------------------------------------------------------+  
-| **Edge**:    | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ |  
+| **Edge**:    | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/.|  
 +--------------+-----------------------------------------------------------------------+  
-| **Firefox**: | https://github.com/mozilla/geckodriver/releases                       |  
+| **Firefox**: | https://github.com/mozilla/geckodriver/releases                      .|  
 +--------------+-----------------------------------------------------------------------+  
-| **Safari**:  | https://webkit.org/blog/6900/webdriver-support-in-safari-10/          |  
+| **Safari**:  | https://webkit.org/blog/6900/webdriver-support-in-safari-10/         .|
 +--------------+-----------------------------------------------------------------------+  
-| **IE**:      | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ |  
+| **IE**:      | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/.| 
 +--------------+-----------------------------------------------------------------------+  
 
 ** Instalando os Drivers ** - Caso tenha dificuldade em Instalar os Drivers temos uma segunda alternativa no link abaixo:  
