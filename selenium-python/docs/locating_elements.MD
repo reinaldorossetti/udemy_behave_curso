@@ -1,6 +1,6 @@
 ### Métodos para localizar elementos:
 
-Existem várias estratégias para localizar elementos em uma página. Você pode usar o mais apropriado para o seu caso. 
+Existem várias estratégias para localizar elementos em uma página, um deles é usando o **BY**, ou usar os métodos de forma direta somente preenchendo o conteúdo do atributo. Você pode usar o mais apropriado para o seu caso. 
 O Selenium fornece os seguintes métodos para localizar elementos em uma página, listamos todos abaixo:  
 
 **  
@@ -73,10 +73,10 @@ driver.find_elements_by_css_selector('input[value="Pesquisa Google"]')
 
 ### 2. Localizando elementos por Id (é sempre a melhor opção de localização)
 
-Use isso quando tiver o atributo `id` em um elemento. Com isso
+Deve usar quando tiver o atributo `id` no elemento esperado. Com essa
 estratégia, o primeiro elemento com o atributo `id` correspondente
-é retornado. Se nenhum dos elementos da pagina não tiver nenhum atributo `id` correspondente,
-vai retornar um erro `` NoSuchElementException`` o erro será gerado.
+é retornado. Se nenhum dos elementos da pagina não tiver nenhum atributo **id** correspondente,
+vai retornar um erro **NoSuchElementException** o erro será gerado nos logs de execução.
 
 ~~~~~~~~~~~~~~
 # For instance, consider this page source::
@@ -99,7 +99,7 @@ vai retornar um erro `` NoSuchElementException`` o erro será gerado.
 
 ### 3. Localizando elemento por Name
 
-Use quando tiver o atributo name de um elemento. Com essa estratégia, o primeiro elemento com um atributo **name** correspondente será retornado. Se nenhum elemento tiver um atributo de nome correspondente, será gerado um NoSuchElementException. Segue o exemplo abaixo:
+Deve usar quando tiver o atributo name no elemento esperado. Com essa estratégia, o primeiro elemento com um atributo **name** correspondente será retornado. Se nenhum elemento tiver um atributo de nome correspondente, será gerado um **NoSuchElementException**. Segue o exemplo abaixo:
 
 ~~~~~~~~~~~~~~~~
 # For instance, consider this page source::
@@ -129,7 +129,7 @@ Use quando tiver o atributo name de um elemento. Com essa estratégia, o primeir
 
 ### 4. Localizando elemento por CSS Selectors
 
-Use isso quando desejar localizar um elemento usando a sintaxe do seletor CSS. Com essa estratégia, o primeiro elemento correspondente ao seletor CSS especificado será retornado. Se nenhum elemento corresponder ao seletor CSS fornecido, um `` NoSuchElementException`` será gerado.
+Use quando o elemento não tiver **ID**, usando a sintaxe do seletor CSS. Com essa estratégia, o primeiro elemento correspondente ao seletor CSS especificado será retornado. Se nenhum elemento corresponder ao seletor CSS fornecido, um **NoSuchElementException** será gerado.
 ~~~~~~~~~~~~~~~~
 # For instance, consider this page source::
 
@@ -177,13 +177,13 @@ XPaths absolutos contêm a localização de todos os elementos da raiz (html) e,
   login_form = driver.find_element_by_xpath("//form[@id='loginForm']")     # 3  
 
 
-1. Caminho absoluto (seria interrompido se o HTML fosse alterado apenas um pouco)
+1. Caminho absoluto (seria interrompido se o HTML fosse alterado apenas um pouco).
 
-2. Primeiro elemento do formulário no HTML
+2. Primeiro elemento do formulário no HTML.
 
-3. O elemento do formulário com o atributo `id` definido como` loginForm`
+3. O elemento do formulário com o atributo `id` definido como` loginForm` (Melhor forma de aplicar).
 
-O elemento de nome de usuário pode estar localizado assim:
+O elemento **username** do usuário pode ser localizado assim:
 
   username = driver.find_element_by_xpath("//form[input/@name='username']")
   username = driver.find_element_by_xpath("//form[@id='loginForm']/input[1]")
@@ -201,17 +201,15 @@ O elemento do botão "Limpar" pode ser localizado assim:
   clear_button = driver.find_element_by_xpath("//form[@id='loginForm']/input[4]")
 
 
-1. Insira com o atributo `name` definido como` continue` e o atributo `type` definido como` button`
+1. Uma forma legal é definir vários atributos, `name` definido como` continue` e o atributo `type` definido como` button`.
 
-2. Quarto elemento filho de entrada do elemento do formulário com o atributo `id` definido como `loginForm`
+2. Quarto elemento filho de entrada do elemento do formulário com o atributo `id` definido como `loginForm`.
 
 Esses exemplos abrangem alguns princípios básicos, mas para saber mais, as seguintes referências são recomendadas:
 
-* `W3Schools XPath Tutorial <https://www.w3schools.com/xml/xpath_intro.asp>`_
-* `W3C XPath Recommendation <http://www.w3.org/TR/xpath>`_
-* `XPath Tutorial
-  <http://www.zvon.org/comp/r/tut-XPath_1.html>`_
-  - with interactive examples.
+* [W3Schools XPath Tutorial](https://www.w3schools.com/xml/xpath_intro.asp)
+* [W3C XPath Recommendation](http://www.w3.org/TR/xpath)
+* [XPath Tutorial](http://www.zvon.org/comp/r/tut-XPath_1.html)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -281,3 +279,7 @@ The "p" element can be located like this::
 
   content = driver.find_element_by_class_name('content')
 
+
+Referências (Este tópico foi somente traduzido para o português, os sites oficias se encontram abaixo):
+https://selenium.dev/documentation/en/getting_started/
+https://selenium-python.readthedocs.io/locating-elements.html
