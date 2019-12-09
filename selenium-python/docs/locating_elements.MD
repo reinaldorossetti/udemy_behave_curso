@@ -246,7 +246,7 @@ assert driver.title, "W3Schools Online Web Tutorials"
 driver.quit()
 ```
 
-#### Exemplo teórico page source::  
+#### Exemplo teórico page source:  
 ```HTML
    <html>
     <body>
@@ -260,7 +260,7 @@ driver.quit()
    <html>
 ```
 
-# The form elements can be located like this::  
+O elementos HTML acima podem ser localizados da forma abaixo. 
 ~~~~~~~~~~~~~~~~~
   login_form = driver.find_element_by_xpath("/html/body/form[1]")          # 1  
   login_form = driver.find_element_by_xpath("//form[1]")                   # 2  
@@ -305,7 +305,7 @@ Esses exemplos abrangem alguns princípios básicos, mas para saber mais, as seg
  
 Geralmente esse opção é usada quando nenhuma das acimas é possível, você pode localizar pelo nome do link, no exemplo abaixo é feito pelo **Continue e Cancel**. Com essa estratégia, o primeiro elemento com o texto do link correspondente ao valor fornecido será retornado. Se nenhum elemento tiver um atributo de texto de link correspondente, será gerado um NoSuchElementException.
 
-Exemplo teórico page source::
+#### Exemplo teórico page source:  
 
 ```HTML
   <html>
@@ -327,7 +327,7 @@ O link continue.html pode ser localizado dessa forma::
 
 Use quando desejar localizar um elemento pelo nome da tag. Com essa estratégia, o primeiro elemento com o nome de tag especificado será retornado. Se nenhum elemento tiver um nome de tag correspondente, um `` NoSuchElementException`` será gerado.
 
-Exemplo teórico page source::
+#### Exemplo teórico page source:  
 ```HTML
   <html>
    <body>
@@ -336,7 +336,7 @@ Exemplo teórico page source::
   </body>
   <html>
 ```
-The heading (h1) element can be located like this::
+A tag h1 pode ser localizado via tag name, como mostra abaixo:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   heading1 = driver.find_element_by_tag_name('h1')
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -353,7 +353,7 @@ For instance, consider this page source::
   </body>
   <html>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The "p" element can be located like this::
+O elemento "p" pode ser localizado via class name, como mostra abaixo:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   content = driver.find_element_by_class_name('content')
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
