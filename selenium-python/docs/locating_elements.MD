@@ -30,17 +30,28 @@ Estes são os dois métodos particulares (private): **find_element e find_elemen
 
 Example de uso:
 ```
+# -*- coding: utf-8 -*-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 driver.get("https://www.google.com.br")
+driver.maximize_window()
+driver.set_page_load_timeout(30)
+driver.implicitly_wait(15)
 
-driver.find_element(By.XPATH, '//input[@value="Pesquisa Google"]')
-driver.find_elements(By.XPATH, '//input')
+# interage somente com um elemento
+driver.find_element(By.CSS_SELECTOR, 'input[title="Pesquisar"]').send_keys("Selenium")
+driver.find_element(By.XPATH, '//input[@value="Pesquisa Google"]').click()
 
-driver.find_element(By.CSS_SELECTOR, 'input[value="Pesquisa Google"]')
-driver.find_elements(By.CSS_SELECTOR, 'input')
+# exemplo de interação com varios elementos.
+elementos01 = driver.find_elements(By.CSS_SELECTOR, 'input')
+elementos02 = driver.find_elements(By.XPATH, '//button')
+
+# conta a quantidade de elementos de input e button.
+print( "{} - {}".format(len(elementos01), len(elementos02)))
+
+driver.quit()
 ```
 
 Abaixo temos os atributos da classe By:
@@ -58,17 +69,27 @@ CSS_SELECTOR = "css selector"
 ao invés de localizar os elementos via By, podemos fazer isso diretamente, exemplo:
 
 ```
+# -*- coding: utf-8 -*-
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 driver.get("https://www.google.com.br")
+driver.maximize_window()
+driver.set_page_load_timeout(30)
+driver.implicitly_wait(15)
 
-driver.find_element_by_xpath('//input[@value="Pesquisa Google"]')
-driver.find_elements_by_xpath('//input') # somente acrescenta o s em element.
+# interage somente com um elemento
+driver.find_element_by_css_selector('input[title="Pesquisar"]').send_keys("Selenium")
+driver.find_element_by_xpath('//input[@value="Pesquisa Google"]').click()
 
-driver.find_element_by_css_selector('input[value="Pesquisa Google"]')
-driver.find_elements_by_css_selector('input[value="Pesquisa Google"]')
+# exemplo de interacao com varios elementos.
+elementos01 = driver.find_elements_by_css_selector('input')
+elementos02 = driver.find_elements_by_xpath('//button')
+
+# conta a quantidade de elementos de input e button.
+print( "{} - {}".format(len(elementos01), len(elementos02)))
+
+driver.quit()
 ```
 
 ### 2. Localizando elementos por Id (é sempre a melhor opção de localização)
@@ -79,22 +100,33 @@ estratégia, o primeiro elemento com o atributo `id` correspondente
 vai retornar um erro **NoSuchElementException** o erro será gerado nos logs de execução.
 
 ~~~~~~~~~~~~~~
-# Exemplo teórico page source::
+# https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form
+# -*- coding: utf-8 -*-
 
-  <html>
-   <body>
-    <form id="loginForm">
-     <input name="username" type="text" />
-     <input name="password" type="password" />
-     <input name="continue" type="submit" value="Login" />
-    </form>
-   </body>
-  <html>
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 
-# The form element can be located like this::
+driver = webdriver.Chrome()
+driver.get("https://www.w3schools.com/code/tryit.asp?filename=G0R1H2HWBRSG")
+driver.maximize_window()
+driver.set_page_load_timeout(30)
+driver.implicitly_wait(15)
 
-  login_form = driver.find_element_by_id('loginForm')
+# interage somente com um elemento
+driver.find_element_by_xpath('//button[contains(text(),"Run")]').click() # Nao tem ID, usamos o texto
+driver.switch_to.frame("iframeResult")  # mudando para o frame que desejamos
+# localizando o elemento por ID
+driver.find_element_by_id('uname').send_keys('Reinaldo')
 
+# exemplo de intercao com varios elemento
+elementos01 = driver.find_elements_by_id('psw')
+elementos01[0].send_keys('12345')
+driver.find_elements_by_id('login')[0].send_keys(Keys.ENTER)
+
+# verifica se nosso teste esta correto.
+assert driver.title, "W3Schools Online Web Tutorials"
+
+driver.quit()
 ~~~~~~~~~~~~~~~~
 
 ### 3. Localizando elemento por Name
@@ -104,43 +136,70 @@ Deve usar quando tiver o atributo name no elemento esperado. Com essa estratégi
 
 #### Exemplo teórico page source::
 ~~~~~~~~~~~~~~~~
-   <html>
-    <body>
-     <form id="loginForm">
-      <input name="username" type="text" />
-      <input name="password" type="password" />
-      <input name="continue" type="submit" value="Login" />
-      <input name="continue" type="button" value="Clear" />
-     </form>
-   </body>
-   <html>
-~~~~~~~~~~~~~~~~~
-#### Os elementos username e password podem ser localizados da forma abaixo:
-~~~~~~~~~~~~~~~~~
-  username = driver.find_element_by_name('username')
-  password = driver.find_element_by_name('password')
-~~~~~~~~~~~~~~~~~
+# https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form
+# -*- coding: utf-8 -*-
 
-#### O elemento "Login" está antes do botão "Clear", então ele vai ser localizado primeiro::
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  continue = driver.find_element_by_name('continue')
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Chrome()
+driver.get("https://www.w3schools.com/code/tryit.asp?filename=G0R1H2HWBRSG")
+driver.maximize_window()
+driver.set_page_load_timeout(30)
+driver.implicitly_wait(15)
+
+# interage somente com um elemento.
+driver.find_element_by_xpath('//button[contains(text(),"Run")]').click() # Nao tem ID, usamos o texto
+driver.switch_to.frame("iframeResult")  # mudando para o frame que desejamos
+# localizando o elemento pelo atributo name
+driver.find_element_by_name('uname').send_keys('Reinaldo')
+
+# exemplo de interacao com varios elementos.
+elementos01 = driver.find_elements_by_name('psw')
+elementos01[0].send_keys('12345')
+driver.find_elements_by_name('login')[0].send_keys(Keys.ENTER)
+
+# verifica se nosso teste esta correto.
+assert driver.title, "W3Schools Online Web Tutorials"
+
+driver.quit()
+~~~~~~~~~~~~~~~~~
 
 ### 4. Localizando elemento por CSS Selectors
 
 Use quando o elemento não tiver **ID**, usando a sintaxe do seletor CSS. Com essa estratégia, o primeiro elemento correspondente ao seletor CSS especificado será retornado. Se nenhum elemento corresponder ao seletor CSS fornecido, um **NoSuchElementException** será gerado.
 
-#### Exemplo teórico page source::
+#### Exemplo:
 ~~~~~~~~~~~~~~~~
-  <html>
-   <body>
-    <p class="content">Site content goes here.</p>
-  </body>
-  <html>
-~~~~~~~~~~~~~~~~
-#### O elemento "p" pode ser localizado dessa forma::
-~~~~~~~~~~~~~~~~
-  content = driver.find_element_by_css_selector('p.content')
+# https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form
+# -*- coding: utf-8 -*-
+
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Chrome()
+driver.get("https://www.w3schools.com/code/tryit.asp?filename=G0R1H2HWBRSG")
+driver.maximize_window()
+driver.set_page_load_timeout(30)
+driver.implicitly_wait(15)
+
+# interage somente com um elemento.
+driver.find_element_by_css_selector('button[onclick*="try_it_leaderboard"]').click()
+driver.switch_to.frame("iframeResult")  # mudando para o frame que desejamos
+# localizando o elemento pelo atributo id, o # representa o id no css.
+driver.find_element_by_css_selector('#uname').send_keys('Reinaldo')
+
+# exemplo de interacao com varios elementos.
+elementos01 = driver.find_elements_by_css_selector('#psw')
+elementos01[0].send_keys('12345')
+# forma reduzida, o [0] significa o primeiro elemento do meu array.
+driver.find_elements_by_css_selector('#login')[0].send_keys(Keys.ENTER)
+
+# verifica se nosso teste esta correto.
+assert driver.title, "W3Schools Online Web Tutorials"
+
+driver.quit()
+
 ~~~~~~~~~~~~~~~~
 
 [Sauce Labs tem uma boa documentação do mesmo:](https://saucelabs.com/resources/articles/selenium-tips-css-selectors)
@@ -231,12 +290,9 @@ O link continue.html pode ser localizado dessa forma::
   continue_link = driver.find_element_by_partial_link_text('Conti')
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### 7. Locating Elements by Tag Name
+### 7. Localizando o elemento pela Tag Name
 
-Use this when you want to locate an element by tag name. With this
-strategy, the first element with the given tag name will be returned.
-If no element has a matching tag name, a ``NoSuchElementException``
-will be raised.
+Use quando desejar localizar um elemento pelo nome da tag. Com essa estratégia, o primeiro elemento com o nome de tag especificado será retornado. Se nenhum elemento tiver um nome de tag correspondente, um `` NoSuchElementException`` será gerado.
 
 Exemplo teórico page source::
 ```HTML
@@ -254,10 +310,7 @@ The heading (h1) element can be located like this::
 
 ### 8. Locating Elements by Class Name
 
-Use this when you want to locate an element by class name.
-With this strategy, the first element with the matching class name 
-attribute will be returned.  If no element has a matching class name attribute,
-a ``NoSuchElementException`` will be raised.
+Use quando desejar localizar um elemento pelo nome da classe. Com essa estratégia, o primeiro elemento com o atributo de nome de classe correspondente será retornado. Se nenhum elemento tiver um atributo de nome de classe correspondente, um `` NoSuchElementException`` será gerado.
 
 For instance, consider this page source::
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
