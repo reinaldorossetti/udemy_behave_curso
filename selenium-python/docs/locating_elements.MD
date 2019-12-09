@@ -99,6 +99,7 @@ estratégia, o primeiro elemento com o atributo `id` correspondente
 é retornado. Se nenhum dos elementos da pagina não tiver nenhum atributo **id** correspondente,
 vai retornar um erro **NoSuchElementException** o erro será gerado nos logs de execução.
 
+#### Example de uso:
 ~~~~~~~~~~~~~~
 # https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form
 # -*- coding: utf-8 -*-
@@ -134,7 +135,7 @@ driver.quit()
 Deve usar quando tiver o atributo name no elemento esperado. Com essa estratégia, o primeiro elemento com um atributo **name** correspondente será retornado. Se nenhum elemento tiver um atributo name correspondente, será gerado um **NoSuchElementException**. Segue o exemplo abaixo:
 
 
-#### Exemplo teórico page source::
+#### Example de uso:
 ~~~~~~~~~~~~~~~~
 # https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form
 # -*- coding: utf-8 -*-
@@ -169,7 +170,7 @@ driver.quit()
 
 Use quando o elemento não tiver **ID**, usando a sintaxe do seletor CSS. Com essa estratégia, o primeiro elemento correspondente ao seletor CSS especificado será retornado. Se nenhum elemento corresponder ao seletor CSS fornecido, um **NoSuchElementException** será gerado.
 
-#### Exemplo:
+#### Example de uso:
 ~~~~~~~~~~~~~~~~
 # https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form
 # -*- coding: utf-8 -*-
@@ -213,7 +214,7 @@ Um dos principais motivos para usar o XPath é quando você não possui um atrib
 
 XPaths absolutos contêm a localização de todos os elementos da raiz (html) e, como resultado, provavelmente falharão com apenas o menor ajuste no aplicativo. Ao localizar um elemento próximo com um atributo de ID ou nome (idealmente, um elemento pai), você pode localizar seu elemento de destino com base no relacionamento. É muito menos provável que isso mude e pode tornar seus testes mais robustos.
 
-#### Exemplo Prático:
+#### Example de uso:
 ```python
 # https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form
 # -*- coding: utf-8 -*-
