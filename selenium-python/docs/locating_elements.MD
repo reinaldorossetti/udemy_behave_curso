@@ -1,4 +1,4 @@
-### Métodos para localizar elementos:
+### 1. Métodos para localizar elementos:
 
 Existem várias estratégias para localizar elementos em uma página, um deles é usando o **BY**, ou usar os métodos de forma direta somente preenchendo o conteúdo do atributo. Você pode usar o mais apropriado para o seu caso. 
 O Selenium fornece os seguintes métodos para localizar elementos em uma página, listamos todos abaixo:  
@@ -79,7 +79,7 @@ estratégia, o primeiro elemento com o atributo `id` correspondente
 vai retornar um erro **NoSuchElementException** o erro será gerado nos logs de execução.
 
 ~~~~~~~~~~~~~~
-# For instance, consider this page source::
+# Exemplo teórico page source::
 
   <html>
    <body>
@@ -101,9 +101,9 @@ vai retornar um erro **NoSuchElementException** o erro será gerado nos logs de 
 
 Deve usar quando tiver o atributo name no elemento esperado. Com essa estratégia, o primeiro elemento com um atributo **name** correspondente será retornado. Se nenhum elemento tiver um atributo de nome correspondente, será gerado um **NoSuchElementException**. Segue o exemplo abaixo:
 
-~~~~~~~~~~~~~~~~
-# For instance, consider this page source::
 
+#### Exemplo teórico page source::
+~~~~~~~~~~~~~~~~
    <html>
     <body>
      <form id="loginForm">
@@ -114,33 +114,32 @@ Deve usar quando tiver o atributo name no elemento esperado. Com essa estratégi
      </form>
    </body>
    <html>
-
-# The username & password elements can be located like this::
-
+~~~~~~~~~~~~~~~~~
+#### The username & password elements can be located like this::
+~~~~~~~~~~~~~~~~~
   username = driver.find_element_by_name('username')
   password = driver.find_element_by_name('password')
-
-# This will give the "Login" button as it occurs before the "Clear"
+~~~~~~~~~~~~~~~~~
+#### This will give the "Login" button as it occurs before the "Clear"
 # button::
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   continue = driver.find_element_by_name('continue')
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ### 4. Localizando elemento por CSS Selectors
 
 Use quando o elemento não tiver **ID**, usando a sintaxe do seletor CSS. Com essa estratégia, o primeiro elemento correspondente ao seletor CSS especificado será retornado. Se nenhum elemento corresponder ao seletor CSS fornecido, um **NoSuchElementException** será gerado.
-~~~~~~~~~~~~~~~~
-# For instance, consider this page source::
 
+#### Exemplo teórico page source::
+~~~~~~~~~~~~~~~~
   <html>
    <body>
     <p class="content">Site content goes here.</p>
   </body>
   <html>
-
-# The "p" element can be located like this::
-
+~~~~~~~~~~~~~~~~
+#### O elemento "p" pode ser localizado dessa forma::
+~~~~~~~~~~~~~~~~
   content = driver.find_element_by_css_selector('p.content')
 ~~~~~~~~~~~~~~~~
 
@@ -155,10 +154,8 @@ Um dos principais motivos para usar o XPath é quando você não possui um atrib
 
 XPaths absolutos contêm a localização de todos os elementos da raiz (html) e, como resultado, provavelmente falharão com apenas o menor ajuste no aplicativo. Ao localizar um elemento próximo com um atributo de ID ou nome (idealmente, um elemento pai), você pode localizar seu elemento de destino com base no relacionamento. É muito menos provável que isso mude e pode tornar seus testes mais robustos.
 
-~~~~~~~~~~~~~~~~~
-
-#For instance, consider this page source::
-
+# Exemplo teórico page source::  
+```HTML
    <html>
     <body>
      <form id="loginForm">
@@ -169,37 +166,38 @@ XPaths absolutos contêm a localização de todos os elementos da raiz (html) e,
      </form>
    </body>
    <html>
+```
 
-# The form elements can be located like this::
-
+# The form elements can be located like this::  
+~~~~~~~~~~~~~~~~~
   login_form = driver.find_element_by_xpath("/html/body/form[1]")          # 1  
   login_form = driver.find_element_by_xpath("//form[1]")                   # 2  
   login_form = driver.find_element_by_xpath("//form[@id='loginForm']")     # 3  
+~~~~~~~~~~~~~~~~~
 
+1. Caminho absoluto (seria interrompido se o HTML fosse alterado apenas um pouco).  
 
-1. Caminho absoluto (seria interrompido se o HTML fosse alterado apenas um pouco).
+2. Primeiro elemento do formulário no HTML.  
 
-2. Primeiro elemento do formulário no HTML.
+3. O elemento do formulário com o atributo `id` definido como` loginForm` (Melhor forma de aplicar).  
 
-3. O elemento do formulário com o atributo `id` definido como` loginForm` (Melhor forma de aplicar).
-
-O elemento **username** do usuário pode ser localizado assim:
-
-  username = driver.find_element_by_xpath("//form[input/@name='username']")
-  username = driver.find_element_by_xpath("//form[@id='loginForm']/input[1]")
-  username = driver.find_element_by_xpath("//input[@name='username']")
-
+O elemento **username** do usuário pode ser localizado assim:  
+~~~~~~~~~~~~~~~~~
+  username = driver.find_element_by_xpath("//form[input/@name='username']")  
+  username = driver.find_element_by_xpath("//form[@id='loginForm']/input[1]")  
+  username = driver.find_element_by_xpath("//input[@name='username']")  
+~~~~~~~~~~~~~~~~~
 1. Primeiro elemento do formulário com um elemento filho de entrada com `name` definido como` username`
 
 2. Primeiro elemento filho de entrada do elemento de formulário com o atributo `id` definido como` loginForm`
 
 3. Primeiro elemento de entrada com o atributo `name` definido como` username`
 
-O elemento do botão "Limpar" pode ser localizado assim:
-
+O elemento do botão "Limpar" pode ser localizado da forma abaixo:
+~~~~~~~~~~~~~~~~~
   clear_button = driver.find_element_by_xpath("//input[@name='continue'][@type='button']")
   clear_button = driver.find_element_by_xpath("//form[@id='loginForm']/input[4]")
-
+~~~~~~~~~~~~~~~~~
 
 1. Uma forma legal é definir vários atributos, `name` definido como` continue` e o atributo `type` definido como` button`.
 
@@ -211,18 +209,13 @@ Esses exemplos abrangem alguns princípios básicos, mas para saber mais, as seg
 * [W3C XPath Recommendation](http://www.w3.org/TR/xpath)
 * [XPath Tutorial](http://www.zvon.org/comp/r/tut-XPath_1.html)
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Locating Hyperlinks by Link Text
+### 6. Localizando Hyperlinks pelo Texto do Link
  
+Geralmente esse opção é usada quando nenhuma das acimas é possível, você pode localizar pelo nome do link, no exemplo abaixo é feito pelo **Continue e Cancel**. Com essa estratégia, o primeiro elemento com o texto do link correspondente ao valor fornecido será retornado. Se nenhum elemento tiver um atributo de texto de link correspondente, será gerado um NoSuchElementException.
 
-Use this when you know the link text used within an anchor tag. With this
-strategy, the first element with the link text matching the provided value 
-will be returned.  If no element has a matching link text
-attribute, a ``NoSuchElementException`` will be raised.
+Exemplo teórico page source::
 
-For instance, consider this page source::
-
+```HTML
   <html>
    <body>
     <p>Are you sure you want to do this?</p>
@@ -230,37 +223,36 @@ For instance, consider this page source::
     <a href="cancel.html">Cancel</a>
   </body>
   <html>
+```
 
-The continue.html link can be located like this::
-
+O link continue.html pode ser localizado dessa forma::
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   continue_link = driver.find_element_by_link_text('Continue')
   continue_link = driver.find_element_by_partial_link_text('Conti')
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-Locating Elements by Tag Name
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### 7. Locating Elements by Tag Name
 
 Use this when you want to locate an element by tag name. With this
 strategy, the first element with the given tag name will be returned.
 If no element has a matching tag name, a ``NoSuchElementException``
 will be raised.
 
-For instance, consider this page source::
-
+Exemplo teórico page source::
+```HTML
   <html>
    <body>
     <h1>Welcome</h1>
     <p>Site content goes here.</p>
   </body>
   <html>
-
+```
 The heading (h1) element can be located like this::
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   heading1 = driver.find_element_by_tag_name('h1')
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-Locating Elements by Class Name
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### 8. Locating Elements by Class Name
 
 Use this when you want to locate an element by class name.
 With this strategy, the first element with the matching class name 
@@ -268,18 +260,29 @@ attribute will be returned.  If no element has a matching class name attribute,
 a ``NoSuchElementException`` will be raised.
 
 For instance, consider this page source::
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   <html>
    <body>
     <p class="content">Site content goes here.</p>
   </body>
   <html>
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The "p" element can be located like this::
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   content = driver.find_element_by_class_name('content')
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+**Sites de Treinamento (Treine nos sites abaixo):**
+http://automationpractice.com/index.php
+http://webdriveruniversity.com/index.html
+https://www.phptravels.net/index.php
+http://the-internet.herokuapp.com/
+http://newtours.demoaut.com/
+https://demoqa.com/
+https://ultimateqa.com/automation/
+https://www.saucedemo.com/
+https://automacaocombatista.herokuapp.com/
 
-Referências (Este tópico foi somente traduzido para o português, os sites oficias se encontram abaixo):
+**Referências (Este tópico foi somente traduzido para o português, os sites oficias se encontram abaixo):**
 https://selenium.dev/documentation/en/getting_started/
 https://selenium-python.readthedocs.io/locating-elements.html
