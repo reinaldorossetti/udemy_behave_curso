@@ -66,7 +66,7 @@ CLASS_NAME = "class name"
 CSS_SELECTOR = "css selector"
 ```
 
-ao invés de localizar os elementos via By, podemos fazer isso diretamente, exemplo:
+Ao invés de localizar os elementos via By, podemos fazer isso diretamente, exemplo:
 
 ```
 # -*- coding: utf-8 -*-
@@ -115,10 +115,10 @@ driver.implicitly_wait(15)
 # interage somente com um elemento
 driver.find_element_by_xpath('//button[contains(text(),"Run")]').click() # Nao tem ID, usamos o texto
 driver.switch_to.frame("iframeResult")  # mudando para o frame que desejamos
-# localizando o elemento por ID
+# localizando o elemento por ID, nesse caso somente insiro o valor.
 driver.find_element_by_id('uname').send_keys('Reinaldo')
 
-# exemplo de intercao com varios elemento
+# exemplo de interacao com varios elementos.
 elementos01 = driver.find_elements_by_id('psw')
 elementos01[0].send_keys('12345')
 driver.find_elements_by_id('login')[0].send_keys(Keys.ENTER)
@@ -213,7 +213,39 @@ Um dos principais motivos para usar o XPath é quando você não possui um atrib
 
 XPaths absolutos contêm a localização de todos os elementos da raiz (html) e, como resultado, provavelmente falharão com apenas o menor ajuste no aplicativo. Ao localizar um elemento próximo com um atributo de ID ou nome (idealmente, um elemento pai), você pode localizar seu elemento de destino com base no relacionamento. É muito menos provável que isso mude e pode tornar seus testes mais robustos.
 
-# Exemplo teórico page source::  
+#### Exemplo Prático:
+```python
+# https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form
+# -*- coding: utf-8 -*-
+
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Chrome()
+driver.get("https://www.w3schools.com/code/tryit.asp?filename=G0R1H2HWBRSG")
+driver.maximize_window()
+driver.set_page_load_timeout(30)
+driver.implicitly_wait(15)
+
+# interage somente com um elemento
+driver.find_element_by_xpath('//button[contains(text(),"Run")]').click()
+driver.switch_to.frame("iframeResult")  # mudando para o frame que desejamos
+# localizando o elemento por XPATH
+driver.find_element_by_xpath('//input[@id="uname"]').send_keys('Reinaldo')
+
+# exemplo de intercao com varios elemento
+elementos01 = driver.find_elements_by_xpath('//input[@id="psw"]')
+elementos01[0].send_keys('12345')
+# forma reduzida, o [0] significa o primeiro elemento do meu array.
+driver.find_elements_by_xpath('//button[@id="login"]')[0].send_keys(Keys.ENTER)
+
+# verifica se nosso teste esta correto.
+assert driver.title, "W3Schools Online Web Tutorials"
+
+driver.quit()
+```
+
+#### Exemplo teórico page source::  
 ```HTML
    <html>
     <body>
