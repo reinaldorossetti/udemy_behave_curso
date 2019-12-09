@@ -357,17 +357,17 @@ The "p" element can be located like this::
   content = driver.find_element_by_class_name('content')
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Sites de Treinamento (Treine nos sites abaixo):**
-http://automationpractice.com/index.php
-http://webdriveruniversity.com/index.html
-https://www.phptravels.net/index.php
-http://the-internet.herokuapp.com/
-http://newtours.demoaut.com/
-https://demoqa.com/
-https://ultimateqa.com/automation/
-https://www.saucedemo.com/
-https://automacaocombatista.herokuapp.com/
+**Sites de Treinamento (Treine nos sites abaixo):**  
+http://automationpractice.com/index.php  
+http://webdriveruniversity.com/index.html  
+https://www.phptravels.net/index.php  
+http://the-internet.herokuapp.com/  
+http://newtours.demoaut.com/  
+https://demoqa.com/  
+https://ultimateqa.com/automation/  
+https://www.saucedemo.com/  
+https://automacaocombatista.herokuapp.com/  
 
-**Referências (Este tópico foi somente traduzido para o português, os sites oficias se encontram abaixo):**
-https://selenium.dev/documentation/en/getting_started/
-https://selenium-python.readthedocs.io/locating-elements.html
+**Referências (Este tópico foi somente traduzido para o português, os sites oficias se encontram abaixo):**  
+https://selenium.dev/documentation/en/getting_started/  
+https://selenium-python.readthedocs.io/locating-elements.html  
