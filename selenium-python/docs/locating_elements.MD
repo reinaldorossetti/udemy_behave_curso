@@ -99,7 +99,7 @@ vai retornar um erro **NoSuchElementException** o erro será gerado nos logs de 
 
 ### 3. Localizando elemento por Name
 
-Deve usar quando tiver o atributo name no elemento esperado. Com essa estratégia, o primeiro elemento com um atributo **name** correspondente será retornado. Se nenhum elemento tiver um atributo de nome correspondente, será gerado um **NoSuchElementException**. Segue o exemplo abaixo:
+Deve usar quando tiver o atributo name no elemento esperado. Com essa estratégia, o primeiro elemento com um atributo **name** correspondente será retornado. Se nenhum elemento tiver um atributo name correspondente, será gerado um **NoSuchElementException**. Segue o exemplo abaixo:
 
 
 #### Exemplo teórico page source::
@@ -115,13 +115,13 @@ Deve usar quando tiver o atributo name no elemento esperado. Com essa estratégi
    </body>
    <html>
 ~~~~~~~~~~~~~~~~~
-#### The username & password elements can be located like this::
+#### Os elementos username e password podem ser localizados da forma abaixo:
 ~~~~~~~~~~~~~~~~~
   username = driver.find_element_by_name('username')
   password = driver.find_element_by_name('password')
 ~~~~~~~~~~~~~~~~~
-#### This will give the "Login" button as it occurs before the "Clear"
-# button::
+
+#### O elemento "Login" está antes do botão "Clear", então ele vai ser localizado primeiro::
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   continue = driver.find_element_by_name('continue')
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
