@@ -289,7 +289,7 @@ O elemento **username** do usuário pode ser localizado assim:
 
 
 1. Criei um exemplo para localizar o nome do meu formulário, que nesse caso chamo de Motion.
-** Uma coisa que tem que ter em mente, o *text* no xpath, ele não é um atributo (@) e sim um método, por isso o mesmo usa (), ao invés de @text.
+** Uma coisa que tem que ter em mente, o *text* no xpath, ele não é um atributo (@) e sim um método, por isso o mesmo usa text() ao invés de @text.
 ~~~~~~~~~~~~~~~~~
   sistema_name = driver.find_element_by_xpath("//b[contains(text(),"Motion")]").text
 ~~~~~~~~~~~~~~~~~
