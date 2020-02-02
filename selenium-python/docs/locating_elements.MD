@@ -210,9 +210,8 @@ driver.quit()
 
 XPath é a linguagem usada para localizar nós em um documento XML. Como o HTML pode ser uma implementação de XML (XHTML), os usuários do Selenium podem aproveitar essa linguagem poderosa para direcionar elementos em seus aplicativos da web. O XPath suporta os métodos simples de localização por atributos de identificação ou nome e os estende, abrindo todos os tipos de novas possibilidades, como localizar a terceira caixa de seleção na página.
 
-Um dos principais motivos para usar o XPath é quando você não possui um atributo de id ou nome adequado para o elemento que deseja localizar. Você pode usar o XPath para localizar o elemento em termos absolutos (não recomendado) ou em relação a um elemento que possui um atributo de identificação ou nome. Os localizadores via XPath, também podem ser usados para especificar elementos por meio de atributos diferentes de id e nome.
-
-XPaths absolutos contêm a localização de todos os elementos da raiz (html) e, como resultado, provavelmente falharão com apenas o menor ajuste no aplicativo. Ao localizar um elemento próximo com um atributo de ID ou nome (idealmente, um elemento pai), você pode localizar seu elemento de destino com base no relacionamento. É muito menos provável que isso mude e pode tornar seus testes mais robustos.
+Um dos principais motivos para usar o XPath, é quando você não possui um atributo id ou nome adequado para o elemento que deseja localizar, nesse caso você pode usar AND ou OR lógico combinando vários atributos que ajuda bastante, resumindo ele tem um leque de combinações mais que o CSS, mas a comunidade recomenda mais CSS. 
+Você pode usar o XPath para localizar o elemento em termos absolutos (não recomendado) ou seja com o caminho dele todo. Paths absolutos contêm a localização de todos os elementos da raiz (html) e, como resultado, provavelmente falharão com apenas o menor ajuste no aplicativo. Ao localizar um elemento próximo com um atributo de ID ou nome (idealmente, um elemento pai), você pode localizar seu elemento de destino com base no relacionamento. É muito menos provável que isso mude e pode tornar seus testes mais robustos.
 
 #### Example de uso:
 ```python
