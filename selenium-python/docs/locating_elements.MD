@@ -223,14 +223,20 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Chrome()
-driver.get("https://www.w3schools.com/code/tryit.asp?filename=G0R1H2HWBRSG")
+driver.get("https://www.w3schools.com/code/tryit.asp?filename=GBIE8VKXQWNG")
 driver.maximize_window()
 driver.set_page_load_timeout(30)
 driver.implicitly_wait(15)
 
 # interage somente com um elemento
-driver.find_element_by_xpath('//button[contains(text(),"Run")]').click()
+# geralmente se usa muito xpath para localizar o texto, esse foi o caso abaixo por não ter id.
+# nesse caso vou usar o exato texto, no próximo vou usar o relativo.
+driver.find_element_by_xpath('//button[text()="Run »"]').click()
 driver.switch_to.frame("iframeResult")  # mudando para o frame que desejamos
+# nesse caso vou usar o contains, que procura o elemento que contain a palavra Motion dentro do texto.
+sistema_name = driver.find_element_by_xpath('//b[contains(text(),"Motion")]').text
+assert "Motion" in sistema_name
+
 # localizando o elemento por XPATH
 driver.find_element_by_xpath('//input[@id="uname"]').send_keys('Reinaldo')
 
@@ -251,6 +257,7 @@ driver.quit()
    <html>
     <body>
      <form id="loginForm">
+      <div class='a classe eh dinamica'>Sistema: Motion</div>
       <input name="username" type="text" />
       <input name="password" type="password" />
       <input name="continue" type="submit" value="Login" />
@@ -279,11 +286,19 @@ O elemento **username** do usuário pode ser localizado assim:
   username = driver.find_element_by_xpath("//form[@id='loginForm']/input[1]")  
   username = driver.find_element_by_xpath("//input[@name='username']")  
 ~~~~~~~~~~~~~~~~~
-1. Primeiro elemento do formulário com um elemento filho de entrada com `name` definido como` username`
 
-2. Primeiro elemento filho de entrada do elemento de formulário com o atributo `id` definido como` loginForm`
 
-3. Primeiro elemento de entrada com o atributo `name` definido como` username`
+1. Criei um exemplo para localizar o nome do meu formulário, que nesse caso chamo de Motion.
+** Uma coisa que tem que ter em mente, o *text* no xpath, ele não é um atributo (@) e sim um método, por isso o mesmo usa (), ao invés de @text.
+~~~~~~~~~~~~~~~~~
+  sistema_name = driver.find_element_by_xpath("//b[contains(text(),"Motion")]").text
+~~~~~~~~~~~~~~~~~
+
+2. Primeiro elemento do formulário com um elemento filho de entrada com 'name' definido como 'username'
+
+3. Primeiro elemento filho de entrada do elemento de formulário com o atributo 'id' definido como 'loginForm'
+
+4. Primeiro elemento de entrada com o atributo `name` definido como` username`
 
 O elemento do botão "Limpar" pode ser localizado da forma abaixo:
 ~~~~~~~~~~~~~~~~~
