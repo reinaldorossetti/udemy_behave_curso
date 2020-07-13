@@ -146,6 +146,7 @@ driver.get("https://github.com/")
 driver.find_element(by=By.CSS_SELECTOR, value='.octicon.octicon-mark-github').click()
 ```
 Ou
+A vantagem dessa opção By, que ele mostra as opções quando digital By na IDE.
 ```python
 driver.find_element(By.CSS_SELECTOR, '.octicon.octicon-mark-github').click()
 ```
