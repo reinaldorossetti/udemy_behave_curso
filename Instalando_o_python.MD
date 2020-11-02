@@ -40,12 +40,4 @@ Devemos também instalar a Biblioteca do Behave(BDD pra Python):
 
 Solução: Abra o CMD/Prompt de comando como administrador. 
 
-<br/>
-Link do Python para Mac:
 
-https://www.python.org/ftp/python/3.5.2/python-3.5.2-macosx10.5.pkg
-
-No Linux podemos enviar o comando abaixo para o Shell, que vai realizar a instalação:
-```shell
-sudo apt-get update sudo apt-get install python3=3.5.4*
-```

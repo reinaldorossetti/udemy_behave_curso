@@ -7,7 +7,7 @@ from os import path
 from datetime import date
 import global_page
 
-# Ao usar o modo headless tem que prestar atencao na versao do browser, cada driver suporta a versao especificada no site abaixo.
+# Ao usar o modo headless tem que prestar atencao na versao do browser, cada driver suporta a versao especificada determinada por eles.
 # exemplo driver 77 suporta no maximo a versao 77 do browser do chrome, ou seja superior a isso vai dar erro.
 # https://chromedriver.chromium.org/downloads
 
@@ -58,6 +58,8 @@ chrome_options.add_argument("start-maximized")
 chrome_options.add_argument("--no-sandbox") # linux admin permisao.
 chrome_options.add_argument("--headless") # seta o modo invisivel
 driver = webdriver.Chrome(options=chrome_options)
+# exemplo passando o caminho do driver
+## driver = webdriver.Chrome(executable_path="./drivers/chromedriver77.exe", options=chrome_options)
 
 # inicia o browser
 driver.get("https://www.facebook.com/r.php?next=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form&locale=pt_BR&display=page")

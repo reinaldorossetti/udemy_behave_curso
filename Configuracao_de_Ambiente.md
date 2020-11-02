@@ -4,19 +4,22 @@ Ordem de Instalação:
 
 Instalação Local, não usando a maquina virtual:
 
-1. Instalar o Python e adicionar o mesmo no path do windows;
+### 1. Instalar o Python e adicionar o mesmo no path do windows;
 
-2. Instalar o Selenium WebDriver;
+### 2. Instalar o Selenium WebDriver;
 
 ```python
 pip install selenium
 ```
 
 ** Se não tiver permissão de administrador (PermissionError), pode ser que der erro, ou não dependendo do seu nível de permissão.
+-> Solução: Abra o CMD/Prompt de comando como administrador.
 
-Solução: Abra o CMD/Prompt de comando como administrador.
+https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/
 
-3. Instalar os drivers (chromedriver, geckodriver, iedriver), você deve adicionar no path do windows ou passar o caminho no código;
+
+### 3. Instalar os drivers (chromedriver, geckodriver, iedriver), você deve adicionar no path do windows ou passar o caminho no código;
+
 Drivers links:
 
 Geckodriver Releases: 
@@ -37,7 +40,7 @@ Como mostra a figura, os drivers devem está dentro da pasta Scripts dentro do P
 
 > Atenção dependendo do sistema operacional, você tem que baixar o driver especifico pra seu sistema e também para a plataforma x64 ou x86, alguns driver é o mesmo para os dois, mas nem todos. Um erro bem comum é quando você tem o sistema x64 e o driver do geckodriver x64 e a versão do firefox foi instalada pra x86, o que vai gerar vários problemas.
 
-4. Instalar a IDE para desenvolver os testes (Escolha uma entre Atom, Pycharm, Visual Code da Microsoft);
+### 4. Instalar a IDE para desenvolver os testes (Escolha uma entre Atom, Pycharm, Visual Code da Microsoft);
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -82,11 +85,7 @@ pip installl selenium
 
 ** Pra instalar as APIs, precisamos abrir o cmd ou prompt do Windows e enviar o comando e dar enter, como na foto:
 
-
-
 ---------------------------------------------------------------------------------
-
-
 
 **Behave**
 
