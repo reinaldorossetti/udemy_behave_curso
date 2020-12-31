@@ -8,7 +8,7 @@ Vamos levantar um http server local.
 1. No terminal\prompt de comando, entre na pasta "selenium_intermediario"
 2. Envie o comando abaixo no terminal do seu SO ou no Terminal da IDE.
 python -m http.server --bind 127.0.0.1 9090
-ou execute o arquivo: http_server.py
+ou execute o arquivo: http_server.py , que esta na Raiz da pasta.
 3. Abra a url: http://localhost:9090/html/frameset.html
 4. Somente executar o script agora.
 versões usadas:
