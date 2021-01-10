@@ -1,7 +1,7 @@
 ## Introdução ao Selenium WebDriver
 O Selenium oferece suporte à automação de testes Web de todos os principais navegadores do mercado através do uso de WebDriver.   
 O WebDriver é uma API e protocolo que define uma interface com uma linguagem comum para controlar o comportamento dos navegadores da web.   
-Cada navegador é tem sua implementação do WebDriver específica, chamada de driver. O driver é o componente responsável por delegar ao navegador e controla a comunicação entre o Selenium e o navegador.  
+Cada navegador é tem sua implementação do WebDriver específica, chamada de driver. O driver é o componente responsável por delegar ao navegador as ações e controla a comunicação entre o Selenium e o navegador.  
 
 Essa separação é parte de um esforço consciente para que os fornecedores de navegadores assumam a responsabilidade pela implementação dos drivers para fazer a comunicação. A Selenium faz uso desses drivers de terceiros sempre que possível, mas também fornece seus próprios drivers mantidos pelo projeto para os casos em que isso não seja uma realidade.  
 
