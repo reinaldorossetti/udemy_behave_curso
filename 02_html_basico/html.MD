@@ -16,6 +16,7 @@ python -m http.server --bind 127.0.0.1 8083
 4. Agora abra o browser e digite o link abaixo:  
 http://localhost:8083/html/bemvindo.html  
     
+A segunda forma é executar o arquivo http_server.py, que está dentro do projeto.
 
 Mais detalhes:  
 Wiki:
