@@ -6,15 +6,15 @@ SGML é um padrão de formatação de textos. Não foi desenvolvido para hiperte
 
 
 
-Vamos levantar um http server local usando o comando abaixo:
-1. Abra o terminal, pode ser o terminal da sua IDE.  
-2. Entre na Pasta do nosso tópico "02_html_basico".
-3. Envie o comando abaixo para o terminal e der enter.
+Vamos levantar um http server local usando o comando abaixo:  
+1. Abra o terminal, pode ser o terminal da sua IDE.    
+2. Entre na Pasta do nosso tópico "02_html_basico".  
+3. Envie o comando abaixo para o terminal e der enter.  
 ``
 python -m http.server --bind 127.0.0.1 8083
 ``
-4. Agora abra o browser e digite o link abaixo:
-http://localhost:8083/html/bemvindo.html
+4. Agora abra o browser e digite o link abaixo:  
+http://localhost:8083/html/bemvindo.html  
     
 
 Mais detalhes:  
