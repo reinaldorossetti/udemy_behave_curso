@@ -7,7 +7,7 @@ driver.get("https://automacaocombatista.herokuapp.com/users/new")
 # funcao para deixar a tela cheia.
 driver.fullscreen_window()
 
-# tempo maximo para ler os elementos da pagina, isso na leitura abertura da pagina,
+# tempo maximo para ler os elementos da pagina, isso na leitura\abertura da pagina,
 # nao eh timeout dos elementos.
 driver.set_page_load_timeout(10)
 
