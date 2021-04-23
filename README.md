@@ -8,7 +8,7 @@
 **Estrutura:** uma biblioteca adicional usada como suporte para os conjuntos WebDriver. Essas estruturas podem ser estruturas de teste como JUnit ou BDD/Behave.
  
 # udemy_my_course
-Informação úteis sobre o curso, tem bastante coisa no meu github, não ficou na Udemy porque não sou egoísta e sempre procuro compartilhar as coisas, o meu curso na udemy é de python 3 e Selenium com foco em resolver problemas.
+Informação úteis sobre o curso, tem bastante coisa no meu github para compartilhar com a comunidade, o meu curso na udemy é de python 3 e Selenium com foco em resolver problemas.
 
 **Seção 2: HTML Básico** >> Aprender a estrutura básica de uma página HTML é necessário pra qualquer pessoa que está ingressando em um curso sobre Automação Web.<br>
 **Seção 3: Configurando o Ambiente** >> Aprendendo a configura e montar um ambiente de testes, como boa prática instalamos maquinas virtuais para trabalhar com automação.<br>
