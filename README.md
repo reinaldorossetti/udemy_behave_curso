@@ -280,3 +280,6 @@ https://github.com/reinaldorossetti/udemy_my_course/blob/master/Configuracao_de_
 
 **Falando um pouco de Python:**
 https://github.com/reinaldorossetti/udemy_my_course/blob/master/Um_pouco_de_python.md
+
+**Falando a localização do elemento no Selenium WebDriver:**
+https://github.com/reinaldorossetti/udemy_my_course/blob/master/selenium-python/docs/locating_elements.MD
