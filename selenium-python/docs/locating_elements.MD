@@ -4,29 +4,29 @@ Existem várias estratégias para localizar elementos em uma página, um deles �
 O Selenium fornece os seguintes métodos para localizar elementos em uma página, listamos todos abaixo:  
 
 **  
-find_element_by_id  
-find_element_by_name  
-find_element_by_xpath  
-find_element_by_link_text  
-find_element_by_partial_link_text  
-find_element_by_tag_name  
-find_element_by_class_name  
-find_element_by_css_selector  
+driver.find_element_by_id("locator_aqui")
+driver.find_element_by_name("locator_aqui")
+driver.find_element_by_xpath("locator_aqui")
+driver.find_element_by_link_text("locator_aqui")
+driver.find_element_by_partial_link_text("locator_aqui")
+driver.find_element_by_tag_name("locator_aqui")  
+driver.find_element_by_class_name("locator_aqui") 
+driver.find_element_by_css_selector("locator_aqui")
 **
 
 Para encontrar vários elementos (esses métodos retornarão uma lista/array de elementos):  
 **
-find_elements_by_name  
-find_elements_by_xpath  
-find_elements_by_link_text  
-find_elements_by_partial_link_text  
-find_elements_by_tag_name  
-find_elements_by_class_name  
-find_elements_by_css_selector  
+driver.find_elements_by_name("locator_aqui")
+driver.find_elements_by_xpath("locator_aqui")
+driver.find_elements_by_link_text("locator_aqui")
+driver.find_elements_by_partial_link_text("locator_aqui")
+driver.find_elements_by_tag_name("locator_aqui")
+driver.find_elements_by_class_name("locator_aqui")
+driver.find_elements_by_css_selector("locator_aqui")
 **
 
-Além dos métodos públicos fornecidos acima, existem dois métodos privados que podem ser úteis com localizadores em objetos de página.
-Estes são os dois métodos particulares (private): **find_element e find_elements**. Podemos dizer que essa é a forma genérica de localizar o elemento.
+Além dos métodos públicos (chamo de forma descritiva do elemento) fornecidos acima, existem dois métodos privados que podem ser úteis com localizadores em objetos de página. O locator chamo de o elemento não mapeado ainda, que é o meu elemento html, ao realizar o find_element, vamos ter o elemento mapeado como objeto.
+Temos dois métodos particulares (private): **find_element e find_elements**. Podemos dizer que essa é a forma genérica de localizar o elemento, da forma genérica podemos organizar melhor os elementos no topo da pagina e passar somento o valor para o find_element, isso veremos no curso.
 
 Abaixo temos todas as opções que podemos usar na forma genérica, primeiro temos que importa o By:
 ```
