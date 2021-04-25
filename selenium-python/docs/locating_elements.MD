@@ -14,7 +14,7 @@ find_element_by_class_name
 find_element_by_css_selector  
 **
 
-Para encontrar vários elementos (esses métodos retornarão uma lista/array):  
+Para encontrar vários elementos (esses métodos retornarão uma lista/array de elementos):  
 **
 find_elements_by_name  
 find_elements_by_xpath  
@@ -26,7 +26,30 @@ find_elements_by_css_selector
 **
 
 Além dos métodos públicos fornecidos acima, existem dois métodos privados que podem ser úteis com localizadores em objetos de página.
-Estes são os dois métodos particulares (private): **find_element e find_elements**.
+Estes são os dois métodos particulares (private): **find_element e find_elements**. Podemos dizer que essa é a forma genérica de localizar o elemento.
+
+Abaixo temos todas as opções que podemos usar na forma genérica, primeiro temos que importa o By:
+```
+from selenium.webdriver.common.by import By
+from selenium import webdriver
+
+# instanciando o chrome e setando as configuracoes.
+driver = webdriver.Chrome()
+driver.get("https://www.google.com.br")
+driver.maximize_window()
+driver.set_page_load_timeout(30)
+driver.implicitly_wait(30)
+
+# exemplo dos elementos que poderiamos usar para localizar o elemento.
+driver.find_element(By.ID, "locator_aqui")
+driver.find_element(By.XPATH, "locator_aqui")
+driver.find_element(By.LINK_TEXT, "locator_aqui")
+driver.find_element(By.PARTIAL_LINK_TEXT, "locator_aqui")
+driver.find_element(By.NAME, "locator_aqui")
+driver.find_element(By.TAG_NAME, "locator_aqui")
+driver.find_element(By.CLASS_NAME, "locator_aqui")
+driver.find_element(By.CSS_SELECTOR, "locator_aqui")
+```
 
 Example de uso:
 ```
@@ -38,7 +61,7 @@ driver = webdriver.Chrome()
 driver.get("https://www.google.com.br")
 driver.maximize_window()
 driver.set_page_load_timeout(30)
-driver.implicitly_wait(15)
+driver.implicitly_wait(30)
 
 # interage somente com um elemento
 driver.find_element(By.CSS_SELECTOR, 'input[title="Pesquisar"]').send_keys("Selenium")
