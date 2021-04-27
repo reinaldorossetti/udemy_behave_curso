@@ -26,7 +26,7 @@ driver.find_elements_by_css_selector("locator_aqui")
 **  
 
 Além dos métodos públicos (chamo de forma descritiva do elemento) fornecidos acima, existem dois métodos privados que podem ser úteis com localizadores em objetos de página. O locator chamo de o elemento não mapeado ainda, que é o meu elemento html, ao realizar o find_element, vamos ter o elemento mapeado como objeto.
-Temos dois métodos particulares (private): **find_element e find_elements**. Podemos dizer que essa é a forma genérica de localizar o elemento, da forma genérica podemos organizar melhor os elementos no topo da pagina e passar somento o valor para o find_element, isso veremos no curso.
+Temos dois métodos particulares (private): **find_element e find_elements**. Podemos dizer que essa é a forma genérica de localizar o elemento, da forma genérica podemos organizar melhor os elementos no topo da pagina e passar somente o valor para o find_element, isso veremos no curso.
 
 Abaixo temos todas as opções que podemos usar na forma genérica, primeiro temos que importa o By:
 ```
