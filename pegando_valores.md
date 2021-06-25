@@ -58,31 +58,31 @@ valor03 = elemento_label.get_property("textContent")
 print(valor03)
 assert "61 - 100" == valor03
 ```
-comando: get_property("nome_da_propriedade")
-Obtém a propriedade fornecida do elemento.
+comando: get_property("nome_da_propriedade")  
+Obtém a propriedade fornecida do elemento.  
 
-### Exemplo abaixo pega a propriedade texto do elemento "61 - 100":
+### Exemplo abaixo pega a propriedade texto do elemento "61 - 100":  
 ```
 valor03 = elemento_label.get_property("textContent")
 print(valor03)
 ```
-comando: get_attribute("nome_do_atributo")
-### Exemplo abaixo pega o atributo ID de uma elemento e passa o valor para montar outro elemento.
+comando: get_attribute("nome_do_atributo")  
+### Exemplo abaixo pega o atributo ID de uma elemento e passa o valor para montar outro elemento.  
 ```
 valor02 = elemento01_apos.get_attribute("id")
 AGE_VALUE = (By.CSS_SELECTOR, "label[for="+valor02+"]")
 elemento_label = driver.find_element(*AGE_VALUE)
 ```
 
-# verifica se o elemento foi selecionado
+# verifica se o elemento foi selecionado  
 ```
 print(elemento01_apos.is_selected())
 ```
-### Verifica se o elemento esta visível na tela.
+### Verifica se o elemento esta visível na tela.  
 ```
 print(elemento01_apos.is_displayed())
 ```
-### Verifica se o elemento esta habilitado na tela, não exatamente visível.
+### Verifica se o elemento esta habilitado na tela, não exatamente visível.  
 ```
 print(elemento01_apos.is_enabled())
 ```
