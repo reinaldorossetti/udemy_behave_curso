@@ -74,7 +74,7 @@ AGE_VALUE = (By.CSS_SELECTOR, "label[for="+valor02+"]")
 elemento_label = driver.find_element(*AGE_VALUE)
 ```
 
-# verifica se o elemento foi selecionado  
+### verifica se o elemento foi selecionado  
 ```
 print(elemento01_apos.is_selected())
 ```
