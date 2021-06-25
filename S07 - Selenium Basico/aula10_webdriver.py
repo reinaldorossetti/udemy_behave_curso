@@ -26,10 +26,13 @@ print(valor01)
 print(valor02)
 # verifica se o elemento foi selecionado
 print(elemento01_apos.is_selected())
+# verifica se o elemento esta visivel
 print(elemento01_apos.is_displayed())
+# verifica se o elemento esta habilitado
 print(elemento01_apos.is_enabled())
 
 elemento_label = driver.find_element(*AGE_VALUE)
+# pegando a propriedade texto do elemento
 valor03 = elemento_label.get_property("textContent")
 print(valor03)
 assert "61 - 100" == valor03
