@@ -285,4 +285,4 @@ https://github.com/reinaldorossetti/udemy_my_course/blob/master/Um_pouco_de_pyth
 https://github.com/reinaldorossetti/udemy_my_course/blob/master/selenium-python/docs/locating_elements.MD
 
 **Falando sobre atributos e propriedades:**
-https://github.com/reinaldorossetti/udemy_my_course/blob/master/selenium-python/pegando_valores.md
+https://github.com/reinaldorossetti/udemy_my_course/blob/master/pegando_valores.md
