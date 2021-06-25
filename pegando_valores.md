@@ -87,6 +87,9 @@ print(elemento01_apos.is_displayed())
 print(elemento01_apos.is_enabled())
 ```
 
-Exemplo no projeto:
-https://github.com/reinaldorossetti/udemy_my_course/blob/master/S07%20-%20Selenium%20Basico/aula10_webdriver.py
-https://github.com/reinaldorossetti/udemy_my_course/blob/master/html/radio_exemplo.html
+** Uma dica bem legal como vejo as propriedades do elemento?
+No chrome você vai em inspecionar "ctrol+shift+I", vai abrir uma tela lateral no final da tela lateral existe barra pra ver layout em >> tem outras opções, ai você seleciona properties.
+
+Exemplo no projeto:  
+https://github.com/reinaldorossetti/udemy_my_course/blob/master/S07%20-%20Selenium%20Basico/aula10_webdriver.py  
+https://github.com/reinaldorossetti/udemy_my_course/blob/master/html/radio_exemplo.html  
