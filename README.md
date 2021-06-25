@@ -283,3 +283,6 @@ https://github.com/reinaldorossetti/udemy_my_course/blob/master/Um_pouco_de_pyth
 
 **Falando a localização do elemento no Selenium WebDriver:**
 https://github.com/reinaldorossetti/udemy_my_course/blob/master/selenium-python/docs/locating_elements.MD
+
+**Falando sobre atributos e propriedades:**
+https://github.com/reinaldorossetti/udemy_my_course/blob/master/selenium-python/pegando_valores.md
