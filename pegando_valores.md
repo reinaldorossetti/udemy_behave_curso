@@ -86,3 +86,7 @@ print(elemento01_apos.is_displayed())
 ```
 print(elemento01_apos.is_enabled())
 ```
+
+Exemplo no projeto:
+https://github.com/reinaldorossetti/udemy_my_course/blob/master/S07%20-%20Selenium%20Basico/aula10_webdriver.py
+https://github.com/reinaldorossetti/udemy_my_course/blob/master/html/radio_exemplo.html
