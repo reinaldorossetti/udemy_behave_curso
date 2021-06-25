@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 """
 Vamos levantar um http server com o comando abaixo:
 python -m http.server --bind 127.0.0.1 8083
-referencia: http://localhost:8083/html/login.htm
+referencia: http://localhost:8083/html/radio_exemplo.html
 """
 
 driver = webdriver.Chrome()
