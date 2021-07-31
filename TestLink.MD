@@ -29,7 +29,6 @@ apt-get install net-tools
 Caso der errado use o comando abaixo:  
 ```
 ip address
-
 ```
 
 
