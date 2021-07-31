@@ -12,7 +12,7 @@ Password: bitnami
 
 Ao Entrar a primeira vez, é recomendado trocar o login e password.   
 
-1. O comando abaixo inicia todos os serviços no servidor: 
+1. O comando abaixo inicia todos os serviços no servidor, o mesmo é um script bash que faz a instalação de todos os serviços: 
 ```
 sudo /opt/bitnami/ctlscript.sh start
 ```
