@@ -53,6 +53,9 @@ sudo /opt/bitnami/ctlscript.sh
 Caso não queira usar uma VM, podemos utilizar um docker:  
 https://hub.docker.com/r/bitnami/testlink/  
 
+Pra quem usar MAC e Linux, talvez seja melhor instalar manual, segue o link abaixo:
+No site baixe o binário para seu sistema operacional:
+https://bitnami.com/stack/testlink/installer
 
 Para mais configurações acesso o link abaixo:  
 https://docs.bitnami.com/virtual-machine/apps/testlink/  
