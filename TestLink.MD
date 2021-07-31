@@ -5,9 +5,9 @@ No TestLink para entrar como administrador no sistema usamos o usuário e passwo
 Username: user  
 Password: bitnami  
 
-No servidor:  
-Username: bitnami  
-Password: bitnami  
+**No servidor:**  
+**Username:** bitnami  
+**Password:** bitnami  
 
 
 Ao Entrar a primeira vez, é recomendado trocar o login e password.   
