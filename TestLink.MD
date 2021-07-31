@@ -1,3 +1,6 @@
+Para baixar a VM do TestLink acesso o link abaixo:
+https://bitnami.com/stack/testlink/virtual-machine
+
 No TestLink para entrar como administrador no sistema usamos o usuário e password abaixo:
 Username: user
 Password: bitnami
@@ -13,7 +16,25 @@ Ao Entrar a primeira vez, é recomendado trocar o login e password.
 ```
 sudo /opt/bitnami/ctlscript.sh start
 ```
-O comando abaixo reinicia somente o serviço do apache server, não precisa usar:
+
+2. Comando para listar o IP do servidor:
+```
+ifconfig
+```
+Caso der Ifconfig comando not found. Instale a biblioteca abaixo:
+```
+apt-get install net-tools
+```
+
+Caso der errado use o comando abaixo:
+```
+ip address
+
+```
+
+
+### Os comandos abaixo são opcionais, não necessário para o curso:
+O comando abaixo reinicia somente o serviço do apache server:
 ```
 sudo /opt/bitnami/ctlscript.sh restart apache
 ```
