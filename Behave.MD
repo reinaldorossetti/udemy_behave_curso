@@ -75,22 +75,22 @@ Scenario Outline: Blenders
 
 O Behave Framework foi escrito por Jens Engel, Benno Rice e Richard Jones, versão 1.0 foi feita em 2011.
 
-### 6. Estrutura básica de um projeto com o Behave.
-1. Pasta features é a pasta root do behave: 
-features/
+### 6. Estrutura básica de um projeto com o Behave.  
+1. Pasta features é a pasta root do behave:   
+features/  
 
-2. Arquivos features, aonde escrevemos o **Gherkin**:
-features/signup.feature
-features/login.feature
-features/account_details.feature
+2. Arquivos features, aonde escrevemos o **Gherkin**:  
+features/signup.feature  
+features/login.feature  
+features/account_details.feature  
 
-3. Arquivo de Ambiente:
-features/environment.py
+3. Arquivo de Ambiente:  
+features/environment.py  
 
-4. Pasta "steps" de implementação dos passos:
-features/steps/
-features/steps/website.py
-features/steps/utils.py
+4. Pasta "steps" de implementação dos passos:  
+features/steps/  
+features/steps/website.py  
+features/steps/utils.py  
 
 
 Para mais detalhes acesse os links abaixo:    
