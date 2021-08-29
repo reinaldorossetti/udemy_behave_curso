@@ -8,7 +8,7 @@ Isso permite que os desenvolvedores se concentrem em por que o código deve ser 
 e minimiza a tradução entre a linguagem técnica em que o código é escrito e a linguagem de domínio falada pela empresa, usuários,   
 partes interessadas, gerenciamento de projetos, etc. .  
 **BDD é o processo como todo, não deve ser usada somente na automação, mas sim quando o time usa essa técnica. Na automação somente é uma consequência do processo como todo.**  
-**O Behave somente faz a execução dos testes e documentação do mesmo, não interage com o browser, para isso tem o Selenium **  
+**O Behave somente faz a execução dos testes e documentação do mesmo, não interage com o browser, para isso tem o Selenium.**  
 
 Vamos ver como funciona o Behave:
 Os arquivos de recursos são escritos por seu analista de negócios\stakeholders quem quer que tenha seus cenários de comportamento.   
