@@ -1,4 +1,4 @@
-### O que é Behave?  
+### O que é o Behave?  
 Behave é uma biblioteca\framework de testes mais popularar em python, o mesmo se baseia no uso da linguagem **Gherkin**.  
 Sua função é padronizar a forma de descrever especificações de cenários, baseado na regra de negócio.  
 
