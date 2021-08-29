@@ -662,3 +662,38 @@ Unable to read VR Path Registry from C:\Users\reiload\AppData\Local\openvr\openv
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1627344425049	geckodriver	INFO	Listening on 127.0.0.1:63012
+1627344428066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\reina\\AppData\\Local\\Temp\\rust_mozprofileRJFXeT"
+1627344471588	geckodriver	INFO	Listening on 127.0.0.1:58582
+1627344474529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\reina\\AppData\\Local\\Temp\\rust_mozprofilecSygWF"
+1627344475086	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reina\\AppData\\Local\\Temp\\rust_mozprofilecSygWF\\search.json.mozlz4", (void 0)))
+1627344477211	Marionette	INFO	Listening on port 58596
+1627344477230	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627344508255	Marionette	INFO	Stopped listening on port 58596
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627344548495	geckodriver	INFO	Listening on 127.0.0.1:58984
+1627344551484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\reina\\AppData\\Local\\Temp\\rust_mozprofiled6M1n6"
+1627344552234	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reina\\AppData\\Local\\Temp\\rust_mozprofiled6M1n6\\search.json.mozlz4", (void 0)))
+1627344554314	Marionette	INFO	Listening on port 59001
+1627344554668	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627344585575	Marionette	INFO	Stopped listening on port 59001
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627344613589	geckodriver	INFO	Listening on 127.0.0.1:56725
+1627344616583	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\reina\\AppData\\Local\\Temp\\rust_mozprofileqh49Ss"
+1627344617046	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reina\\AppData\\Local\\Temp\\rust_mozprofileqh49Ss\\search.json.mozlz4", (void 0)))
+1627344619159	Marionette	INFO	Listening on port 56741
+1627344619249	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627344625223	Marionette	INFO	Stopped listening on port 56741
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

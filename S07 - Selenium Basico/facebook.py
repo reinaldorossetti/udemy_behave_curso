@@ -18,8 +18,10 @@ class Facebook(unittest.TestCase):
         driver.find_element_by_id("email").send_keys("teste")
         driver.find_element_by_id("pass").clear()
         driver.find_element_by_id("pass").send_keys("teste")
-        driver.find_element_by_css_selector("#loginbutton input[type='submit']").click()
+        driver.find_element_by_css_selector("button[type='submit']").click()
 
+        allcookies = driver.get_cookies()
+        print(allcookies)
 
     def tearDown(self):
         self.driver.quit()
