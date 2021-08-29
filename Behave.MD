@@ -73,7 +73,7 @@ Scenario Outline: Blenders
    | Galaxy Nexus  | toxic waste |
 ```
 
-O Behave Framework foi escrito por Jens Engel, Benno Rice e Richard Jones.  
+O Behave Framework foi escrito por Jens Engel, Benno Rice e Richard Jones, versão 1.0 foi feita em 2011.
 
 
 Para mais detalhes acesse os links abaixo:    
