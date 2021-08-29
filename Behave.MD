@@ -98,10 +98,10 @@ features/steps/utils.py
 
 $PROJECT/  
     +-- features/                   -- Contains all feature files.  
-    |       +-- steps/  
-    |       |     +-- step_*.py     -- Step definitions for features.  
-    |       +-- environment.py      -- Environment for global setup...  
-    |       +-- tutorial*.feature   -- Feature files.  
+      |       +-- steps/  
+      |       |     +-- step_*.py     -- Step definitions for features.  
+      |       +-- environment.py      -- Environment for global setup...  
+      |       +-- tutorial*.feature   -- Feature files.  
 
 
 Para mais detalhes acesse os links abaixo:    
