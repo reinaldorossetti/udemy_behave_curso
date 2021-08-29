@@ -79,6 +79,7 @@ O Behave Framework foi escrito por Jens Engel, Benno Rice e Richard Jones, vers�
 Para mais detalhes acesse os links abaixo:    
 https://behave.readthedocs.io/en/stable/  
 https://github.com/behave/behave  
+https://pypi.org/project/behave    
 
 Documentação em PDF:  
 https://buildmedia.readthedocs.org/media/pdf/behave/latest/behave.pdf  
