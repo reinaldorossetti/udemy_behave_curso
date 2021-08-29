@@ -96,12 +96,17 @@ features/steps/
 features/steps/website.py  
 features/steps/utils.py  
 
+Um pouco mais completo seria a assim a estrutura:
 $PROJECT/  
-    +-- features/                   -- Contains all feature files.  
-    +---------- steps/  
-    +--------------- step_*.py     -- Step definitions for features.  
-    +---------- environment.py      -- Environment for global setup...  
-    +---------- tutorial*.feature   -- Feature files.  
+    .
+    ├── features                    # Files and folders of framework (root code)
+        ├── pages                   # Source files page object pattern.
+        ├── steps                   # Step by step of tests.
+        ├── specifications          # Specification of what the tests should do and runner of tests.
+    ├── .gitignore                  # Files and Folders to ignore in repository.
+    ├── LICENSE                     
+    ├── README.md                   # Documentation of project.
+    └── requirements.txt            # Libraries to need to install.
 
 
 Para mais detalhes acesse os links abaixo:    
