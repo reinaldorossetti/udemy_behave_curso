@@ -103,8 +103,9 @@ $PROJECT_NAME/
          environment.py               # Environmental Controls File.
          ├── pages                    # Source files page object pattern.  
              ├── support              # Source files to helper pages, the idea is to reduce code.  
-         ├── steps_definitios         # Step by step of tests.  
+         ├── steps                    # Step by step of tests.  
          ├── specifications           # Specification of what the tests should do and runner of tests.  
+              ├── *.feature
       ├── .gitignore                  # Files and Folders to ignore in repository.  
       ├── LICENSE  
       ├── README.md                   # Documentation of project.  
