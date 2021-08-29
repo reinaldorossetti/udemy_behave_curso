@@ -100,6 +100,7 @@ Um pouco mais completo seria a assim a estrutura:
 ```
 $PROJECT_NAME/    
       ├── features                    # Files and folders of framework (root code)  
+         environment.py               # Environmental Controls File.
          ├── pages                    # Source files page object pattern.  
              ├── support              # Source files to helper pages, the idea is to reduce code.  
          ├── steps_definitios         # Step by step of tests.  
