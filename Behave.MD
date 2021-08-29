@@ -10,14 +10,13 @@ partes interessadas, gerenciamento de projetos, etc. .
 **BDD é o processo como todo, não deve ser usada somente na automação, mas sim quando o time usa essa técnica. Na automação somente é uma consequência do processo como todo.**  
 **O Behave somente faz a execução dos testes e documentação do mesmo, não interage com o browser, para isso tem o Selenium.**  
 
-Vamos ver como funciona o Behave:
-Os arquivos de recursos são escritos por seu analista de negócios\stakeholders quem quer que tenha seus cenários de comportamento.   
+O principio básico do Behave diz que devemos escrever os arquivos de recursos, pelos analistas de negócios e os stakeholders quem quer que tenha dominio dos cenários de negócio.   
 
-Essas etapas do cenário são mapeadas com implementações de etapas escritas em Python.  
+Essas etapas do cenário são mapeadas com implementações de etapas escritas em Python com o Behave framework.  
 
-E, opcionalmente, existem alguns controles ambientais (código para executar antes e depois das etapas, cenários, recursos ou toda a partida de tiro).  
+E, opcionalmente, existem alguns controles ambientais (código para executar antes e depois das etapas\steps, cenários ou feature).  
 
-Antes disso, é preciso entender que no Gherkin existem “keywords” (ou “palavras-chave”) a serem utilizadas para especificar a forma como cada step interage com o sistema.   
+Antes disso, é preciso entender que no Gherkin existem os “keywords” (ou “palavras-chave”) a serem utilizadas para especificar a forma como cada step interage com o sistema.   
 Dentre todas, as essenciais são:  
 
 Given (pt: Dado): Utilizado para especificar uma pré condição, dentro desse step é feita a validação de uma condição antes de se prosseguir para os próximos passos.   
