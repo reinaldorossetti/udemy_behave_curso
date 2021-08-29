@@ -13,7 +13,7 @@ Sua função é padronizar a forma de descrever especificações de cenários, b
    partes interessadas, gerenciamento de projetos, etc. .  
    **BDD é o processo como todo, não deve ser usada somente na automação, mas sim quando o time usa essa técnica. Na automação somente é uma consequência do processo como todo.**  
 
-   O principio básico do Behave diz que devemos escrever os arquivos de recursos, pelos analistas de negócios e os stakeholders quem quer que tenha dominio dos cenários de negócio.   
+   O principio básico do Behave diz que devemos escrever as features ou histórias de usuário, pelos analistas de negócios e os stakeholders quem quer que tenha dominio dos cenários de negócio.   
    Essas etapas do cenário são mapeadas com implementações de etapas escritas em Python com o Behave framework.  
 
 ### 3. Keywords  
