@@ -65,7 +65,7 @@ Scenario Outline: Blenders
 O Behave Framework foi escrito por Jens Engel, Benno Rice e Richard Jones.  
 
 
-Para mais detalhes acesso o link abaixo:    
+Para mais detalhes acesse os links abaixo:    
 https://behave.readthedocs.io/en/stable/  
 https://github.com/behave/behave  
 
