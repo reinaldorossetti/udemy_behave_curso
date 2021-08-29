@@ -20,16 +20,15 @@ Sua função é padronizar a forma de descrever especificações de cenários, b
    Antes disso, é preciso entender que no Gherkin existem os “keywords” (ou “palavras-chave”) a serem utilizadas para especificar a forma como cada step interage com o sistema.   
    Dentre todas, as essenciais são:  
 
-   Given (pt: Dado): Utilizado para especificar uma pré condição, dentro desse step é feita a validação de uma condição antes de se prosseguir para os próximos passos.   
+   **Given** (pt: Dado): Utilizado para especificar uma pré condição, dentro desse step é feita a validação de uma condição antes de se prosseguir para os próximos passos.   
    Por se tratar de uma pré condição, normalmente vem escrito no passado;  
 
-   When (pt: Quando): Utilizado quando será executada uma ação de que se espera uma reação vinda do sistema, que será validada no step “Then”. Este passo geralmente escrito no presente;  
+   **When** (pt: Quando): Utilizado quando será executada uma ação de que se espera uma reação vinda do sistema, que será validada no step “Then”. Este passo geralmente escrito no presente;  
 
-   Then (pt: Então): Valida se o esperado aconteceu. Segue sempre um passo do tipo “Quando”, pois aqui é validada a reação da ação recebida. Por se tratar do resultado esperado, normalmente vem escrito na forma de futuro próximo;  
+   **Then** (pt: Então): Valida se o esperado aconteceu. Segue sempre um passo do tipo “Quando”, pois aqui é validada a reação da ação recebida. Por se tratar do resultado esperado, normalmente vem escrito na forma de futuro próximo;  
 
-   And (pt: E): Caso seja necessário mais uma interação com o sistema para complementar um fluxo, mas que não necessariamente se trata de uma ação ou reação, se utiliza “And”;  
-
-   But (pt: Mas): No geral serve a mesma funcionalidade do “And”, porém é normalmente utilizado após uma validação negativa depois do “Then”;  
+   **And** (pt: E): Caso seja necessário mais uma interação com o sistema para complementar um fluxo, mas que não necessariamente se trata de uma ação ou reação, se utiliza “And”;  
+   **But** (pt: Mas): No geral serve a mesma funcionalidade do “And”, porém é normalmente utilizado após uma validação negativa depois do “Then”;  
 
 ### 4. Environmental Controls (environment.py) In Python Behave.  
    Environment.py é um arquivo de ambiente que contém os famosos "Hooks" do Behave.   
