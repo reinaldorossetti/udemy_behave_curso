@@ -79,7 +79,7 @@ O Behave Framework foi escrito por Jens Engel, Benno Rice e Richard Jones, vers�
 1. Pasta features é a pasta root do behave:   
 features/  
 
-2. Arquivos features, aonde escrevemos o **Gherkin**:  
+2. Arquivos .feature, é aonde escrevemos o **Gherkin** (features com os cenários):  
 features/signup.feature  
 features/login.feature  
 features/account_details.feature  
