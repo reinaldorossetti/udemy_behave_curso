@@ -14,7 +14,7 @@ Sua função é padronizar a forma de descrever especificações de cenários, b
    **BDD é o processo como todo, não deve ser usada somente na automação, mas sim quando o time usa essa técnica. Na automação somente é uma consequência do processo como todo.**  
 
    O principio básico do Behave diz que devemos escrever as features ou histórias de usuário, pelos analistas de negócios e os stakeholders quem quer que tenha dominio dos cenários de negócio.   
-   Essas etapas do cenário são mapeadas com implementações de etapas escritas em Python com o Behave framework.  
+   As etapas dos cenários são mapeadas com implementações de etapas escritas em Python com o Behave framework, após a escrita das features.  
 
 ### 3. Keywords  
    Antes disso, é preciso entender que no Gherkin existem os “keywords” (ou “palavras-chave”) a serem utilizadas para especificar a forma como cada step interage com o sistema.   
