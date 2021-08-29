@@ -29,7 +29,9 @@ Sua função é padronizar a forma de descrever especificações de cenários, b
    **Then** (pt: Então): Valida se o esperado aconteceu. Segue sempre um passo do tipo “Quando”, pois aqui é validada a reação da ação recebida.   
    Por se tratar do resultado esperado, normalmente vem escrito na forma de futuro próximo.  
 
-   **And** (pt: E): Caso seja necessário mais uma interação com o sistema para complementar um fluxo, mas que não necessariamente se trata de uma ação ou reação, se utiliza “And”.  
+   **And** (pt: E): Caso seja necessário mais uma interação com o sistema para complementar um fluxo, 
+   mas que não necessariamente se trata de uma ação ou reação, se utiliza “And”.    
+   
    **But** (pt: Mas): No geral serve a mesma funcionalidade do “And”, porém é normalmente utilizado após uma validação negativa depois do “Then”.  
 
 ### 4. Environmental Controls (environment.py) In Python Behave.  
