@@ -1,10 +1,10 @@
-###1. O que é o Behave?  
+### 1. O que é o Behave?  
 
 Behave é uma biblioteca\framework de testes mais popularar em python, o mesmo se baseia no uso da linguagem **Gherkin**.  
 Sua função é padronizar a forma de descrever especificações de cenários, baseado na regra de negócio.  
 **O Behave somente faz a execução dos testes e documentação do mesmo, não interage com o browser, para isso tem o Selenium.**  
 
-###2. Antes de Falar mais sobre Behave precisamos entender o BDD.
+### 2. Antes de Falar mais sobre Behave precisamos entender o BDD.
 
    O BDD se concentra em obter uma compreensão clara do comportamento de software desejado por meio da discussão com as partes interessadas.   
    No BDD devemos escrever casos de teste em uma linguagem natural, que os não-programadores possam ler e compreender.   
@@ -16,7 +16,7 @@ Sua função é padronizar a forma de descrever especificações de cenários, b
    O principio básico do Behave diz que devemos escrever os arquivos de recursos, pelos analistas de negócios e os stakeholders quem quer que tenha dominio dos cenários de negócio.   
    Essas etapas do cenário são mapeadas com implementações de etapas escritas em Python com o Behave framework.  
 
-###3. Keywords  
+### 3. Keywords  
    Antes disso, é preciso entender que no Gherkin existem os “keywords” (ou “palavras-chave”) a serem utilizadas para especificar a forma como cada step interage com o sistema.   
    Dentre todas, as essenciais são:  
 
@@ -31,7 +31,7 @@ Sua função é padronizar a forma de descrever especificações de cenários, b
 
    But (pt: Mas): No geral serve a mesma funcionalidade do “And”, porém é normalmente utilizado após uma validação negativa depois do “Then”;  
 
-###4. Environmental Controls (environment.py) In Python Behave.  
+### 4. Environmental Controls (environment.py) In Python Behave.  
    Environment.py é um arquivo de ambiente que contém os famosos "Hooks" do Behave.   
    É ser usado para definir o código que deve ser executado antes e depois da ocorrência de certos eventos,  
     durante o ciclo de automação do teste com o Selenium.  
@@ -45,9 +45,9 @@ Sua função é padronizar a forma de descrever especificações de cenários, b
    before_all(context) - Palavra chave para executar algo antes de todo o ciclo de teste. Geralmente executar um comando global para suite inteira de testes. Exemplo Maximizar a tela.  
    after_all(context) – Palavra chave para executar algo antes de todo o ciclo de teste. Geralmente executar um comando global para suite inteira de testes.   
 
-### Exemplos:
+### 5 Exemplos:
 1. PT
-```
+```feature
 Funcionalidade: Barra de busca
 
 Cenário: Busca por repositório no GitHub
