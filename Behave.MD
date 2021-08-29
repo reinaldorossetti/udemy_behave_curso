@@ -96,11 +96,19 @@ features/steps/
 features/steps/website.py  
 features/steps/utils.py  
 
+$PROJECT/
+    +-- features/                   -- Contains all feature files.
+    |       +-- steps/
+    |       |     +-- step_*.py     -- Step definitions for features.
+    |       +-- environment.py      -- Environment for global setup...
+    |       +-- tutorial*.feature   -- Feature files.
+
 
 Para mais detalhes acesse os links abaixo:    
 https://behave.readthedocs.io/en/stable/  
 https://github.com/behave/behave  
 https://pypi.org/project/behave    
+https://behave.github.io/behave.example/tutorials/  
 
 Documentação em PDF:  
 https://buildmedia.readthedocs.org/media/pdf/behave/latest/behave.pdf  
