@@ -43,8 +43,8 @@ before_step(context, step) - Palavra chave para executar comandos antes de cada 
 after_step(context, step) – Palavra chave para executar comandos depois de cada step.
 before_scenario(context, scenario) - Palavra chave para executar antes de cada cenário.
 after_scenario(context, scenario) – Palavra chave para executar depois de cada cenário.
-before_all(context) - Palavra chave para executar algo antes de todo o ciclo de teste. Geralmente executar um comando global para suite inteira de testes.
-after_all(context) – Palavra chave para executar algo antes de todo o ciclo de teste. Geralmente executar um comando global para suite inteira de testes.
+before_all(context) - Palavra chave para executar algo antes de todo o ciclo de teste. Geralmente executar um comando global para suite inteira de testes. Exemplo Maximizar a tela.
+after_all(context) – Palavra chave para executar algo antes de todo o ciclo de teste. Geralmente executar um comando global para suite inteira de testes. 
 
 Exemplo:
 ```feature
@@ -63,6 +63,12 @@ Scenario Outline: Blenders
    | Galaxy Nexus  | toxic waste |
 ```
 
+O Behave Framework foi escrito por Jens Engel, Benno Rice e Richard Jones.
+
+
 Para mais detalhes acesso o link abaixo:  
 https://behave.readthedocs.io/en/stable/
+https://github.com/behave/behave
 
+Documentação em PDF:
+https://buildmedia.readthedocs.org/media/pdf/behave/latest/behave.pdf
