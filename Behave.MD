@@ -1,6 +1,10 @@
 ### O que é o Behave?  
-Behave é uma biblioteca\framework de testes mais popularar em python, o mesmo se baseia no uso da linguagem **Gherkin**.  
+
+1. Behave é uma biblioteca\framework de testes mais popularar em python, o mesmo se baseia no uso da linguagem **Gherkin**.  
 Sua função é padronizar a forma de descrever especificações de cenários, baseado na regra de negócio.  
+**O Behave somente faz a execução dos testes e documentação do mesmo, não interage com o browser, para isso tem o Selenium.**  
+
+2. Antes de Falar mais sobre Behave precisamos entender o BDD.
 
 O BDD se concentra em obter uma compreensão clara do comportamento de software desejado por meio da discussão com as partes interessadas.   
 Ele estende que devemos escrever casos de teste em uma linguagem natural que os não-programadores podem ler.   
@@ -8,7 +12,6 @@ Isso permite que os desenvolvedores se concentrem em por que o código deve ser 
 e minimiza a tradução entre a linguagem técnica em que o código é escrito e a linguagem de domínio falada pela empresa, usuários,   
 partes interessadas, gerenciamento de projetos, etc. .  
 **BDD é o processo como todo, não deve ser usada somente na automação, mas sim quando o time usa essa técnica. Na automação somente é uma consequência do processo como todo.**  
-**O Behave somente faz a execução dos testes e documentação do mesmo, não interage com o browser, para isso tem o Selenium.**  
 
 O principio básico do Behave diz que devemos escrever os arquivos de recursos, pelos analistas de negócios e os stakeholders quem quer que tenha dominio dos cenários de negócio.   
 
