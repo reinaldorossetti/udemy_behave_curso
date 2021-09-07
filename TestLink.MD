@@ -1,4 +1,4 @@
-###Por que escolhei o TestLink para fazer o projeto?
+### Por que escolhei o TestLink para fazer o projeto?
 
 **É uma ferramenta muito usada para gerenciamento dos casos de testes, criação de plano de testes e relatórios, quando fiz o curso achei interessante uma QA aprender fazer a instalação e configuração dos usuários usando a ferramenta.**  
 
