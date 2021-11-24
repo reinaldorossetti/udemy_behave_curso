@@ -290,6 +290,7 @@ driver.quit()
 ```
 
 O elementos HTML acima podem ser localizados da forma abaixo. 
+No Xpath vamos ter o "/" ou "//" no inicio. Uma barra o caminho absoluto do elemento (root node), e duas barras é o caminho relativo ou seja a partir do elemento atual.
 ~~~~~~~~~~~~~~~~~
   login_form = driver.find_element_by_xpath("/html/body/form[1]")          # 1  
   login_form = driver.find_element_by_xpath("//form[1]")                   # 2  
