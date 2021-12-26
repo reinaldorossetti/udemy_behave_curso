@@ -27,6 +27,26 @@ Informação úteis sobre o curso, tem bastante coisa no meu github para compart
 **Seção 16: News (Novidades)** >> Seção que vai falar sobre novidades no mundo de testes.<br>
 **Seção 17: Desafios de Automação** >> É no final temos o nosso desafio, quem resolver, por favor me mande o github, e terá várias indicações minhas pra vagas.<br>
 
+### Baixando o Projeto e Rodando os Testes nas Paginas HTML 
+Passo a Passo:
+
+1. Primeiro precisamos baixar o projeto no github, na sua maquina local.
+```
+git clone https://github.com/reinaldorossetti/udemy_behave_curso.git
+```
+2. Entrar na pasta do modulo que esta fazendo.
+```
+cd udemy_behave_curso
+cd S07 - Selenium Basico
+```
+3. Vamos levantar um http server com o comando abaixo, insira o comando no console da IDE ou Terminal e der Enter:
+```
+python -m http.server --bind 127.0.0.1 8083
+```
+4. Subindo Agora sim somente rodar o teste que a página estará disponível.
+```
+http://localhost:8083/html/login.htm
+```
 
 Na pasta exemplo_selenium_mult_linguagem, vamos comparar as linguagens fazendo um teste simples em python e comparando com as outras linguagens, não vamos ficar ofendido a respeito disso por favor!
 
@@ -290,5 +310,5 @@ https://github.com/reinaldorossetti/udemy_my_course/blob/master/pegando_valores.
 **Passo a Passo sobre instalação do TestLink:**
 https://github.com/reinaldorossetti/udemy_my_course/blob/master/TestLink.MD
  
- **Básico sobre o Behave Framework:**
+ **Básico sobre o Behave Framework:**  
 https://github.com/reinaldorossetti/udemy_my_course/blob/master/Behave.MD

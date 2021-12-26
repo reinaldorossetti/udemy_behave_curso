@@ -290,6 +290,7 @@ driver.quit()
 ```
 
 O elementos HTML acima podem ser localizados da forma abaixo. 
+No Xpath vamos ter o "/" ou "//" no inicio. Uma barra o caminho absoluto do elemento (root node), e duas barras é o caminho relativo ou seja a partir do elemento atual.
 ~~~~~~~~~~~~~~~~~
   login_form = driver.find_element_by_xpath("/html/body/form[1]")          # 1  
   login_form = driver.find_element_by_xpath("//form[1]")                   # 2  
@@ -336,7 +337,7 @@ Esses exemplos abrangem alguns princípios básicos, mas para saber mais, as seg
 
 * [W3Schools XPath Tutorial](https://www.w3schools.com/xml/xpath_intro.asp)
 * [W3C XPath Recommendation](http://www.w3.org/TR/xpath)
-* [XPath Tutorial](http://www.zvon.org/comp/r/tut-XPath_1.html)
+* [XML Path Language (XPath) 3.1](https://www.w3.org/TR/2017/REC-xpath-31-20170321/)
 
 ### 6. Localizando Hyperlinks pelo Texto do Link
  
