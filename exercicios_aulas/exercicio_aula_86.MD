@@ -1,6 +1,6 @@
 
 Para resolver o exercicio com Actions Chains, vai precisar ajustar o offset, 
-o Selenium quando não idenfica corretamente a posição e vai dar click no meio da tela, assim abrindo o sol. 
+o Selenium quando não idenfica corretamente a posição e vai dar click no meio do elemento Pai que é a imagem, assim abrindo o sol. 
 Para resolver o problema, peguei as coordenadas no próprio elemento, e adicionei no comando.
 
 Elemento Web:
