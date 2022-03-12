@@ -1,7 +1,7 @@
 
 Para resolver o exercicio com Actions Chains, vai precisar ajustar o offset, 
-o Selenium quando não idenfica corretamente a posição vai dar click no meio da tela, assim abrindo o sol. 
-Peguei as coordenadas no próprio elemento, e adicionei no comando 
+o Selenium quando não idenfica corretamente a posição e vai dar click no meio da tela, assim abrindo o sol. 
+Para resolver o problema, peguei as coordenadas no próprio elemento, e adicionei no comando.
 
 Elemento Web:
 ```
