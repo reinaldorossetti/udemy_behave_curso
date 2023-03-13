@@ -292,6 +292,35 @@ find(driver, password).send_keys(Keys.ENTER) # simulando um enter via keyboard.
 Vamos discutir tudo isso no curso e mais coisas, como a estrutura do nosso projeto, pensa que essa função find eu vou utilizar em N testes e eu não preciso repetir ela N vezes, devemos criar uma classe chamada BasePage que vai conter todas as funções genéricas do nosso projeto. <br>
 Em muitos projetos que vejo por aí o pessoal utiliza mal o selenium, chamando as mesmas coisas várias vezes e torna o projeto um mostrinho e depois diz que o problema é o framework que não funciona, isso vai depender do seu domínio do framework e sobre a estrutura que vai usar no projeto.
 
+
+Subindo o site localmente http://localhost:3000/users/new
+
+1 - Abra o prompt de comando e abra na pasta de sia preferência e clone o projeto do github com o seguinte comando:
+```
+git clone https://github.com/brunobatista25/best_power.git
+```
+
+2 - Acesse a pasta do projeto via promt de comando com o comando (o caminho abaixo pode mudar):
+```
+cd caminho/da/pasta/com/o/nome/best_power
+```
+
+3 - dentro da pasta do projeto no prompt de comando execute o seguinte comando:
+```
+docker build -t imagem_site .
+```
+
+4 - E por último no prompt de comando execute o seguinte comando:
+```
+docker-compose up
+```
+
+
+
+5 - valide se o site estar no ar acessando o navegador através da url http://localhost:3000/
+
+** Na Automação altera pra esse endereço.
+
 **Primeiro passo instalando o Python:**
 https://github.com/reinaldorossetti/udemy_my_course/blob/master/Instalando_o_python.MD
 
